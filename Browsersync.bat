@@ -1,2 +1,2 @@
-cd "\Users\gcarducc\Yogaflow
+cd "\Users\gcarducc\CV
 browser-sync start --server --files "css/*.css"
