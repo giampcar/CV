@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Yoga Flow - Manuela Pokrivac</title>
+    <title>Giampaolo Carducci</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
@@ -338,7 +338,7 @@
 					<h4>Download CV:</h4>
 					 <a id= "linkedin" href="download.pdf" target="_blank" class="fa fa-angle-double-down"></a>
 				</li>
-				<li class="art-table">
+				<li class="art-table-multi">
 					<a id= "linkedin" href="https://www.linkedin.com/in/giampaolocarducci/" target="_blank" class="fa fa-linkedin"></a>
 					<a id= "github" href="https://github.com/giampcar" target="_blank" class="fa fa-github"></a>
 					<a id= "facebook" href="https://github.com/giampcar" target="_blank" class="fa fa-facebook"></a>
