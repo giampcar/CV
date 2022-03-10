@@ -20,7 +20,7 @@
   </head>
   
   
-<body class= "container-fluid">
+<body class= "container-fluid center">
   <header>
    <nav id="title" class="navbar navbar-default container-fluid">
 	
@@ -53,7 +53,7 @@
  
  
  
-  <div id="riepilogo" class="container-fluid,  col-lg-3, col-md-3">
+  <div id="riepilogo" class="container-fluid  col-lg-2 col-md-4 col-sd-12">
 	<div id="photo_container" class="container-fluid">
 			<div id="photo_1" class="container-fluid"></div>
 			<div id="Nome" class="container-fluid"><a><h4>Giampaolo Carducci</h4></a></div>
@@ -90,139 +90,12 @@
 		</div>
 		
    <div><hr></hr></div>
-   		
-		
-   <div><hr></hr></div>
-   		<div id="info" class="container-fluid">
-	
-			<ul>
-				<li class="art-table">
-					<h4>Nationaly:</h4>
-					<span><h5>Italian</h5></span>
-				</li>
-				<li class="art-table">
-					<h4>Residence:</h4>
-					<span><h5>Lyss - Switzerland</h5></span>
-				</li>
-				<li class="art-table">
-					<h4>Profession:</h4>
-					<span><h5>Engineer</h5></span>
-				</li>
-
-			</ul>
-		</div>
-		
-   <div><hr></hr></div>
-   
-   <div class="skills">
-	<div class="skills-item">
-		<div class="skill-heading">
-			<h6>Html</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="90" >
-				<svg id="style-bar" viewBox="0 0 100 1.72"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">90 %</div>
-			</div>
-		</div>
-	</div>
-	<div class="skills-item">
-		<div class="skill-heading">
-			<h6>Html</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="90" >
-				<svg id="style-bar" viewBox="0 0 100 1.72"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">90 %</div>
-			</div>
-		</div>
-	</div>
-	<div class="skills-item">
-		<div class="skill-heading">
-			<h6>Html</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="90" >
-				<svg id="style-bar" viewBox="0 0 100 1.72"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">90 %</div>
-			</div>
-		</div>
-	</div>
-	<div class="skills-item">
-		<div class="skill-heading">
-			<h6>Html</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="90" >
-				<svg id="style-bar" viewBox="0 0 100 1.72"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">90 %</div>
-			</div>
-		</div>
-	</div>
-	<div class="skills-item">
-		<div class="skill-heading">
-			<h6>Html</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="90" >
-				<svg id="style-bar" viewBox="0 0 100 1.72"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">90 %</div>
-			</div>
-		</div>
-	</div>
-	<div class="skills-item">
-		<div class="skill-heading">
-			<h6>Html</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="90" >
-				<svg id="style-bar" viewBox="0 0 100 1.72"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">90 %</div>
-			</div>
-		</div>
-	</div>
-	<div class="skills-item">
-		<div class="skill-heading">
-			<h6>Html</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="90" >
-				<svg id="style-bar" viewBox="0 0 100 1.72"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">90 %</div>
-			</div>
-		</div>
-	</div>
-   </div>
- 
-   
-	
-  <div class="art-lang-skills p-30-15">
+   	<div class="art-lang-skills p-30-15">
 	<div class="art-lang-skills-item">
 		<div id="circleprog1-1" data-type="circles" data-value="100" class="art-cirkle-progress art-skills-progress" style="position: relative;">
 		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
 		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="red" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 292.273, 292.273; stroke-dashoffset: 0;"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 292.273, 292.273; stroke-dashoffset: 0;"></path>
 		</svg>
 		
 		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%)">100</div>
@@ -235,7 +108,7 @@
 		
 		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
 		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="red" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 100;"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 100;"></path>
 		</svg>
 		
 		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%)">90</div>
@@ -245,7 +118,7 @@
 		
 		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
 		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="red" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 270;"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 270;"></path>
 		</svg>
 		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%);">25</div>
 		</div><h6>French</h6>
@@ -254,17 +127,176 @@
 		
 		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
 		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="red" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 320;"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 320;"></path>
 		</svg>
 		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); ">10</div>
 		</div><h6>German</h6>
 	</div>
+	
 
 		
 		
+	</div>	
+		
+     <div><hr></hr></div>
+   
+   <div class="skills_container">
+   
+   <!-- SKILLS LEFT -->
+   <div class="skills_left ">
+	<div class="skills-item">
+		<div class="skill-heading">
+			<h6>Construction supervision - CSA</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="95" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">95%</div>
+			</div>
+		</div>
+	</div>
+	<div class="skills-item">
+		<div class="skill-heading">
+			<h6>Machinery directive - 42/2006/EU - EKAS</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="95" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">95%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6>Life Science / Pharma</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="90" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">90%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6> Fire protection (VKF -SUVA)</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="90" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">90%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6> Javascript</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="25" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background-25" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-25"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">25%</div>
+			</div>
+		</div>
+	</div>
+ 	</div> <!-- END SKILLS LEFT -->
+	
+	   <!-- SKILLS RIGHT -->
+	   <div class="skills_right">
+	<div class="skills-item">
+		<div class="skill-heading">
+			<h6>Clean/Black Uilities CQV</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="95" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">95%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6>CAPEX - CAPA - Deviations</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="75" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-75"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">75%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6>GMP - GDP - GxP</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="90" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">90 %</div>
+			</div>
+		</div>
+	</div>
+	<div class="skills-item">
+		<div class="skill-heading">
+			<h6>Risk analysis – 12100:2010</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="90" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">90%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6>HTML - CSS</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="65" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-65"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">65%</div>
+			</div>
+		</div>
 	</div>
 
-   <div><hr></hr></div>
+ 	</div> 
+	
+
+	<!-- END SKILLS RIGHT -->
+			<div><hr></hr></div>
+	
+	
+   </div>
 	
 	
 	</div> <!-- STOP SCROLLING -->
@@ -280,7 +312,7 @@
 					<a id= "linkedin" href="https://www.linkedin.com/in/giampaolocarducci/" target="_blank" class="fa fa-linkedin"></a>
 					<a id= "github" href="https://github.com/giampcar" target="_blank" class="fa fa-github"></a>
 					<a id= "facebook" href="https://github.com/giampcar" target="_blank" class="fa fa-facebook"></a>
-					<a id= "skype" href="carducci_89@live.it" target="_blank" class="fa fa-skype"></a>
+					<a id= "skype" href="skype:carducci_89@live.it" target="_skype" class="fa fa-skype"></a>
 					<a id= "instagram" href="https://github.com/giampcar" target="_blank" class="fa fa-instagram"></a>
 					<a id= "twitter" href="https://github.com/giampcar" target="_blank" class="fa fa-twitter"></a>
 				</li>
@@ -293,12 +325,12 @@
   
   
   
- <div id="main-content" class="container-fluid,  col-lg-8, col-md-7">
+ <div id="main-content" class="container-fluid,  col-lg-8 col-md-7 col-sd-12">
 	<div id="photo_2" class="container-fluid">
 	</div>
  </div>
   
-  <div id="menu-lato" class="container-fluid,  col-lg-1, col-md-2">
+  <div id="menu-lato" class="container-fluid,  col-lg-1 col-md-1 col-sd-1 hidden-xs">
      <ul>
 		<li><a class="active" href="insert link">Home</a></li>
 		<li><a href="#news">Projects</a></li>
