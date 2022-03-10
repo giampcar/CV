@@ -2,8 +2,8 @@ body {
     background-color:  black;
 	font-family: 'Gentium Basic', serif;
   text-align: center;
-
-
+  width:95%;
+  position:relative;
 }
 /** ################################**/
 /** ################################**/
@@ -11,13 +11,34 @@ body {
 /** ################################**/
 /** ################################**/
 
-h4{
+
+/** ################################**/
+/** ################################**/
+/** COLORS **/
+
+
+/** COLORS     https://www.colorhexa.com/800080 /** COLORS **/
+/** Black  RGB: (0,0,0)**/
+/** Dark Chocolate RGB: (64,0,0) **/
+/** Maroon RGB: (128,0,0) **/
+/** UE Red  RGB: (191,0,0)**/
+/** Red  RGB: (255,0,0)**/
+
+
+/** ################################**/
+/** ################################**/
+
+
+h4 {
 	font-weight: bold;
-	font-size: 1.2em;
-}
+	}
+	
+	h4:hover, h4:focus{
+	text-decoration: none;
+	}
 
 h5{
-	font-size: 1.2em;
+
 }
 
 h6{
@@ -25,8 +46,67 @@ h6{
 	font-weight: bold;
 }
 
+sub{
+	font-weight:bold;
+	font-size: .7em;
+}
 
 
+/** ################################**/
+/** ################################**/
+/** Button language select **/
+/** ################################**/
+.button {
+	position:relative;
+  border-radius: 4px;
+  background-color: BlanchedAlmond;
+  border: none;
+   font-size: 1.3em;
+  font-weight:700;
+   width:auto;
+  height: auto;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  box-shadow: 5px 5px 10px 0.1px black;
+}
+
+
+
+.button span {
+  cursor: pointer;
+  font-weight:bold;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+ 
+}
+
+.button span:after {
+  content: ' \21E9 ' '  Download' '  \21E9 ';
+  position: relative;
+  opacity: 0;
+  right: -1.2em;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+/** Button language select **/
+/** ################################**/
+/** ################################**/
+/** ################################**/
 
 /** HEADER **/
 
@@ -48,11 +128,10 @@ padding-left:10px;
 #scroll-left{
 margin:0;
 padding:0px;
-height:50vw;
+height:30em;
 overflow-y: scroll;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
-
 }
 
 #scroll-left::-webkit-scrollbar {
@@ -60,11 +139,37 @@ overflow-y: scroll;
 }
 
 
-#photo{
-height:70px;
+#photo_container{
+height:290px;
 width:100%;
-background-color:red;
+background-color:MintCream;
 padding:10px;
+box-shadow: 0px 2px 10px black;
+}
+
+#photo_1{
+  max-width: 150px;
+  height: 150px ;
+border-radius:100%;
+background: url('../images/profile.jpg') no-repeat center;
+background-size: cover;
+padding:10px;
+}
+
+#Nome a{
+	color: black;
+	font-weight:bold;		
+}
+
+#Descr_gen {
+	margin-bottom: 10px;
+}
+#Descr_gen a{
+	color: grey;
+}
+
+#Contacts{
+width:180px;
 }
 
 #info{
@@ -86,7 +191,7 @@ list-style-type: none;
 	width:100%;
     margin-bottom: 5px;
 }
-.art-table-multi {
+.table-multi {
     width:100%;
 	 display: flex;
 	justify-content: space-between;
@@ -95,7 +200,7 @@ list-style-type: none;
 	padding:0;
 	border:0;
 }
-.art-table-multi a{
+.table-multi a{
 	margin:0;
 	padding:0;
 	border:0;
@@ -135,7 +240,7 @@ font-size: 1.3em;
 #photo_2{
 height:100px;
 width:100%;
-background-color:black;
+background-color:green;
 padding:10px;
 }
 
@@ -151,25 +256,64 @@ ul {
 
 li a {
   display: block;
-  color: grey;
-  padding: 8px 16px;
+  color:grey;
   text-decoration: none;
 
 }
 
 li a.active {
-  background-color: grey;
-  color: white;
+  color: #800040;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: grey;
-  color: white;
+  color: #400080;
   text-decoration: none;
 }
 
+/** ################################**/
+/** ################################**/
+/** SKILLS **/
+/** ################################**/
+/** ################################**/
 
+
+.skills-item {
+padding-bottom:15px;
+}
+
+
+.skill-heading {
+font-weight:bold;
+font-size:1.3em;
+}
+
+
+#style-bar{
+	width:80%;
+	height:100%;
+	border-radius:4px;
+	
+}
+
+#background{
+stroke-width:1.5px;
+stroke:lightgray;
+fill-opacity: 0;
+
+}
+
+#bar-value{
+stroke-width:1.5px;
+stroke:red;
+fill-opacity: 0;
+stroke-dasharray: 90;
+}
+
+.progressbar-text{
+	position:relative;
+	color:grey;
+}
 
 /** ################################**/
 /** ################################**/
@@ -235,11 +379,10 @@ li a:hover:not(.active) {
   color: white;
 	}
 	
-	    #github,#skype, #linkedin, #facebook, #instagram, #twitter{
-  color:orange;
-    font-size: 2vw;
-}
+	    #github,#skype, #linkedin, #facebook, #instagram, #twitter #Mail #CH_num #IT_num{
 
+    font-size: 1.5em;
+}
 /* PROVA FLOATING OBJECT
 @keyframes example {
   0%   {background-color:red; left:20px; top:0px;}
@@ -349,5 +492,16 @@ li a:hover:not(.active) {
 
 
 
+/** ################################**/
+/** ################################**/
+
+/**IF OTHERWISE NOT SPECIFIED
+/** ################################**/
+/** ################################**/
+
+a:focus, a:hover {
+	
+    text-decoration: none;
+}
 
 
