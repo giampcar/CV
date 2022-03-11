@@ -410,6 +410,54 @@ stroke-dasharray: 100;
 /** ################################**/
 
 
+/** ################################**/
+/** ################################**/
+/** GET IN TOUCH FORM **/
+/** ################################**/
+/** ################################**/
+
+.title{
+	margin-left:20px;
+	padding:0;
+	float:left;
+}
+#form-icon{
+	position:relative;
+	padding:5px;
+	background-color:red;
+}
+#form-text{
+	position:relative;
+	padding:0;
+	margin:0;
+	border:0;
+	background-color:purple;
+}
+
+
+.form-field{
+		 display: flex;
+	justify-content: space-between;
+	padding-bottom:10px;
+	background-color:green;
+	width:300px;
+}
+
+.card{
+	position:relative;
+		background-color:blue;
+	width:300px;
+}
+
+
+
+
+
+/** ################################**/
+/** ################################**/
+/** END ---- GET IN TOUCH FORM **/
+/** ################################**/
+/** ################################**/
 
 /* evidenzia posizione menu */ 
   
