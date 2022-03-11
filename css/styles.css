@@ -424,14 +424,19 @@ stroke-dasharray: 100;
 #form-icon{
 	position:relative;
 	padding:5px;
-	background-color:red;
 }
 #form-text{
 	position:relative;
 	padding:0;
 	margin:0;
-	border:0;
-	background-color:purple;
+	border:0;	
+
+}
+#identifica{
+
+}
+.section-title{
+	float:left;
 }
 
 
@@ -439,14 +444,20 @@ stroke-dasharray: 100;
 		 display: flex;
 	justify-content: space-between;
 	padding-bottom:10px;
-	background-color:green;
-	width:300px;
+		padding:0;
+	margin:0;
+	border:0;	
+	width:100px;
+		clear:both;
 }
 
 .card{
 	position:relative;
-		background-color:blue;
-	width:300px;
+
+		padding:0;
+	margin:0  30% 0;
+	border:0 ;	
+	width:200px;
 }
 
 

@@ -49,8 +49,7 @@
 
 <!-- MENU LATO DX - attivo fino a xs -->
 
- <div class="raw col-lg-12">
- 
+ <div class="raw  hidden-xs"><!-- RIGA CONTENENTE LE 3 COLONNE - nascosto a xs -->
  
  
   <div id="riepilogo" class="container-fluid  col-lg-3 col-md-4 col-sd-12">
@@ -68,6 +67,9 @@
 				</ul>
 			</div>
 	</div>
+	
+	
+	<!-- START SCROLLING OVERBOX -->
 	<div id="scroll-left" class="container-fluid"><!-- START SCROLLING -->
 	   <div><hr></hr></div>
 		<div id="info" class="container-fluid">
@@ -299,7 +301,7 @@
    </div>
 	
 	
-	</div> <!-- STOP SCROLLING -->
+	</div> <!-- STOP SCROLLING OVERBOX -->
 	
    		<div id="CV-download" class="container-fluid"> 
 	
@@ -318,14 +320,16 @@
 				</li>
 				  </ul>
 		</div>	
+</div>
 
-  </div>
+
+  <!-- END FIRST COLUMN LEFT -->
   
 
   
   
   
- <div id="main-content" class="container-fluid,  col-lg-8 col-md-7 col-sd-12">
+ <div id="main-content" class="container-fluid  col-lg-8 col-md-7 col-sd-12 ">
 	<div id="photo_2" class="container-fluid">
 	</div>
 				<div><hr></hr></div>
@@ -340,6 +344,7 @@
 			</div>
 		</div>
 	</div>
+	</div>
 				<div><hr></hr></div>
 <div class="widget-container">
 	<div class="container-fluid">
@@ -350,7 +355,8 @@
 				</div>
 			</div>
 		</div>
-	</div>				
+	</div>
+</div>	
 			
 				<div><hr></hr></div>
 <div class="widget-container">
@@ -363,6 +369,7 @@
 			</div>
 		</div>
 	</div>
+</div>
 				<div><hr></hr></div>
 <div class="widget-container">
 	<div class="container-fluid">
@@ -374,6 +381,7 @@
 			</div>
 		</div>
 	</div>
+</div>
 				<div><hr></hr></div>
 
 <div class="widget-container">
@@ -384,30 +392,33 @@
 					<div class="title-frame"><h4 class="title"> <span> Get in touch </span></h4></div>
 				</div>
 			</div>
-			<div class="col-lg-12 col-md-12 col-sd-12 col-xs-12">
+			<div id="identifica" class="container-fluid col-lg-4 col-md-4 col-sd-4-xs-4">
 				<div class="card container-fluid">
 					<div role="form" id="wpcf7-f80-p177-o1" lang="en-US" dir="ltr">
 					<form action="mailto:giampaolo.carducci@gmail.com" method="post"  novalidate="novalidate" data-status="init">
 						<div class="contact-form ">
 							<div class="form-field container-fluid col-lg-12 col-md-12 col-sd-12 col-xs-12"> 
+								<div id="form-icon"><label><i class="fa fa-user"></i></label></div>
 								<div id="form-text"  class="form-icon"><span class="your-name">
 									<input type="text" name="your-name" value="" size="auto" aria-required="true" aria-invalid="false" placeholder="Name">
 								</span></div>
-								<div id="form-icon"><label><i class="fa fa-user"></i></label></div>
+								
 							</div>
 							<div class="form-field container-fluid col-lg-12 col-md-12 col-sd-12 col-xs-12"> 
-								<span>
+								<div id="form-icon"><label><i class="fa fa-at"></i></label></div>
+								<div id="form-text"  class="form-icon"><span>
 									<input type="email" name="your-email" value="" size="auto" aria-required="true" aria-invalid="false" placeholder="Email">
-															</span>
-															<div id="form-icon"><label><i class="fa fa-at"></i></label></div>
+															</span></div>
+															
 													</div>
-													<div class="form-field container-fluid col-lg-12 col-md-12 col-sd-12 col-xs-12"">
-														<span>
-															<textarea name="your-message" cols="auto" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required art-input" aria-required="true" aria-invalid="false" placeholder="Message"></textarea>
-															</span>
-															<div id="form-icon"><label><i class="fa fa-envelope"></i></label></div>
+													<div class="form-field container-fluid col-lg-12 col-md-12 col-sd-12 col-xs-12">
+														<div id="form-icon"><label><i class="fa fa-envelope"></i></label></div>
+														<div id="form-text"  class="form-icon"><span>
+															<textarea name="your-message" cols="auto" rows="3" aria-required="true" aria-invalid="false" placeholder="Message"></textarea>
+															</span></div>
+															
 													</div>
-													<div class="art-submit-frame">
+													<div class="submit-frame container-fluid">
 														<button class="submit-email" type="submit">
 															<span>Send message</span>
 														</button>
@@ -424,7 +435,7 @@
 					</div>
 	
  </div>
-  
+ 
   <div id="menu-lato" class="container-fluid,  col-lg-1 col-md-1 col-sd-1 hidden-xs">
      <ul>
 		<li><a class="active" href="insert link">Home</a></li>
@@ -435,6 +446,8 @@
 	 </ul>
   </div>
 </div>
+
+  </div>
 </nav>
 </header>
 
