@@ -53,7 +53,7 @@
  
  
  
-  <div id="riepilogo" class="container-fluid  col-lg-2 col-md-4 col-sd-12">
+  <div id="riepilogo" class="container-fluid  col-lg-3 col-md-4 col-sd-12">
 	<div id="photo_container" class="container-fluid">
 			<div id="photo_1" class="container-fluid"></div>
 			<div id="Nome" class="container-fluid"><a><h4>Giampaolo Carducci</h4></a></div>
