@@ -326,17 +326,17 @@
   
  <div id="main-content" class="container-fluid  col-lg-8 col-md-7 col-sd-12 ">
 	<div id="photo_2" class="container-fluid w3-content w3-section w3-center">
-			<img class="mySlides w3-animate-left" src="./images/slideshow_1/1.jpg">
-			<img class="mySlides w3-animate-left" src="./images/slideshow_1/2.jpg">
-			<img class="mySlides w3-animate-left" src="./images/slideshow_1/4.jpg">
-			<img class="mySlides w3-animate-left" src="./images/slideshow_1/5.jpg">
-			<img class="mySlides w3-animate-left" src="./images/slideshow_1/3.jpg">
-			<img class="mySlides w3-animate-left" src="./images/slideshow_1/7.jpg">
-			<img class="mySlides w3-animate-left" src="./images/slideshow_1/8.jpg">
-			<img class="mySlides w3-animate-left" src="./images/slideshow_1/11.jpg">
-			<img class="mySlides w3-animate-left" src="./images/slideshow_1/6.jpg">
-			<img class="mySlides w3-animate-left" src="./images/slideshow_1/9.jpg">
-			<img class="mySlides w3-animate-left" src="./images/slideshow_1/10.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/1.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/2.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/4.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/5.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/3.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/7.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/8.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/11.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/6.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/9.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/10.jpg">
 			
 	</div>
 		<div id="photo_3" class="container-fluid w3-content w3-section w3-center">
@@ -466,6 +466,435 @@
 	 </ul>
   </div>
 </div>
+
+
+
+
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+  <!-- *********    VISIBLE ONLY XS - START BELOW -->  
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+
+
+ <div class="raw visible-xs"><!-- RIGA CONTENENTE LE 3 COLONNE - nascosto a xs -->
+ 
+ 
+  <div id="riepilogo_xs" class="container-fluid ">
+	<div id="photo_container_xs" class="container-fluid">
+			<div id="photo_1" class="container-fluid"></div>
+			<div id="Nome" class="container-fluid"><a><h4>Giampaolo Carducci</h4></a></div>
+			<div id="Descr_gen" class="container-fluid"><a><h5>Environmental Engineer</h5></a></div>
+			<div id="Contacts" class="container-fluid">
+				<ul>
+					<li class="table-multi">
+						<a id= "CH_num" href="tel:+41788223025" target="_blank" class="fa fa-phone-square"><sub>CH</sub></a>
+						<a id= "Mail" href="mailto:giampaolo.carducci@gmail.com" target="_blank" class="fa fa-envelope"></i></a>
+						<a id= "It_num" href="tel:+393339217550" target="_blank" class="fa fa-phone-square"><sub>IT</sub></a>
+					</li>
+				</ul>
+			</div>
+	</div>
+	
+	
+	<!-- START SCROLLING OVERBOX -->
+	<div id="scroll-left" class="container-fluid"><!-- START SCROLLING -->
+	   <div><hr></div>
+		<div id="info" class="container-fluid">
+	
+			<ul>
+				<li class="table_sample">
+					<h5 class="bold">Nationality:</h5>
+					<span><h5>Italian</h5></span>
+				</li>
+				<li class="table_sample">
+					<h5 class="bold">Residence:</h5>
+					<span><h5>Lyss</h5></span>
+				</li>
+			</ul>
+		</div>
+		
+   <div><hr></div>
+   	<div class="art-lang-skills p-30-15">
+	<div class="art-lang-skills-item">
+		<div id="circleprog1-1" data-type="circles" data-value="100" class="art-cirkle-progress art-skills-progress" style="position: relative;">
+		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 292.273, 292.273; stroke-dashoffset: 0;"></path>
+		</svg>
+		
+		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%)">100</div>
+		</div><h6>Italian</h6>
+		
+		</div>
+		
+	<div class="art-lang-skills-item">
+	<div id="circleprog1-2" data-type="circles" data-value="50" class="art-cirkle-progress art-skills-progress" style="position: relative;">
+		
+		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 100;"></path>
+		</svg>
+		
+		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%)">90</div>
+	</div><h6>English</h6>
+	</div>
+	<div class="art-lang-skills-item"><div id="circleprog1-3" data-type="circles" data-value="70" class="art-cirkle-progress art-skills-progress" style="position: relative;">
+		
+		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 270;"></path>
+		</svg>
+		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%);">25</div>
+		</div><h6>French</h6>
+	</div>
+		<div class="art-lang-skills-item"><div id="circleprog1-3" data-type="circles" data-value="70" class="art-cirkle-progress art-skills-progress" style="position: relative;">
+		
+		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 320;"></path>
+		</svg>
+		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); ">10</div>
+		</div><h6>German</h6>
+	</div>
+	
+
+		
+		
+	</div>	
+		
+     <div><hr></div>
+   
+   <div class="skills_container">
+   
+   <!-- SKILLS LEFT -->
+   <div class="skills_left ">
+	<div class="skills-item">
+		<div class="skill-heading">
+			<h6>Construction supervision - CSA</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="95" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">95%</div>
+			</div>
+		</div>
+	</div>
+	<div class="skills-item">
+		<div class="skill-heading">
+			<h6>Machinery directive - 42/2006/EU - EKAS</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="95" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">95%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6>Life Science / Pharma</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="90" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">90%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6> Fire protection (VKF -SUVA)</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="90" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">90%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6> Javascript</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="25" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background-25" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-25"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">25%</div>
+			</div>
+		</div>
+	</div>
+ 	</div> <!-- END SKILLS LEFT -->
+	
+	   <!-- SKILLS RIGHT -->
+	   <div class="skills_right">
+	<div class="skills-item">
+		<div class="skill-heading">
+			<h6>Clean/Black Uilities CQV</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="95" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">95%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6>CAPEX - CAPA - Deviations</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="75" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-75"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">75%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6>GMP - GDP - GxP</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="90" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">90 %</div>
+			</div>
+		</div>
+	</div>
+	<div class="skills-item">
+		<div class="skill-heading">
+			<h6>Risk analysis – 12100:2010</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="90" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">90%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6>HTML - CSS</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="65" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-65"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">65%</div>
+			</div>
+		</div>
+	</div>
+
+ 	</div> 
+	
+
+	<!-- END SKILLS RIGHT -->
+			<div><hr></div>
+	
+	
+   </div>
+	
+	
+	</div> <!-- STOP SCROLLING OVERBOX -->
+	
+   		<div id="CV-download" class="container-fluid"> 
+	
+			<ul>
+				<li class="table_sample">
+					<button class="button "><a href="images/CV_G_Carducci_2022.pdf" target="_blank" ><span class="glyphicon glyphicon-cloud-download"> Curriculum Vitae</span ></a></button>
+					 
+				</li>
+<li class="table-multi">
+					<a id= "linkedin" href="https://www.linkedin.com/in/giampaolocarducci/" target="_blank" class="fa fa-linkedin"></a>
+					<a id= "github" href="https://github.com/giampcar" target="_blank" class="fa fa-github"></a>
+					<a id= "facebook" href="https://github.com/giampcar" target="_blank" class="fa fa-facebook"></a>
+					<a id= "skype" href="skype:carducci_89@live.it" target="_skype" class="fa fa-skype"></a>
+					<a id= "instagram" href="https://github.com/giampcar" target="_blank" class="fa fa-instagram"></a>
+					<a id= "twitter" href="https://github.com/giampcar" target="_blank" class="fa fa-twitter"></a>
+				</li>
+				  </ul>
+		</div>	
+</div>
+
+
+  <!-- END FIRST COLUMN LEFT -->
+    
+  
+  
+ <div id="main-content_xs" class="container-fluid ">
+	<div id="photo_4_xs" class="container-fluid w3-content w3-section w3-center">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/1.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/2.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/4.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/5.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/3.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/7.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/8.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/11.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/6.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/9.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/10.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_2/1.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_2/2.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_2/4.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_2/5.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_2/3.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_2/7.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_2/8.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_2/11.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_2/6.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_2/9.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_2/10.jpg">
+	</div>
+				<div><hr></div>
+				
+<div class="widget-container">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="section-title">
+					<div class="title-frame"><h4 class="title"> <span> Experiences </span></h4></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+				<div><hr></div>
+<div class="widget-container">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="section-title">
+					<div class="title-frame"><h4 class="title"> <span> Studies and publications </span></h4></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	
+			
+				<div><hr></div>
+<div class="widget-container">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="section-title">
+					<div class="title-frame"><h4 class="title"> <span>Blog and Newsletter</span></h4></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+				<div><hr></div>
+<div class="widget-container">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="section-title">
+					<div class="title-frame"><h4 class="title"> <span>Contacts</span></h4></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+				<div><hr></div>
+
+<div class="widget-container">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="section-title">
+					<div class="title-frame"><h4 class="title"> <span> Get in touch </span></h4></div>
+				</div>
+			</div>
+			<div id="identifica" class="container-fluid col-lg-4 col-md-4 col-sd-4-xs-4">
+				<div class="card container-fluid">
+					<div role="form" id="wpcf7-f80-p177-o1" lang="en-US" dir="ltr">
+					<form action="mailto:giampaolo.carducci@gmail.com" method="post"  novalidate="novalidate" data-status="init">
+						<div class="contact-form ">
+							<div class="form-field container-fluid col-lg-12 col-md-12 col-sd-12 col-xs-12"> 
+								<div id="form-icon"><label><i class="fa fa-user"></i></label></div>
+								<div id="form-text"  class="form-icon"><span class="your-name">
+									<input type="text" name="your-name" value="" size="auto" aria-required="true" aria-invalid="false" placeholder="Name">
+								</span></div>
+								
+							</div>
+							<div class="form-field container-fluid col-lg-12 col-md-12 col-sd-12 col-xs-12"> 
+								<div id="form-icon"><label><i class="fa fa-at"></i></label></div>
+								<div id="form-text"  class="form-icon"><span>
+									<input type="email" name="your-email" value="" size="auto" aria-required="true" aria-invalid="false" placeholder="Email">
+															</span></div>
+															
+													</div>
+													<div class="form-field container-fluid col-lg-12 col-md-12 col-sd-12 col-xs-12">
+														<div id="form-icon"><label><i class="fa fa-envelope"></i></label></div>
+														<div id="form-text"  class="form-icon"><span>
+															<textarea name="your-message" cols="auto" rows="3" aria-required="true" aria-invalid="false" placeholder="Message"></textarea>
+															</span></div>
+															
+													</div>
+													<div class="submit-frame container-fluid">
+														<button class="submit-email" type="submit">
+															<span>Send message</span>
+														</button>
+													</div>
+												</div>
+												<div class="wpcf7-response-output" aria-hidden="true">
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+	
+ </div>
+ 
+ </div>
+
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+  <!-- *********    VISIBLE ONLY XS - END -->  
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+  
 
  
 </nav>
