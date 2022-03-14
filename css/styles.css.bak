@@ -298,7 +298,7 @@ padding:10px;
 
 #photo_4_xs{
 position:relative;
-	float:left;
+
 height:250px;
 width:90%;
 }

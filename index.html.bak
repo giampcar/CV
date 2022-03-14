@@ -753,9 +753,9 @@
   <!-- END FIRST COLUMN LEFT -->
     
   
-  
+  				<div><hr></div>
  <div id="main-content_xs" class="container-fluid ">
-	<div id="photo_4_xs" class="container-fluid w3-content w3-section w3-center">
+	<di	v id="photo_4_xs" class="container-fluid w3-content w3-section w3-center">
 			<img class="mySlides w3-animate-right" src="./images/slideshow_1/1.jpg">
 			<img class="mySlides w3-animate-right" src="./images/slideshow_1/2.jpg">
 			<img class="mySlides w3-animate-right" src="./images/slideshow_1/4.jpg">
