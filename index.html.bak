@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Giampaolo Carducci</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
@@ -14,8 +15,9 @@
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
-	
-		<link rel="icon" href="images\favicon.ico" type="image/x-icon" />
+
+		
+<link rel="icon" href="images\favicon.ico" type="image/x-icon" />
 	<link rel="shortcut icon" href="images\favicon.ico" type="image/x-icon" />
   </head>
   
@@ -34,22 +36,22 @@
      </div>
 	 <div id="collapsable-nav" class="collapse navbar-collapse, visible-xs, .d-{sm,md,lg,xl}-block ">
 		<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs ">
-		    <hr></hr>
+		    <hr>
 		   <li><a id="Home" href="../Yogaflow/snippets/Home.html">Home</a></li>
-		   <hr></hr>
+		   <hr>
 			<li><a id="Blog"  href="../Yogaflow/snippets/Blog.html">Blog</a></li>
-			 <hr></hr>
+			 <hr>
 			<li><a  id="Calendar" href="../Yogaflow/snippets/Calendar.html">Calendar</a></li>
-			 <hr></hr>
+			 <hr>
 			<li><a  id="Contacts" href="../Yogaflow/snippets/Contacts.html">Contacts</a></li>
-			<hr></hr>
+			<hr>
 		</ul>
 	 </div><!-- .collapse .navbar-collapse -->
     </nav><!-- #header-nav -->
 
 <!-- MENU LATO DX - attivo fino a xs -->
 
- <div class="raw  hidden-xs"><!-- RIGA CONTENENTE LE 3 COLONNE - nascosto a xs -->
+ <div class="raw hidden-xs"><!-- RIGA CONTENENTE LE 3 COLONNE - nascosto a xs -->
  
  
   <div id="riepilogo" class="container-fluid  col-lg-3 col-md-4 col-sd-12">
@@ -71,27 +73,22 @@
 	
 	<!-- START SCROLLING OVERBOX -->
 	<div id="scroll-left" class="container-fluid"><!-- START SCROLLING -->
-	   <div><hr></hr></div>
+	   <div><hr></div>
 		<div id="info" class="container-fluid">
 	
 			<ul>
-				<li class="art-table">
-					<h4>Nationaly:</h4>
+				<li class="table_sample">
+					<h5 class="bold">Nationality:</h5>
 					<span><h5>Italian</h5></span>
 				</li>
-				<li class="art-table">
-					<h4>Residence:</h4>
-					<span><h5>Lyss - Switzerland</h5></span>
+				<li class="table_sample">
+					<h5 class="bold">Residence:</h5>
+					<span><h5>Lyss</h5></span>
 				</li>
-				<li class="art-table">
-					<h4>Profession:</h4>
-					<span><h5>Engineer - Life Science</h5></span>
-				</li>
-
 			</ul>
 		</div>
 		
-   <div><hr></hr></div>
+   <div><hr></div>
    	<div class="art-lang-skills p-30-15">
 	<div class="art-lang-skills-item">
 		<div id="circleprog1-1" data-type="circles" data-value="100" class="art-cirkle-progress art-skills-progress" style="position: relative;">
@@ -140,7 +137,7 @@
 		
 	</div>	
 		
-     <div><hr></hr></div>
+     <div><hr></div>
    
    <div class="skills_container">
    
@@ -295,7 +292,7 @@
 	
 
 	<!-- END SKILLS RIGHT -->
-			<div><hr></hr></div>
+			<div><hr></div>
 	
 	
    </div>
@@ -306,8 +303,8 @@
    		<div id="CV-download" class="container-fluid"> 
 	
 			<ul>
-				<li class="art-table">
-					<button class="button" ><a href="images/CV_G_Carducci_2022.pdf" target="_blank" ><span>Curriculum Vitae</span></a></button>
+				<li class="table_sample">
+					<button class="button "><a href="images/CV_G_Carducci_2022.pdf" target="_blank" ><span class="glyphicon glyphicon-cloud-download"> Curriculum Vitae</span ></a></button>
 					 
 				</li>
 <li class="table-multi">
@@ -324,15 +321,38 @@
 
 
   <!-- END FIRST COLUMN LEFT -->
-  
-
-  
+    
   
   
  <div id="main-content" class="container-fluid  col-lg-8 col-md-7 col-sd-12 ">
-	<div id="photo_2" class="container-fluid">
+	<div id="photo_2" class="container-fluid w3-content w3-section w3-center">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_1/1.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_1/2.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_1/4.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_1/5.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_1/3.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_1/7.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_1/8.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_1/11.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_1/6.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_1/9.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_1/10.jpg">
+			
 	</div>
-				<div><hr></hr></div>
+		<div id="photo_3" class="container-fluid w3-content w3-section w3-center">
+			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/1.jpg">
+			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/2.jpg">
+			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/4.jpg">
+			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/5.jpg">
+			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/3.jpg">
+			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/7.jpg">
+			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/8.jpg">
+			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/11.jpg">
+			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/6.jpg">
+			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/9.jpg">
+			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/10.jpg">
+	</div>
+				<div><hr></div>
 				
 <div class="widget-container">
 	<div class="container-fluid">
@@ -345,7 +365,7 @@
 		</div>
 	</div>
 	</div>
-				<div><hr></hr></div>
+				<div><hr></div>
 <div class="widget-container">
 	<div class="container-fluid">
 		<div class="row">
@@ -358,7 +378,7 @@
 	</div>
 </div>	
 			
-				<div><hr></hr></div>
+				<div><hr></div>
 <div class="widget-container">
 	<div class="container-fluid">
 		<div class="row">
@@ -370,7 +390,7 @@
 		</div>
 	</div>
 </div>
-				<div><hr></hr></div>
+				<div><hr></div>
 <div class="widget-container">
 	<div class="container-fluid">
 		<div class="row">
@@ -382,7 +402,7 @@
 		</div>
 	</div>
 </div>
-				<div><hr></hr></div>
+				<div><hr></div>
 
 <div class="widget-container">
 	<div class="container-fluid">
@@ -447,7 +467,7 @@
   </div>
 </div>
 
-  </div>
+ 
 </nav>
 </header>
 
@@ -465,7 +485,7 @@
 
   <!-- PROVA FLOATING OBJECT 		
 	<div id="prova">
-	<a id= "github" href="https://github.com/giampcar" target="_blank" class="fa fa-github-square"></a>
+	<a id= "github" 	ef="https://github.com/giampcar" target="_blank" class="fa fa-github-square"></a>
 	</div>
 		-->		
 			

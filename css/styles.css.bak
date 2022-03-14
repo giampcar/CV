@@ -85,7 +85,7 @@ sub{
   transition: 0.5s;
  
 }
-
+/** 
 .button span:after {
   content: ' \21E9 ';
   position: relative;
@@ -104,7 +104,7 @@ sub{
   right: 0;
 }
 
-
+*/
 
 
 
@@ -145,7 +145,7 @@ overflow-y: scroll;
 
 
 #photo_container{
-height:290px;
+height:320px;
 width:100%;
 background-color:MintCream;
 padding:10px;
@@ -189,7 +189,7 @@ margin:0px;
 width:100%;
 }
 
-.art-table{
+.table_sample{
 	width:80%;
 list-style-type: none;
     display: flex;
@@ -198,6 +198,11 @@ list-style-type: none;
 	margin-left: 10%;
 
 }
+
+.bold{
+	font-weight: bold;
+}
+
 .table-multi {
     width:100%;
 	 display: flex;
@@ -213,15 +218,6 @@ list-style-type: none;
 	border:0;
 	margin-bottom: 5px;
 	}
-
-hr {
-	height:5px;
-	width:90%;
-		margin-bottom:10px;
-	margin-top:5px;
-	  border-top: 3px solid Sienna;
-	  border-radius: 2px;
-}
 
 .art-lang-skills-item {
 width: 23%;
@@ -263,14 +259,24 @@ line-height: .4;
 	background-color:MintCream;
 	box-shadow:0px 2px 10px black;
 margin-bottom:15px;
+height: 65px;
 }
 
 
 
 #photo_2{
-height:100px;
-width:100%;
-background-color:green;
+	position:relative;
+	float:left;
+height:250px;
+width:50%;
+padding:10px;
+}
+
+#photo_3{
+position:relative;
+	float:left;
+height:250px;
+width:50%;
 padding:10px;
 }
 
@@ -393,13 +399,12 @@ stroke-dasharray: 100;
 
 .progressbar-text{
 	position:relative;
-	top:-5px;
+	top:-10px;
 	color:grey;
 	padding:0;
 	border:0;
-	text-shadow:0px 2px 5px MintCream;
 	font-weight:bold;
-	font-size: 1.1em;
+	font-size: 1em;
 	margin:0;
 	}
 
@@ -453,8 +458,7 @@ stroke-dasharray: 100;
 
 .card{
 	position:relative;
-	
-		background-color:blue;
+
 		padding:0;
 	margin:0  30% 0;
 	border:0 ;	
@@ -695,4 +699,45 @@ a:focus, a:hover {
     text-decoration: none;
 }
 
+hr {
+	height:5px;
+	width:80%;
+	margin-bottom:10px;
+	margin-top:5px;
+	  border-top: 3px solid Sienna;
+	  border-radius: 2px;
+	  position:relative;
+	  left:10%;
+}
+
+
+/** ################################**/
+/** ################################**/
+
+/**SLIDESHOW BEGIN
+/** ################################**/
+/** ################################**/
+
+.mySlides {
+	border-radius:10%;
+/**	max-width:200px; **/
+/**	max-height:200px;**/
+	width:100%;
+	height:100%;
+	}
+
+.w3-animate-fading {
+    animation: fading 5s 1;
+}
+.w3-animate-zoom {
+}
+
+
+
+/** ################################**/
+/** ################################**/
+
+/**SLIDESHOW END
+/** ################################**/
+/** ################################**/
 
