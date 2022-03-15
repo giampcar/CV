@@ -502,8 +502,26 @@ stroke-dasharray: 100;
 	float:right;
 }
 
+.experience{
+	position:relative;
+	float:right;
+}
 
-#timebar{
+.experience{
+margin:0;
+padding:0px;
+height:30em;
+overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.experience::-webkit-scrollbar {
+    display: none;
+}
+
+
+#timebar_1{
 	position:absolute;
 	width:7px;
 	padding:0px;
@@ -512,7 +530,42 @@ stroke-dasharray: 100;
 	border-radius:5px;
 	bottom:10px;
 	left:90%;
-		
+	}
+	
+	
+#timebar_2{
+	position:absolute;
+	width:7px;
+	padding:0px;
+	height:260px;
+	background-color:grey;
+	border-radius:5px;
+	bottom:10px;
+	left:90%;
+	}
+	
+	
+#timebar_3{
+	position:absolute;
+	width:7px;
+	padding:0px;
+	height:260px;
+	background-color:grey;
+	border-radius:5px;
+	bottom:10px;
+	left:90%;
+	}
+	
+	
+#timebar_4{
+	position:absolute;
+	width:7px;
+	padding:0px;
+	height:260px;
+	background-color:grey;
+	border-radius:5px;
+	bottom:10px;
+	left:90%;
 	}
 
 /** ################################**/

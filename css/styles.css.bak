@@ -503,7 +503,7 @@ stroke-dasharray: 100;
 }
 
 
-#timebar{
+#timebar_1{
 	position:absolute;
 	width:7px;
 	padding:0px;
@@ -512,7 +512,42 @@ stroke-dasharray: 100;
 	border-radius:5px;
 	bottom:10px;
 	left:90%;
-		
+	}
+	
+	
+#timebar_2{
+	position:absolute;
+	width:7px;
+	padding:0px;
+	height:260px;
+	background-color:grey;
+	border-radius:5px;
+	bottom:10px;
+	left:90%;
+	}
+	
+	
+#timebar_3{
+	position:absolute;
+	width:7px;
+	padding:0px;
+	height:260px;
+	background-color:grey;
+	border-radius:5px;
+	bottom:10px;
+	left:90%;
+	}
+	
+	
+#timebar_4{
+	position:absolute;
+	width:7px;
+	padding:0px;
+	height:260px;
+	background-color:grey;
+	border-radius:5px;
+	bottom:10px;
+	left:90%;
 	}
 
 /** ################################**/
@@ -817,15 +852,12 @@ body,
 /* Styles for website counter container */
 .website-counter {
   color: white;
-  border-radius: 30px;
   font-weight: 700;
-  font-size: 25px;
-  margin-top: 10px;
+  font-size: 1.2em;
 }
 
 /* Styles for reset button */
 #reset {
-  margin-top: 20px;
   cursor: pointer;
   font-size: 1.2em;
   color: white;
