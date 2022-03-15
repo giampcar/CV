@@ -487,9 +487,33 @@ stroke-dasharray: 100;
 	width:200px;
 }
 
+#descr_exp{
+	position:relative;
+	float:left;
+	}
+	
+	#descr_list{
+	 text-align: justify;
+	text-justify: inter-word;
+	max-width: 75%;
+	}
+.experience h4{
+	position:relative;
+	float:right;
+}
 
 
-
+#timebar{
+	position:absolute;
+	width:7px;
+	padding:0px;
+	height:260px;
+	background-color:grey;
+	border-radius:5px;
+	bottom:10px;
+	left:90%;
+		
+	}
 
 /** ################################**/
 /** ################################**/
@@ -555,7 +579,7 @@ stroke-dasharray: 100;
 	
 #github, #skype, #linkedin, #facebook, #instagram, #twitter {
 
-    font-size: 2em;
+    font-size: 1.5em;
 }
 /* PROVA FLOATING OBJECT
 @keyframes example {
@@ -771,3 +795,44 @@ hr {
 /** ################################**/
 /** ################################**/
 
+
+
+/** ################################**/
+/** ################################**/
+
+/**COUNTER
+/** ################################**/
+/** ################################**/
+
+/* Center child elements */
+body,
+.website-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/* Styles for website counter container */
+.website-counter {
+  color: white;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+/* Styles for reset button */
+#reset {
+  cursor: pointer;
+  font-size: 1.2em;
+  color: white;
+  border: 0;
+}
+
+
+/** ################################**/
+/** ################################**/
+
+/**COUNTER
+/** ################################**/
+/** ################################**/
