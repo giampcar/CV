@@ -358,7 +358,7 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="section-title">
-					<div class="title-frame"><h2 class="title"> <span> Experiences </span></h2></div>
+					<div class="title-frame"><h2 class="title bold"> <span> Experiences </span></h2></div>
 						<div class="experience">
 							<ul id="descr_exp" class="container-fluid"><h3>CSL Behring – Lengnau (BE) </h3><h4 class="bold">	Mar 2020 – Dec 2021 </h4><h5 class="bold">	Role: <span> CSA Handover Engineer</span> </h5><h5 class="bold">Key responsibilities: </h5>
 								<li id="descr_list">
@@ -415,60 +415,99 @@
 								<div id="timebar_4" class="container-fluid"></div><div id="timebardot_1" class="fa fa-angle-double-down"></div>
 							</ul>
 						</div>
+						<div><hr></div>
 				
 				</div>
 			</div>
-			</div>
-		</div>
-	</div>
-	</div>
-				<div><hr></div>
-<div class="widget-container">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="section-title">
-					<div class="title-frame"><h4 class="title"> <span> Studies and publications </span></h4></div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>	
 			
-				<div><hr></div>
-<div class="widget-container">
-	<div class="container-fluid">
-		<div class="row">
 			<div class="col-lg-12">
+	<div><hr id="intra"></div>						
 				<div class="section-title">
-					<div class="title-frame"><h4 class="title"> <span>Blog and Newsletter</span></h4></div>
+					<div class="title-frame"><h2 class="title bold"> <span> Studies and publications </span></h2></div>
+					<div class="experience">
+					
+							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Jan 2018</h4>
+								<li id="descr_list">
+									<p>Seminary - Treatment of water in heating systems and sanitary circuits according to current legislation as a tool for energy efficiency </p>
+								<hr>								
+								</li>
+							</ul>
+							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Jan 2018</h4>
+								<li id="descr_list">
+									<p>Seminary - Treatment of water in heating systems and sanitary circuits according to current legislation as a tool for energy efficiency </p>
+								<hr>								
+								</li>
+							</ul>
+							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Jan 2018</h4>
+								<li id="descr_list">
+									<p>Seminary - Treatment of water in heating systems and sanitary circuits according to current legislation as a tool for energy efficiency </p>
+								<hr>								
+								</li>
+							</ul>
+							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Jan 2018</h4>
+								<li id="descr_list">
+									<p>Seminary - Treatment of water in heating systems and sanitary circuits according to current legislation as a tool for energy efficiency </p>
+								<hr>								
+								</li>
+							</ul>							
+							
+						</div>
 				</div>
 			</div>
-		</div>
-	</div>
-</div>
-				<div><hr></div>
-<div class="widget-container">
-	<div class="container-fluid">
-		<div class="row">
 			<div class="col-lg-12">
+	<div><hr id="intra"></div>	
 				<div class="section-title">
-					<div class="title-frame"><h4 class="title"> <span>Contacts</span></h4></div>
+					<div class="title-frame"><h2 class="title bold"> <span> Blog </span></h2></div>
+					<div class="experience">
+							<ul id="descr_exp" class="container-fluid"><h3>CSL Behring – Lengnau (BE) </h3><h4 class="bold">	Mar 2020 – Dec 2021 </h4><h5 class="bold">	Role: <span> CSA Handover Engineer</span> </h5><h5 class="bold">Key responsibilities: </h5>
+								<li id="descr_list">
+								<p> Temporary --- links to be added</p>
+								
+				
+								</li>
+								<div id="timebar_1" class="container-fluid"></div><div id="timebardot_1" class=" fa fa-angle-double-down"></div>
+							</ul>
+							
+							
+						</div>
 				</div>
 			</div>
-		</div>
-	</div>
-</div>
-				<div><hr></div>
 
-<div class="widget-container">
-	<div class="container-fluid">
-		<div class="row">
+			<div class="col-lg-12">
+	<div><hr id="intra"></div>	
+				<div class="section-title">
+					<div class="title-frame"><h2 class="title bold"> <span> Contacts </span></h2></div>
+					<div class="experience">
+							<ul id="descr_exp" class="container-fluid"><h3>CSL Behring – Lengnau (BE) </h3><h4 class="bold">	Mar 2020 – Dec 2021 </h4><h5 class="bold">	Role: <span> CSA Handover Engineer</span> </h5><h5 class="bold">Key responsibilities: </h5>
+								<li id="descr_list">
+								<p> Civil-Structural-Architectural Handover Engineer (administrative, Labs, production and classified clean room (E-D-C) areas)</p>
+								<p> QA/QC civil department. Definition of standard documentation for clean rooms and labs. </p>
+								<p> Work and contractors supervision. Direct interface with client for revamping/changes requests, local contractors management and internal QA/QC audit on executed works.</p>
+								<p> Responsible for quality, schedule, costs of all assigned CSA sub-systems. CSA completion walk-downs and safety walk-downs execution.</p>
+								<p> Integral test planner and executor for final building occupancy // Inspections with GVB for final building acceptance </p>
+								<p> Fire protection requirements construction supervisor</p>
+								<hr>								
+								</li>
+								<div id="timebar_1" class="container-fluid"></div><div id="timebardot_1" class=" fa fa-angle-double-down"></div>
+							</ul>
+							
+							
+						</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+</div>
+	<div><hr id="intra"></div>	
+
 			<div class="col-lg-12">
 				<div class="section-title">
 					<div class="title-frame"><h4 class="title"> <span> Get in touch </span></h4></div>
 				</div>
 			</div>
+			<!-- SEND EMAIL FORM
 			<div id="identifica" class="container-fluid col-lg-4 col-md-4 col-sd-4-xs-4">
 				<div class="card container-fluid">
 					<div role="form" id="wpcf7-f80-p177-o1" lang="en-US" dir="ltr">
@@ -506,10 +545,7 @@
 											</form>
 										</div>
 									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+								</div> -->
 	
  </div>
  

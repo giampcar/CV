@@ -149,6 +149,19 @@ overflow-y: scroll;
     display: none;
 }
 
+#main-content{
+margin:0;
+padding:0px;
+height:30em;
+overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#main-content::-webkit-scrollbar {
+    display: none;
+}
+
 
 #photo_container{
 height:320px;
@@ -510,7 +523,7 @@ stroke-dasharray: 100;
 .experience{
 margin:0;
 padding:0px;
-height:30em;
+height:20em;
 overflow-y: scroll;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
@@ -589,7 +602,7 @@ overflow-y: scroll;
 	position:absolute;
 	width:7px;
 	padding:0px;
-	height:4%;
+	height:40%;
 	background-color:grey;
 	border-radius:5px;
 	bottom:20%;
@@ -849,6 +862,17 @@ hr {
 	  border-radius: 2px;
 	  position:relative;
 	  left:10%;
+}
+
+#intra {
+	height:5px;
+	width:80%;
+	margin-bottom:10px;
+	margin-top:10px;
+	  border-top: 3px solid green;
+	  border-radius: 2px;
+	  position:relative;
+	  left:0;
 }
 
 
