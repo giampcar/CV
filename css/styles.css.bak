@@ -489,10 +489,10 @@ stroke-dasharray: 100;
 
 #descr_exp{
 	position:relative;
-	float:left;
+
 	}
 	
-	#descr_list{
+#descr_list{
 	 text-align: justify;
 	text-justify: inter-word;
 	max-width: 75%;
@@ -502,53 +502,113 @@ stroke-dasharray: 100;
 	float:right;
 }
 
+.experience{
+	position:relative;
+	float:right;
+}
+
+.experience{
+margin:0;
+padding:0px;
+height:30em;
+overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.experience::-webkit-scrollbar {
+    display: none;
+}
+
 
 #timebar_1{
 	position:absolute;
 	width:7px;
 	padding:0px;
-	height:260px;
+	height:45%;
 	background-color:grey;
 	border-radius:5px;
-	bottom:10px;
+	bottom:20%;
 	left:90%;
 	}
 	
+	#timebardot_1{
+	position:absolute;
+	padding:0px;
+	left:89.5%;
+	top:90%;
+	font-size:1.5vw;
+	color:grey;
+	}
 	
-#timebar_2{
+	#timebar_2{
 	position:absolute;
 	width:7px;
 	padding:0px;
-	height:260px;
+	height:55%;
 	background-color:grey;
 	border-radius:5px;
-	bottom:10px;
+	bottom:20%;
 	left:90%;
 	}
 	
-	
-#timebar_3{
+	#timebardot_2{
 	position:absolute;
 	width:7px;
 	padding:0px;
-	height:260px;
+	height:5%;
 	background-color:grey;
 	border-radius:5px;
-	bottom:10px;
+	bottom:2%;
 	left:90%;
 	}
 	
-	
-#timebar_4{
+	#timebar_3{
 	position:absolute;
 	width:7px;
 	padding:0px;
-	height:260px;
+	height:50%;
 	background-color:grey;
 	border-radius:5px;
-	bottom:10px;
+	bottom:20%;
 	left:90%;
 	}
+	
+	#timebardot_3{
+	position:absolute;
+	width:7px;
+	padding:0px;
+	height:1%;
+	background-color:grey;
+	border-radius:5px;
+	bottom:2%;
+	left:90%;
+	}
+	
+	#timebar_4{
+	position:absolute;
+	width:7px;
+	padding:0px;
+	height:4%;
+	background-color:grey;
+	border-radius:5px;
+	bottom:20%;
+	left:90%;
+	}
+	
+	#timebardot_4{
+	position:absolute;
+	width:7px;
+	padding:0px;
+	height:2%;
+	background-color:grey;
+	border-radius:5px;
+	bottom:5%;
+	left:90%;
+	}
+	
+	
+
 
 /** ################################**/
 /** ################################**/
