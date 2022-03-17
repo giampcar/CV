@@ -246,7 +246,7 @@ list-style-type: none;
 	}
 	
 	.table-multi {
-    width:100%;
+    width:200px;
 	 display: flex;
 	justify-content: space-between;
     margin-bottom: 5px;
@@ -326,8 +326,8 @@ padding:10px;
 
 #photo_4_xs{
 position:relative;
-height:100px;
-width:100px;
+height:200px;
+width:300px;
 
 }
 
