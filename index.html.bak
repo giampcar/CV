@@ -883,22 +883,21 @@
   				<div><hr></div>
  <div id="main-content_xs" class="container-fluid">
 	<div id="photo_4_xs" class="container-fluid w3-content w3-section w3-center">
-			<img class="mySlides w3-animate-right" src="./images/slideshow_1/2.jpg">
-			<img class="mySlides w3-animate-right" src="./images/slideshow_1/3.jpg">
-			<img class="mySlides w3-animate-right" src="./images/slideshow_1/4.jpg">
-			<img class="mySlides w3-animate-right" src="./images/slideshow_1/6.jpg">
-			<img class="mySlides w3-animate-right" src="./images/slideshow_1/7.jpg">
-			<img class="mySlides w3-animate-right" src="./images/slideshow_1/11.jpg">
-			<img class="mySlides w3-animate-left" src="./images/slideshow_2/1.jpg">
-			<img class="mySlides w3-animate-left" src="./images/slideshow_2/3.jpg">
-			<img class="mySlides w3-animate-left" src="./images/slideshow_2/4.jpg">			
-			<img class="mySlides w3-animate-left" src="./images/slideshow_2/5.jpg">
-			<img class="mySlides w3-animate-left" src="./images/slideshow_2/6.jpg">
-			<img class="mySlides w3-animate-left" src="./images/slideshow_2/7.jpg">
-			<img class="mySlides w3-animate-left" src="./images/slideshow_2/8.jpg">
-			<img class="mySlides w3-animate-left" src="./images/slideshow_2/9.jpg">
-			<img class="mySlides w3-animate-left" src="./images/slideshow_2/10.jpg">
-			<img class="mySlides w3-animate-left" src="./images/slideshow_2/11.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/a.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/b.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/c.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/d.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/e.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/f.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_2/g.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_2/h.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_2/i.jpg">			
+			<img class="mySlides w3-animate-left" src="./images/slideshow_2/m.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_2/n.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_2/o.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_2/p.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_2/q.jpg">
+			<img class="mySlides w3-animate-left" src="./images/slideshow_2/r.jpg">
 	</div>
 
 				
