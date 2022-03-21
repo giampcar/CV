@@ -24,7 +24,7 @@ function carousel_1() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel_1, 2000); // Change image every 2 seconds
+  setTimeout(carousel_1, 3000); // Change image every 2 seconds
 }
 
 
@@ -49,3 +49,6 @@ counterContainer.innerHTML = visitCount;
 //   localStorage.setItem("page_view", 1);
 //   counterContainer.innerHTML = visitCount;
 // });
+
+
+

@@ -49,3 +49,14 @@ counterContainer.innerHTML = visitCount;
 //   localStorage.setItem("page_view", 1);
 //   counterContainer.innerHTML = visitCount;
 // });
+
+
+
+
+function openRightMenu() {
+  document.getElementById("rightMenu").style.display = "block";
+}
+
+function closeRightMenu() {
+  document.getElementById("rightMenu").style.display = "none";
+}

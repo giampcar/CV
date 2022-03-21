@@ -473,7 +473,7 @@ stroke-dasharray: 100;
 /** ################################**/
 
 .title{
-	margin-left:20px;
+	margin-left:10px;
 	padding:0;
 	float:left;
 }
@@ -493,7 +493,6 @@ stroke-dasharray: 100;
 }
 .section-title{
 	float:left;
-	background-color:purple;
 }
 
 
@@ -520,11 +519,10 @@ stroke-dasharray: 100;
 #descr_exp{
 	position:relative;
 	}
+	
 
-#anno{
 
 
-}
 
 #descr_list{
 	 text-align: justify;
@@ -922,6 +920,8 @@ hr {
 }
 
 
+
+
 /** ################################**/
 /** ################################**/
 
@@ -1016,9 +1016,8 @@ body,
 
 
 /* ScrolBar  */
-.scrollbar-side
-{
-width:100px
+.scrollbar-side{
+
 }
 
 .scrollbar-side:hover
@@ -1050,3 +1049,49 @@ text-align:center;
 padding:0;
 margin:0;
 }
+
+.bar-studi{
+	width:92%;
+	left:2%;
+}
+
+
+/* ############################### */
+/* ############################### */
+/* SIDEBAR  */
+/* ############################### */
+/* ############################### */
+
+
+
+/* ############################### */
+/* ############################### */
+/* SIDEBAR  */
+/* ############################### */
+/* ############################### */
+
+
+
+
+#apri{
+	background-color:transparent;
+	color:blue;
+}
+
+
+#mySidebar{
+	list-style-type:none;
+	text-align:left;
+	opacity:.95;
+}
+
+#mySidebar a{
+margin-left:10px;
+}
+
+.fa-sliders{
+	
+	text-align:right;
+}
+
+

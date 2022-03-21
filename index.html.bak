@@ -35,6 +35,8 @@
 <body class= "container-fluid center">
   <header>
 
+ 
+
 
 
    <nav id="title" class="navbar navbar-default container-fluid">
@@ -65,6 +67,7 @@
 <!-- MENU LATO DX - attivo fino a xs -->
 
  <div class="raw hidden-xs"><!-- RIGA CONTENENTE LE 3 COLONNE - nascosto a xs -->
+	
  
  
   <div id="riepilogo" class="container-fluid  col-lg-3 col-md-4 col-sd-12">
@@ -336,7 +339,7 @@
     
   
   
- <div id="main-content" class="container-fluid  col-lg-8 col-md-7 col-sd-12 ">
+ <div id="main-content" class="container-fluid  col-lg-8 col-md-8 col-sd-12 ">
 	<div id="photo_2" class="container-fluid w3-content w3-section w3-center">
 			<img class="mySlides w3-animate-right" src="./images/slideshow_1/2.jpg">
 			<img class="mySlides w3-animate-right" src="./images/slideshow_1/7.jpg">
@@ -438,23 +441,26 @@
 					
 							<ul id="descr_exp" class="container-fluid"><h4 id="anno" class="bold">Jan 2018</h4>
 								<li id="descr_list">
-									<p><i class="fa fa-graduation-cap"></i> Seminary - Treatment of water in heating systems and sanitary circuits according to current legislation as a tool for energy efficiency </p>
-								<hr>								
+								<p><i class="fa fa-graduation-cap"></i> Seminary - Treatment of water in heating systems and sanitary circuits according to current legislation as a tool for energy efficiency </p>
+																	
 								</li>
+								<hr class="bar-studi">	
 							</ul>
+
 							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Dec	2015</h4>
 								<li id="descr_list-xs">
 									<p><i id="stud" class="fa fa-graduation-cap"></i> Master degree on Environmental engineering [LM-35]</p>
 									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Università degli studi dell'Aquila</p>								
 									<p><i id="stud" class="fa fa-university"></i> 110/110</p>
 									<p><i id="stud"><a href="images/2015_Carducci.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> Numerical model for the characterization of the downstream jet of ski jump spillways</i></a></p>
-									<hr>								
+							
 								</li>
+							<hr class="bar-studi">	
 							</ul>
 							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Jan	2015</h4>
 								<li id="descr_list-xs">
 									<p>Trainer .Tech Training Course</p>
-								<hr>								
+									<hr class="bar-studi">									
 								</li>
 							</ul>
 							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Mar 2013</h4>
@@ -463,23 +469,24 @@
 									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Università degli studi dell'Aquila</p>								
 									<p><i id="stud" class="fa fa-university"></i> 101/110</p>
 									<p><i id="stud"><a href="images/Tesi_triennale.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> River transport of pollutants. Case of study: Sacco river in Colleferro (RM)</i></a></p>									
-								<hr>								
+						
 								</li>
+							<hr class="bar-studi">									
 							</ul>	
 							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Jun 2008</h4>
 								<li id="descr_list-xs">
 									<p><i id="stud" class="fa fa-graduation-cap"></i> High scool diploma</p>
 									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Liceo Scientifico F.Severi (FR)</p> 							
 									<p><i id="stud" class="fa fa-university"></i> 72/110</p>
-								<hr>								
 								</li>
+							<hr class="bar-studi">									
 							</ul>
 							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Mar 2006</h4>
 								<li id="descr_list-xs">
 									<p><i id="stud" class="fa fa-graduation-cap"></i>Swim teacher - 1<sup>st</sup> level</p>
 									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> F.I.N. Roma</p>
-								<hr>								
 								</li>
+							<hr class="bar-studi">										
 							</ul>							
 							
 						</div>
@@ -573,33 +580,36 @@
 	
  </div>
  
-  <nav id="main-menu" class="container-fluid,  col-lg-1 col-md-1 col-sd-1 hidden-xs">
-
-	<div class="scrollbar-side main-menu"> 
-	 <ul>
-	 	<li>                                   
+<div id="mySidebar" class="sidebar w3-animate-l">
+ 	<div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
+  <button onclick="closeRightMenu()" class="w3-bar-item w3-button fa  fa-sliders"></button>
+			<li>
 			<a href="#esperienza-lavorativa">
 			<span class="nav-text">Experiences</span>
 			</a>
-		</li> 
-		<li>                                   
-			<a href="#studi">
+ 			<a href="#studi">
 			<span class="nav-text">Studies and Publications</span>
 			</a>
-		</li> 
-		<li>                                   
 			<a href="#blog">
 			<span class="nav-text">Blog</span>
 			</a>
-		</li> 
-		<li>                                   
 			<a href="#contatti">
 			<span class="nav-text">Contacts</span>
 			</a>
-		</li> 		
-	 </ul>
-	</div>
-  </nav>
+			</li>
+</div>
+
+<div>
+  <button id="apri" class="w3-button w3-right fa fa-align-justify" onclick="openRightMenu()"</button>
+
+</div>
+</div>
+
+
+ 
+ 
+ 
+ 
 </div>
 
 
@@ -961,53 +971,57 @@
 			<div>
 				
 				<div class="section-title-2">
-					<div id="studi-xs"  class="title-frame"><h2 class="title bold"> <span> Studies and publications </span></h2></div>
+					<div id="studi-xs"  class="title-frame"><h2 class="title bold"> <span>Studies</span></h2></div>
 					<div class="experience">
 					
-							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Jan 2018</h4>
+							<ul id="descr_exp" class="container-fluid"><h4 id="anno" class="bold">Jan 2018</h4>
 								<li id="descr_list">
-									<p><i id="studi-xs" class="fa fa-graduation-cap"></i> Seminary - Treatment of water in heating systems and sanitary circuits according to current legislation as a tool for energy efficiency </p>
-								<hr>								
+								<p><i class="fa fa-graduation-cap"></i> Seminary - Treatment of water in heating systems and sanitary circuits according to current legislation as a tool for energy efficiency </p>
+																	
 								</li>
+								<hr class="bar-studi">	
 							</ul>
+
 							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Dec	2015</h4>
-								<li id="descr_list">
+								<li id="descr_list-xs">
 									<p><i id="stud" class="fa fa-graduation-cap"></i> Master degree on Environmental engineering [LM-35]</p>
 									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Università degli studi dell'Aquila</p>								
 									<p><i id="stud" class="fa fa-university"></i> 110/110</p>
 									<p><i id="stud"><a href="images/2015_Carducci.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> Numerical model for the characterization of the downstream jet of ski jump spillways</i></a></p>
-								<hr>								
+							
 								</li>
+							<hr class="bar-studi">	
 							</ul>
 							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Jan	2015</h4>
-								<li id="descr_list">
+								<li id="descr_list-xs">
 									<p>Trainer .Tech Training Course</p>
-								<hr>								
+									<hr class="bar-studi">									
 								</li>
 							</ul>
 							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Mar 2013</h4>
-								<li id="descr_list">
+								<li id="descr_list-xs">
 									<p><i id="stud" class="fa fa-graduation-cap"></i> Bachelor degree in Environmental Engineering</p>
 									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Università degli studi dell'Aquila</p>								
 									<p><i id="stud" class="fa fa-university"></i> 101/110</p>
-									<p><i id="stud"><a href="images/Tesi_triennale.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> River transport of pollutants. Case of study: Sacco river in Colleferro (RM)</i></a></p>
-								<hr>								
+									<p><i id="stud"><a href="images/Tesi_triennale.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> River transport of pollutants. Case of study: Sacco river in Colleferro (RM)</i></a></p>									
+						
 								</li>
+							<hr class="bar-studi">									
 							</ul>	
 							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Jun 2008</h4>
-								<li id="descr_list">
+								<li id="descr_list-xs">
 									<p><i id="stud" class="fa fa-graduation-cap"></i> High scool diploma</p>
 									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Liceo Scientifico F.Severi (FR)</p> 							
 									<p><i id="stud" class="fa fa-university"></i> 72/110</p>
-								<hr>								
 								</li>
+							<hr class="bar-studi">									
 							</ul>
 							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Mar 2006</h4>
-								<li id="descr_list">
+								<li id="descr_list-xs">
 									<p><i id="stud" class="fa fa-graduation-cap"></i>Swim teacher - 1<sup>st</sup> level</p>
 									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> F.I.N. Roma</p>
-								<hr>								
 								</li>
+							<hr class="bar-studi">										
 							</ul>							
 							
 						</div>
@@ -1020,10 +1034,7 @@
 					<div id="blog-xs"  class="title-frame"><h2 class="title bold"> <span> Blog </span></h2></div>
 					<div class="experience">
 							<ul id="descr_exp" class="container-fluid"><h3>Page in progress...</h3><i class="fa  fa-refresh w3-spin"></i>	
-								<li id="descr_list">
-								<i class="fa  fa-refresh w3-spin"></i>	
-							
-								</li>
+								
 								
 							</ul>
 							
@@ -1096,6 +1107,8 @@
 	<a id= "github" 	ef="https://github.com/giampcar" target="_blank" class="fa fa-github-square"></a>
 	</div>
 		-->		
+		
+
 			
   </footer>
 
