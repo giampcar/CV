@@ -246,7 +246,7 @@ list-style-type: none;
 	}
 	
 	.table-multi {
-    width:200px;
+    width:100%;
 	 display: flex;
 	justify-content: space-between;
     margin-bottom: 5px;
@@ -450,7 +450,7 @@ stroke-dasharray: 100;
 
 .progressbar-text{
 	position:relative;
-	top:-10px;
+	top:-12px;
 	color:grey;
 	padding:0;
 	border:0;
