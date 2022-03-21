@@ -518,20 +518,19 @@ stroke-dasharray: 100;
 
 #descr_exp{
 	position:relative;
-
 	}
-	
-#descr_exp{
-	position:relative;
 
-	}
-	
+#anno{
+
+
+}
+
 #descr_list{
 	 text-align: justify;
 	text-justify: inter-word;
 	max-width: 75%;
 	}
-	#descr_list-xs{
+#descr_list-xs{
 	 text-align: justify;
 	text-justify: inter-word;
 	max-width: 95%;
@@ -539,17 +538,18 @@ stroke-dasharray: 100;
 .experience h4{
 	position:relative;
 	float:right;
+
+
 }
+
 
 .experience{
 	position:relative;
-	float:right;
-}
+	float:left;
 
-.experience{
-margin:0;
-padding:0px;
+padding:10px;
 height:20em;
+width:100%;
 overflow-y: scroll;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
