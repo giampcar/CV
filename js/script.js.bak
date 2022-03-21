@@ -11,7 +11,7 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel,10000); // Change image every 2 seconds
+  setTimeout(carousel,3000); // Change image every 2 seconds
 }
 
 
@@ -24,14 +24,13 @@ function carousel_1() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel_1, 10000); // Change image every 2 seconds
-  setTimeout(carousel_1, 10000); // Change image every 2 seconds
+  setTimeout(carousel_1, 2000); // Change image every 2 seconds
 }
 
 
 
 var counterContainer = document.querySelector(".website-counter");
-var resetButton = document.querySelector("#reset");
+// var resetButton = document.querySelector("#reset");
 var visitCount = localStorage.getItem("page_view");
 
 // Check if page_view entry is present
@@ -45,8 +44,8 @@ if (visitCount) {
 counterContainer.innerHTML = visitCount;
 
 // Adding onClick event listener
-resetButton.addEventListener("click", () => {
-  visitCount = 1;
-  localStorage.setItem("page_view", 1);
-  counterContainer.innerHTML = visitCount;
-});
+// resetButton.addEventListener("click", () => {
+//   visitCount = 1;
+//   localStorage.setItem("page_view", 1);
+//   counterContainer.innerHTML = visitCount;
+// });
