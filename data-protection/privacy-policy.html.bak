@@ -1,0 +1,1128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Giampaolo Carducci</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap" rel="stylesheet" type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+
+		
+<link rel="icon" href="images\favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="images\favicon.ico" type="image/x-icon" />
+	    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9YDV0XJ3GE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9YDV0XJ3GE');
+</script>
+	
+  </head>
+  
+  
+<body 	onload="checkCookie()"	class= "container-fluid center">
+  <header>
+
+ 
+
+
+
+   <nav id="title" class="navbar navbar-default container-fluid">
+	
+	<nav id="header-nav" class=" navbar-default ">
+	 <div id="contenitore_button" class="container-fluid">
+	  <button id="menu-button" type="button" class="navbar-toggle collapsed  visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+     </div>
+	 <div id="collapsable-nav" class="collapse navbar-collapse, visible-xs, .d-{sm,md,lg,xl}-block ">
+		<ul id="nav-list" class="nav, navbar-nav, visible-xs ">
+		    <hr>
+			
+			<li><a href="../Index.html"><span class="nav-text">Home</span></a></li>
+		   <hr>
+		   <li><a href="#esperienza-lavorativa-xs"><span class="nav-text">Experiences</span></a></li>
+		   <hr>
+		   <li><a href="#studi-xs"><span class="nav-text">Studies and publications</span></a></li>
+			 <hr>
+		   <li><a href="#blog-xs"><span class="nav-text">Blog</span></a></li>
+			 <hr>
+		   <li><a href="#contatti-xs"><span class="nav-text">Contacts</span></a></li>
+			<hr>
+		</ul>
+	 </div><!-- .collapse .navbar-collapse -->
+    </nav><!-- #header-nav -->
+
+<!-- MENU LATO DX - attivo fino a xs -->
+
+ <div class="raw hidden-xs"><!-- RIGA CONTENENTE LE 3 COLONNE - nascosto a xs -->
+	
+ 
+ 
+  <div id="riepilogo" class="container-fluid  col-lg-3 col-md-4 col-sd-12">
+	<div id="photo_container" class="container-fluid">
+			<div id="photo_1" class="container-fluid"></div>
+			<div id="Nome" class="container-fluid"><a><h4>Giampaolo Carducci</h4></a></div>
+			<div id="Descr_gen" class="container-fluid"><a><h5>Environmental Engineer</h5></a></div>
+			<div id="Contacts" class="container-fluid">
+				<ul>
+					<li class="table-multi">
+						<a id= "CH_num" href="tel:+41788223025" target="_blank" class="fa fa-phone-square"><sub>CH</sub></a>
+						<a id= "Mail" href="mailto:giampaolo.carducci@gmail.com" target="_blank" class="fa fa-envelope"></i></a>
+						<a id= "It_num" href="tel:+393339217550" target="_blank" class="fa fa-phone-square"><sub>IT</sub></a>
+					</li>
+				</ul>
+			</div>
+	</div>
+	
+	
+	<!-- START SCROLLING OVERBOX -->
+	<div id="scroll-left" class="container-fluid"><!-- START SCROLLING -->
+	   <div><hr></div>
+		<div id="info" class="container-fluid">
+	
+			<ul>
+				<li class="table_sample">
+					<h5 class="bold">Nationality:</h5>
+					<span><h5>Italian</h5></span>
+				</li>
+				<li class="table_sample">
+					<h5 class="bold">Residence:</h5>
+					<span><h5>Lyss</h5></span>
+				</li>
+			</ul>
+		</div>
+		
+   <div><hr></div>
+   	<div class="art-lang-skills p-30-15">
+	<div class="art-lang-skills-item">
+		<div id="circleprog1-1" data-type="circles" data-value="100" class="art-cirkle-progress art-skills-progress" style="position: relative;">
+		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 292.273, 292.273; stroke-dashoffset: 0;"></path>
+		</svg>
+		
+		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%)">100</div>
+		</div><h6>Italian</h6>
+		
+		</div>
+		
+	<div class="art-lang-skills-item">
+	<div id="circleprog1-2" data-type="circles" data-value="50" class="art-cirkle-progress art-skills-progress" style="position: relative;">
+		
+		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 100;"></path>
+		</svg>
+		
+		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%)">90</div>
+	</div><h6>English</h6>
+	</div>
+	<div class="art-lang-skills-item"><div id="circleprog1-3" data-type="circles" data-value="70" class="art-cirkle-progress art-skills-progress" style="position: relative;">
+		
+		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 270;"></path>
+		</svg>
+		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%);">25</div>
+		</div><h6>French</h6>
+	</div>
+		<div class="art-lang-skills-item"><div id="circleprog1-3" data-type="circles" data-value="70" class="art-cirkle-progress art-skills-progress" style="position: relative;">
+		
+		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 320;"></path>
+		</svg>
+		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); ">10</div>
+		</div><h6>German</h6>
+	</div>
+	
+
+		
+		
+	</div>	
+		
+     <div><hr></div>
+   
+   <div class="skills_container">
+   
+   <!-- SKILLS LEFT -->
+   <div class="skills_left ">
+	<div class="skills-item">
+		<div class="skill-heading">
+			<h6>Construction supervision - CSA</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="95" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">95%</div>
+			</div>
+		</div>
+	</div>
+	<div class="skills-item">
+		<div class="skill-heading">
+			<h6>Machinery directive - 42/2006/EU - EKAS</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="95" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">95%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6>Life Science / Pharma</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="90" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">90%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6> Fire protection (VKF -SUVA)</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="90" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">90%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6> Javascript</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="25" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background-25" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-25"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">25%</div>
+			</div>
+		</div>
+	</div>
+ 	</div> <!-- END SKILLS LEFT -->
+	
+	   <!-- SKILLS RIGHT -->
+	   <div class="skills_right">
+	<div class="skills-item">
+		<div class="skill-heading">
+			<h6>Clean/Black Uilities CQV</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="95" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">95%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6>CAPEX - CAPA - Deviations</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="75" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-75"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">75%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6>GMP - GDP - GxP</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="90" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">90 %</div>
+			</div>
+		</div>
+	</div>
+	<div class="skills-item">
+		<div class="skill-heading">
+			<h6>Risk analysis – 12100:2010</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="90" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">90%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6>HTML - CSS</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="65" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-65"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">65%</div>
+			</div>
+		</div>
+	</div>
+
+ 	</div> 
+	
+
+	<!-- END SKILLS RIGHT -->
+
+	
+   </div>
+
+	
+	</div> <!-- STOP SCROLLING OVERBOX -->
+	
+   		<div id="CV-download" class="container-fluid"> 
+	
+			<ul>
+				<li class="table_sample">
+					<button class="button "><a href="images/CV_G_Carducci_2022.pdf" target="_blank" ><span class="glyphicon glyphicon-cloud-download"> Curriculum Vitae</span ></a></button>
+
+				</li>
+<li class="table-multi">
+					<a id= "linkedin" href="https://www.linkedin.com/in/giampaolocarducci/" target="_blank" class="fa fa-linkedin"></a>
+					<a id= "github" href="https://github.com/giampcar" target="_blank" class="fa fa-github"></a>
+					<a id= "facebook" href="https://www.facebook.com/giampaolo.carducci" target="_blank" class="fa fa-facebook"></a>
+					<a id= "skype" href="skype:carducci_89@live.it" target="_skype" class="fa fa-skype"></a>
+					<a id= "instagram" href="https://www.instagram.com/giamp_/" target="_blank" class="fa fa-instagram"></a>
+					<a id= "twitter" href="REFERNECE NOT WORKING" target="_blank" class="fa fa-twitter"></a>
+				</li>
+				  </ul>
+		</div>	
+</div>
+
+
+  <!-- END FIRST COLUMN LEFT -->
+    
+  
+  
+ <div id="main-content" class="container-fluid  col-lg-9 col-md-8 col-sd-12 ">
+	<div id="photo_2" class="container-fluid w3-content w3-section w3-center">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/2.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/7.jpg">
+			<img class="mySlides w3-animate-right" src="./images/slideshow_1/11.jpg">
+	</div>
+		<div id="photo_3" class="container-fluid w3-content w3-section w3-center">
+			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/1.jpg">
+			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/5.jpg">
+			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/7.jpg">
+			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/9.jpg">
+			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/10.jpg">
+			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/11.jpg">
+	</div>
+				<div><hr></div>
+				
+<div class="widget-container">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sd-12">
+				<div class="section-title">
+					<div id="esperienza-lavorativa" class="title-frame"><h2 class="title bold"> <span> Experiences </span></h2></div>
+						<div  class="experience">
+							<ul id="descr_exp" class="container-fluid, hidden-xs"><h3>CSL Behring – Lengnau (BE) <a id="maps" target="_blank" href="https://www.cslbehring.ch/uber-uns/standort-lengnau" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">	Mar 2020 – Dec 2021 </h4><h5 class="bold">	Role: <span> CSA Handover Engineer</span> </h5><h5 class="bold">Key responsibilities: </h5>
+								<li id="descr_list">
+								<p> Civil-Structural-Architectural Handover Engineer (administrative, Labs, production and classified clean room (E-D-C) areas)</p>
+								<p> QA/QC civil department. Definition of standard documentation for clean rooms and labs. </p>
+								<p> Work and contractors supervision. Direct interface with client for revamping/changes requests, local contractors management and internal QA/QC audit on executed works.</p>
+								<p> Responsible for quality, schedule, costs of all assigned CSA sub-systems. CSA completion walk-downs and safety walk-downs execution.</p>
+								<p> Integral test planner and executor for final building occupancy // Inspections with GVB for final building acceptance </p>
+								<p> Fire protection requirements construction supervisor</p>
+								<hr>								
+								</li>
+								<div id="timebar_1" class="container-fluid"></div><div id="timebardot_1" class=" fa fa-angle-double-down"></div>
+							</ul>
+							<ul id="descr_exp" class="container-fluid, visible-xs"><h3>CSL Behring – Lengnau (BE) <a id="maps" target="_blank" href="https://www.cslbehring.ch/uber-uns/standort-lengnau" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">	Mar 2020 – Dec 2021 </h4><h5 class="bold">	Role: <span> CSA Handover Engineer</span> </h5><h5 class="bold">Key responsibilities: </h5>
+								<li id="descr_list-xs">
+								<p> Civil-Structural-Architectural Handover Engineer (administrative, Labs, production and classified clean room (E-D-C) areas)</p>
+								<p> QA/QC civil department. Definition of standard documentation for clean rooms and labs. </p>
+								<p> Work and contractors supervision. Direct interface with client for revamping/changes requests, local contractors management and internal QA/QC audit on executed works.</p>
+								<p> Responsible for quality, schedule, costs of all assigned CSA sub-systems. CSA completion walk-downs and safety walk-downs execution.</p>
+								<p> Integral test planner and executor for final building occupancy // Inspections with GVB for final building acceptance </p>
+								<p> Fire protection requirements construction supervisor</p>
+								<hr>								
+								</li>
+							</ul>
+							
+							<ul id="descr_exp" class="container-fluid"><h3>Biogen – Solothurn (SO) <a id="maps" target="_blank" href="https://www.biogen-solothurn.ch/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">Aug 2018 – March 2020</h4> <h5 class="bold">Role: <span>Construction Engineer // Machinery and PED directive</span>  <h5 class="bold">	Key responsibilities: </h5>
+								<li id="descr_list">
+								<p>Coordination of all process relevant activities incl. review and approve process engineering specifications, including process piping & instrumentation diagrams (P&IDs), datasheets, and procurement packages for quipment and systems.</p>
+								<p>Close collaboration with all project discipline (incl. Contactors), key Project & Site stakeholders and project managers.</p>
+								<p>Interface with stakeholders to ensure the design execution and delivery are in accordance with Global Engineering, Quality, Environmental and Safety procedures.</p>
+								<p>Integral test planner and executor for final building occupancy.</p>
+								<p>Inspections with SGV, AWA/SUVA, AfU for final building acceptance (fire protection approval for the building insurance, environmental office and work insurance department)</p>
+								<p>Fire protection requirements construction supervisor (QS brandschutz support).</p>
+								<p>Compliance supervision according to local and European fire protection directives (VKF/AEAI – FM global for sprinkler system).</p>
+								<p>TUV Sud Basel consultant support on machinery directive procedures for documental compliance with MD 2006/42/EC and 2014/68/EU and EKAS requirements.</p>
+								<p>Scheduler and coordinator for cantonal inspections (AWA, SUVA, SGV, FM global, AfU).</p>
+								<p>Lightning protection system coordination for final cantonal approval.</p>
+								<hr>	
+								</li>
+								<div id="timebar_2" class="container-fluid"> </div><div id="timebardot_1" class=" fa fa-angle-double-down"></div>
+							</ul>
+							<ul id="descr_exp" class="container-fluid"><h3>GSK vaccines – Siena (ITALY)<a id="maps" target="_blank" href="https://it.gsk.com/it-it/home/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">Nov 2016 – Aug 2018</h4><h5 class="bold">Role: <span>Engineering-process consultant // CQV Clean Utilities and Maintenance</span>  <h5 class="bold">	Key responsibilities: </h5>
+								<li id="descr_list">
+									<p>URS definition for clean utilities production plant revamping (Ultrafiltration system, Softened water system, Purified water system (double stage reverse osmosis equipment ), Water for injection (5 stages distillator equipment), clean steam generator. Clean gasses (CO2, O2, N2, He) storage and distribution.</p>
+									<p>Clean utilities installation (FAT/SAT) and qualification (IQ,OQ) execution and supervision. </p>
+									<p>Instrument calibration planning and supervision (support to relevant project manager)- Key validator for temperature mapping.</p>
+									<p>Performance qualification (PQ) supervision, GMP deviations and gap assessment execution for all the equipment and relevant mechanical interconnections related to the clean utilities mentioned above according to GMP, FDA and AIFA requirements. </p>
+									<p>Commissioning supervision. PW (purified water), WFI (water for injection) loops sanification process tuning during IQ-OQ using Delta-V and OSI PI software.</p>
+									<p>Monitor external service providers, participate in internal audits, and serve as SME for production issues.</p>
+									<p>Capture and maintain consistent data on technical systems (spare parts lists, operating instructions, Clean utilities SOPs creation, technical documentation request and revision)</p>
+									<p>Clean utilities maintenance department : activity planner, Start up/shut down scheduler, spare part list creation and client support with vendors’/suppliers’ contact for ordinary and not-ordinary maintenance.</p>
+								<hr>	
+								</li>
+								<div id="timebar_3" class="container-fluid"> </div><div id="timebardot_1" class="fa fa-angle-double-down"></div>
+							</ul>
+							<ul id="descr_exp" class="container-fluid"><h3>Pharmaceutical, Chemical, Food and Mechanical companies <a id="maps" target="_blank" href="https://www.amengineering.it/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">Jan 2016 – Nov 2016 </h4> <h5 class="bold">Role: <span>Engineering-process consultant // Machinery and PED directive</span>  <h5 class="bold">	Key responsibilities: </h5>
+								<li id="descr_list">
+								<p> Pressurized equipment compliance check with D.M. 329/2004, 97/32/CE (P.E.D.) and D.Lgs. 26/2016 – ISO 9001 and 2014/68/EU. </p>
+								<p> Equipment and assembly of machineries authorities registration according to D.Lgs. 17/2010.</p>
+								<p> Compliance, design and revamping of pressurized equipment (ASTM e ISPESL directives, ASME for piping and equimpent).</p>
+								<p> Operating manuals creation for equipment according to machinery directive (D.Lgs 17/2010) and 2006/42/ European directive.</p>
+								<p> Execution of risk analysis according to local D.Lgs. (81/2008) and EN 12100.</p>
+								<hr>	
+								</li>
+								<div id="timebar_4" class="container-fluid"></div><div id="timebardot_1" class="fa fa-angle-double-down"></div>
+							</ul>
+						</div>
+						<div><hr></div>
+				
+				</div>
+			</div>
+			
+			<div class="col-lg-12 col-md-12 col-sd-12">
+	<div><hr id="intra"></div>						
+				<div class="section-title-2">
+					<div id="studi"  class="title-frame"><h2 class="title bold"> <span> Studies and publications </span></h2></div>
+					<div class="experience">
+					
+							<ul id="descr_exp" class="container-fluid"><h4 id="anno" class="bold">Jan 2018</h4>
+								<li id="descr_list">
+								<p><i class="fa fa-graduation-cap"></i> Seminary - Treatment of water in heating systems and sanitary circuits according to current legislation as a tool for energy efficiency </p>
+																	
+								</li>
+								<hr class="bar-studi">	
+							</ul>
+
+							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Dec	2015</h4>
+								<li id="descr_list-xs">
+									<p><i id="stud" class="fa fa-graduation-cap"></i> Master degree on Environmental engineering [LM-35]</p>
+									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Università degli studi dell'Aquila</p>								
+									<p><i id="stud" class="fa fa-university"></i> 110/110</p>
+									<p><i id="stud"><a href="images/2015_Carducci.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> Numerical model for the characterization of the downstream jet of ski jump spillways</i></a></p>
+							
+								</li>
+							<hr class="bar-studi">	
+							</ul>
+							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Jan	2015</h4>
+								<li id="descr_list-xs">
+									<p>Trainer .Tech Training Course</p>
+									<hr class="bar-studi">									
+								</li>
+							</ul>
+							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Mar 2013</h4>
+								<li id="descr_list-xs">
+									<p><i id="stud" class="fa fa-graduation-cap"></i> Bachelor degree in Environmental Engineering</p>
+									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Università degli studi dell'Aquila</p>								
+									<p><i id="stud" class="fa fa-university"></i> 101/110</p>
+									<p><i id="stud"><a href="images/Tesi_triennale.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> River transport of pollutants. Case of study: Sacco river in Colleferro (RM)</i></a></p>									
+						
+								</li>
+							<hr class="bar-studi">									
+							</ul>	
+							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Jun 2008</h4>
+								<li id="descr_list-xs">
+									<p><i id="stud" class="fa fa-graduation-cap"></i> High scool diploma</p>
+									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Liceo Scientifico F.Severi (FR)</p> 							
+									<p><i id="stud" class="fa fa-university"></i> 72/110</p>
+								</li>
+							<hr class="bar-studi">									
+							</ul>
+							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Mar 2006</h4>
+								<li id="descr_list-xs">
+									<p><i id="stud" class="fa fa-graduation-cap"></i>Swim teacher - 1<sup>st</sup> level</p>
+									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> F.I.N. Roma</p>
+								</li>
+							<hr class="bar-studi">										
+							</ul>							
+							
+						</div>
+				</div>
+			</div>
+			<div class="col-lg-12 col-md-12 col-sd-12">
+	<div><hr id="intra"></div>	
+				<div class="section-title-3">
+					<div id="blog"  class="title-frame"><h2 class="title bold"> <span> Blog </span></h2></div>
+					<div class="experience">
+								<ul id="descr_exp" class="container-fluid"><h3>Page in progress...</h3><i class="fa  fa-refresh w3-spin"></i>	
+								
+								
+							</ul>
+							
+							
+						</div>
+				</div>
+			</div>
+
+			<div class="col-lg-12 col-md-12 col-sd-12">
+	<div><hr id="intra"></div>	
+				<div class="section-title">
+					<div  id="contatti" class="title-frame"><h2 class="title bold"> <span> Contacts </span></h2></div>
+					<div class="experience">
+							<div id="Contacts" class="container-fluid">
+							<ul>
+								<li class="table-multi">
+									<a id= "CH_num" href="tel:+41788223025" target="_blank" class="fa fa-phone-square"><sub>CH</sub></a>
+									<a id= "Mail" href="mailto:giampaolo.carducci@gmail.com" target="_blank" class="fa fa-envelope"></i></a>
+									<a id= "It_num" href="tel:+393339217550" target="_blank" class="fa fa-phone-square"><sub>IT</sub></a>
+								</li>
+							</ul>
+							</div>
+							
+							
+						</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+</div>
+	<div><hr id="intra"></div>	
+
+	<!-- 		<div class="col-lg-12">
+				<div class="section-title">
+					<div class="title-frame"><h4 class="title"> <span> Get in touch </span></h4></div>
+				</div>
+			</div>
+			SEND EMAIL FORM
+			<div id="identifica" class="container-fluid col-lg-4 col-md-4 col-sd-4-xs-4">
+				<div class="card container-fluid">
+					<div role="form" id="wpcf7-f80-p177-o1" lang="en-US" dir="ltr">
+					<form action="mailto:giampaolo.carducci@gmail.com" method="post"  novalidate="novalidate" data-status="init">
+						<div class="contact-form ">
+							<div class="form-field container-fluid col-lg-12 col-md-12 col-sd-12 col-xs-12"> 
+								<div id="form-icon"><label><i class="fa fa-user"></i></label></div>
+								<div id="form-text"  class="form-icon"><span class="your-name">
+									<input type="text" name="your-name" value="" size="auto" aria-required="true" aria-invalid="false" placeholder="Name">
+								</span></div>
+								
+							</div>
+							<div class="form-field container-fluid col-lg-12 col-md-12 col-sd-12 col-xs-12"> 
+								<div id="form-icon"><label><i class="fa fa-at"></i></label></div>
+								<div id="form-text"  class="form-icon"><span>
+									<input type="email" name="your-email" value="" size="auto" aria-required="true" aria-invalid="false" placeholder="Email">
+															</span></div>
+															
+													</div>
+													<div class="form-field container-fluid col-lg-12 col-md-12 col-sd-12 col-xs-12">
+														<div id="form-icon"><label><i class="fa fa-envelope"></i></label></div>
+														<div id="form-text"  class="form-icon"><span>
+															<textarea name="your-message" cols="auto" rows="3" aria-required="true" aria-invalid="false" placeholder="Message"></textarea>
+															</span></div>
+															
+													</div>
+													<div class="submit-frame container-fluid">
+														<button class="submit-email" type="submit">
+															<span>Send message</span>
+														</button>
+													</div>
+												</div>
+												<div class="wpcf7-response-output" aria-hidden="true">
+												</div>
+											</form>
+										</div>
+									</div>
+								</div> -->
+	
+ </div>
+ 
+<div id="mySidebar" class="sidebar w3-animate-l">
+ 	<div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
+  <button onclick="closeRightMenu()" class="w3-bar-item w3-button fa fa-sliders"></button>
+			<li>
+			<a href="../Index.html">
+			<span class="nav-text">Home</span>
+			</a>
+			<a href="#esperienza-lavorativa">
+			<span class="nav-text">Experiences</span>
+			</a>
+ 			<a href="#studi">
+			<span class="nav-text">Studies and Publications</span>
+			</a>
+			<a href="#blog">
+			<span class="nav-text">Blog</span>
+			</a>
+			<a href="#contatti">
+			<span class="nav-text">Contacts</span>
+			</a>
+			</li>
+</div>
+
+<div>
+  <button id="apri" class="w3-button w3-right fa fa-align-justify" onclick="openRightMenu()"</button>
+
+</div>
+</div>
+
+
+ 
+ 
+ 
+ 
+</div>
+
+
+
+
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+  <!-- *********    VISIBLE ONLY XS - START BELOW -->  
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+
+
+ <div class="raw visible-xs "><!-- RIGA CONTENENTE LE 3 COLONNE - nascosto a xs -->
+ 
+ 
+  <div id="riepilogo_xs" class="container-fluid ">
+	<div id="photo_container_xs" class="container-fluid">
+			<div id="photo_1" class="container-fluid"></div>
+			<div id="Nome" class="container-fluid"><a><h4>Giampaolo Carducci</h4></a></div>
+			<div id="Descr_gen" class="container-fluid"><a><h5>Environmental Engineer</h5></a></div>
+			<div id="Contacts" class="container-fluid">
+				<ul>
+					<li class="table-multi">
+						<a id= "CH_num" href="tel:+41788223025" target="_blank" class="fa fa-phone-square"><sub>CH</sub></a>
+						<a id= "Mail" href="mailto:giampaolo.carducci@gmail.com" target="_blank" class="fa fa-envelope"></i></a>
+						<a id= "It_num" href="tel:+393339217550" target="_blank" class="fa fa-phone-square"><sub>IT</sub></a>
+					</li>
+				</ul>
+			</div>
+	</div>
+	
+	
+	<!-- START SCROLLING OVERBOX -->
+	<div id="scroll-left" class="container-fluid"><!-- START SCROLLING -->
+	   <div><hr></div>
+		<div id="info" class="container-fluid">
+	
+			<ul>
+				<li class="table_sample">
+					<h5 class="bold">Nationality:</h5>
+					<span><h5>Italian</h5></span>
+				</li>
+				<li class="table_sample">
+					<h5 class="bold">Residence:</h5>
+					<span><h5>Lyss</h5></span>
+				</li>
+			</ul>
+		</div>
+		
+   <div><hr></div>
+   	<div class="art-lang-skills p-30-15">
+	<div class="art-lang-skills-item">
+		<div id="circleprog1-1" data-type="circles" data-value="100" class="art-cirkle-progress art-skills-progress" style="position: relative;">
+		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 292.273, 292.273; stroke-dashoffset: 0;"></path>
+		</svg>
+		
+		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%)">100</div>
+		</div><h6>Italian</h6>
+		
+		</div>
+		
+	<div class="art-lang-skills-item">
+	<div id="circleprog1-2" data-type="circles" data-value="50" class="art-cirkle-progress art-skills-progress" style="position: relative;">
+		
+		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 100;"></path>
+		</svg>
+		
+		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%)">90</div>
+	</div><h6>English</h6>
+	</div>
+	<div class="art-lang-skills-item"><div id="circleprog1-3" data-type="circles" data-value="70" class="art-cirkle-progress art-skills-progress" style="position: relative;">
+		
+		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 270;"></path>
+		</svg>
+		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%);">25</div>
+		</div><h6>French</h6>
+	</div>
+		<div class="art-lang-skills-item"><div id="circleprog1-3" data-type="circles" data-value="70" class="art-cirkle-progress art-skills-progress" style="position: relative;">
+		
+		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 320;"></path>
+		</svg>
+		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); ">10</div>
+		</div><h6>German</h6>
+	</div>
+	
+
+		
+		
+	</div>	
+		
+     <div><hr></div>
+   
+   <div class="skills_container">
+   
+   <!-- SKILLS LEFT -->
+   <div class="skills_left ">
+	<div class="skills-item">
+		<div class="skill-heading">
+			<h6>Construction supervision - CSA</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="95" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">95%</div>
+			</div>
+		</div>
+	</div>
+	<div class="skills-item">
+		<div class="skill-heading">
+			<h6>Machinery directive - 42/2006/EU - EKAS</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="95" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">95%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6>Life Science / Pharma</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="90" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">90%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6> Fire protection (VKF -SUVA)</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="90" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">90%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6> Javascript</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="25" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background-25" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-25"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">25%</div>
+			</div>
+		</div>
+	</div>
+ 	</div> <!-- END SKILLS LEFT -->
+	
+	   <!-- SKILLS RIGHT -->
+	   <div class="skills_right">
+	<div class="skills-item">
+		<div class="skill-heading">
+			<h6>Clean/Black Uilities CQV</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="95" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">95%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6>CAPEX - CAPA - Deviations</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="75" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-75"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">75%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6>GMP - GDP - GxP</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="90" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">90 %</div>
+			</div>
+		</div>
+	</div>
+	<div class="skills-item">
+		<div class="skill-heading">
+			<h6>Risk analysis – 12100:2010</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="90" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">90%</div>
+			</div>
+		</div>
+	</div>
+		<div class="skills-item">
+		<div class="skill-heading">
+			<h6>HTML - CSS</h6>
+		</div>
+		<div class="line-progress">
+			<div id="lineprog2-1" data-type="progress" data-value="65" >
+				<svg id="style-bar" viewBox="0 0 100 2"  >
+					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-65"d="M 0,0.86 L 100,0.86" ></path>
+				</svg>
+   				<div class="progressbar-text">65%</div>
+			</div>
+		</div>
+
+	</div>
+
+ 	</div> 
+	
+
+	<!-- END SKILLS RIGHT -->
+
+	
+	
+   </div>
+
+	
+	
+	</div> <!-- STOP SCROLLING OVERBOX -->
+	
+   		<div  class="container-fluid"> 
+	
+			<ul>
+				<li  class="table_sample">
+					<button id="CV-download" class="button "><a href="images/CV_G_Carducci_2022.pdf" target="_blank" ><span class="glyphicon glyphicon-cloud-download"> Curriculum Vitae</span ></a></button>
+					 
+				</li>
+<li class="table-multi-social">
+					<a id= "linkedin" href="https://www.linkedin.com/in/giampaolocarducci/" target="_blank" class="fa fa-linkedin"></a>
+					<a id= "github" href="https://github.com/giampcar" target="_blank" class="fa fa-github"></a>
+					<a id= "facebook" href="https://www.facebook.com/giampaolo.carducci" target="_blank" class="fa fa-facebook"></a>
+					<a id= "skype" href="skype:carducci_89@live.it" target="_skype" class="fa fa-skype"></a>
+					<a id= "instagram" href="https://www.instagram.com/giamp_/" target="_blank" class="fa fa-instagram"></a>
+					<a id= "twitter" href="REFERNECE NOT WORKING" target="_blank" class="fa fa-twitter"></a>
+				</li>
+				  </ul>
+		</div>	
+</div>
+
+
+  <!-- END FIRST COLUMN LEFT -->
+    
+  
+
+ <div id="main-content_xs" class="container-fluid">
+	
+
+				
+<div class="widget-container">
+	<div class="container-fluid">
+		<div class="row">
+			<div>
+				<div class="section-title">
+					<div id="esperienza-lavorativa-xs" class="title-frame"><h2 class="title bold"> <span> Experiences </span></h2></div>
+						<div  class="experience">
+							<ul id="descr_exp" class="container-fluid"><h3>CSL Behring – Lengnau (BE) <a id="maps" target="_blank" href="https://www.cslbehring.ch/uber-uns/standort-lengnau" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold_xs">	Mar 2020 – Dec 2021 </h4><h5 class="bold">	Role: <span> CSA Handover Engineer</span> </h5><h5 class="bold">Key responsibilities: </h5>
+								<li id="descr_list-xs">
+								<p> Civil-Structural-Architectural Handover Engineer (administrative, Labs, production and classified clean room (E-D-C) areas)</p>
+								<p> QA/QC civil department. Definition of standard documentation for clean rooms and labs. </p>
+								<p> Work and contractors supervision. Direct interface with client for revamping/changes requests, local contractors management and internal QA/QC audit on executed works.</p>
+								<p> Responsible for quality, schedule, costs of all assigned CSA sub-systems. CSA completion walk-downs and safety walk-downs execution.</p>
+								<p> Integral test planner and executor for final building occupancy // Inspections with GVB for final building acceptance </p>
+								<p> Fire protection requirements construction supervisor</p>
+								<hr>								
+								</li>
+							</ul>
+							
+							<ul id="descr_exp" class="container-fluid"><h3>Biogen – Solothurn (SO) <a id="maps" target="_blank" href="https://www.biogen-solothurn.ch/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold_xs">Aug 2018 – March 2020</h4> <h5 class="bold">Role: <span>Construction Engineer // Machinery and PED directive</span>  <h5 class="bold">	Key responsibilities: </h5>
+								<li id="descr_list-xs">
+								<p>Coordination of all process relevant activities incl. review and approve process engineering specifications, including process piping & instrumentation diagrams (P&IDs), datasheets, and procurement packages for quipment and systems.</p>
+								<p>Close collaboration with all project discipline (incl. Contactors), key Project & Site stakeholders and project managers.</p>
+								<p>Interface with stakeholders to ensure the design execution and delivery are in accordance with Global Engineering, Quality, Environmental and Safety procedures.</p>
+								<p>Integral test planner and executor for final building occupancy.</p>
+								<p>Inspections with SGV, AWA/SUVA, AfU for final building acceptance (fire protection approval for the building insurance, environmental office and work insurance department)</p>
+								<p>Fire protection requirements construction supervisor (QS brandschutz support).</p>
+								<p>Compliance supervision according to local and European fire protection directives (VKF/AEAI – FM global for sprinkler system).</p>
+								<p>TUV Sud Basel consultant support on machinery directive procedures for documental compliance with MD 2006/42/EC and 2014/68/EU and EKAS requirements.</p>
+								<p>Scheduler and coordinator for cantonal inspections (AWA, SUVA, SGV, FM global, AfU).</p>
+								<p>Lightning protection system coordination for final cantonal approval.</p>
+								<hr>	
+								</li>
+							</ul>
+							<ul id="descr_exp" class="container-fluid"><h3>GSK vaccines – Siena (ITALY)<a id="maps" target="_blank" href="https://it.gsk.com/it-it/home/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold_xs">Nov 2016 – Aug 2018</h4><h5 class="bold">Role: <span>Engineering-process consultant // CQV Clean Utilities and Maintenance</span>  <h5 class="bold">	Key responsibilities: </h5>
+								<li id="descr_list-xs">
+									<p>URS definition for clean utilities production plant revamping (Ultrafiltration system, Softened water system, Purified water system (double stage reverse osmosis equipment ), Water for injection (5 stages distillator equipment), clean steam generator. Clean gasses (CO2, O2, N2, He) storage and distribution.</p>
+									<p>Clean utilities installation (FAT/SAT) and qualification (IQ,OQ) execution and supervision. </p>
+									<p>Instrument calibration planning and supervision (support to relevant project manager)- Key validator for temperature mapping.</p>
+									<p>Performance qualification (PQ) supervision, GMP deviations and gap assessment execution for all the equipment and relevant mechanical interconnections related to the clean utilities mentioned above according to GMP, FDA and AIFA requirements. </p>
+									<p>Commissioning supervision. PW (purified water), WFI (water for injection) loops sanification process tuning during IQ-OQ using Delta-V and OSI PI software.</p>
+									<p>Monitor external service providers, participate in internal audits, and serve as SME for production issues.</p>
+									<p>Capture and maintain consistent data on technical systems (spare parts lists, operating instructions, Clean utilities SOPs creation, technical documentation request and revision)</p>
+									<p>Clean utilities maintenance department : activity planner, Start up/shut down scheduler, spare part list creation and client support with vendors’/suppliers’ contact for ordinary and not-ordinary maintenance.</p>
+								<hr>	
+								</li>
+							</ul>
+							<ul id="descr_exp" class="container-fluid"><h3>Pharmaceutical, Chemical, Food and Mechanical companies <a id="maps" target="_blank" href="https://www.amengineering.it/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold_xs">Jan 2016 – Nov 2016 </h4> <h5 class="bold">Role: <span>Engineering-process consultant // Machinery and PED directive</span>  <h5 class="bold">	Key responsibilities: </h5>
+								<li id="descr_list-xs">
+								<p> Pressurized equipment compliance check with D.M. 329/2004, 97/32/CE (P.E.D.) and D.Lgs. 26/2016 – ISO 9001 and 2014/68/EU. </p>
+								<p> Equipment and assembly of machineries authorities registration according to D.Lgs. 17/2010.</p>
+								<p> Compliance, design and revamping of pressurized equipment (ASTM e ISPESL directives, ASME for piping and equimpent).</p>
+								<p> Operating manuals creation for equipment according to machinery directive (D.Lgs 17/2010) and 2006/42/ European directive.</p>
+								<p> Execution of risk analysis according to local D.Lgs. (81/2008) and EN 12100.</p>
+								<hr>	
+								</li>
+							</ul>
+						</div>
+						<div><hr></div>
+				
+				</div>
+			</div>
+			
+			<div>
+				
+				<div class="section-title-2">
+					<div id="studi-xs"  class="title-frame"><h2 class="title bold"> <span>Studies</span></h2></div>
+					<div class="experience">
+					
+							<ul id="descr_exp" class="container-fluid"><h4 id="anno" class="bold_modified">Jan 2018</h4>
+								<li id="descr_list">
+								<p><i class="fa fa-graduation-cap"></i> Seminary - Treatment of water in heating systems and sanitary circuits according to current legislation as a tool for energy efficiency </p>
+																	
+								</li>
+								<hr class="bar-studi">	
+							</ul>
+
+							<ul id="descr_exp" class="container-fluid"><h4 class="bold_modified">Dec	2015</h4>
+								<li id="descr_list-xs">
+									<p><i id="stud" class="fa fa-graduation-cap"></i> Master degree on Environmental engineering [LM-35]</p>
+									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Università degli studi dell'Aquila</p>								
+									<p><i id="stud" class="fa fa-university"></i> 110/110</p>
+									<p><i id="stud"><a href="images/2015_Carducci.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> Numerical model for the characterization of the downstream jet of ski jump spillways</i></a></p>
+							
+								</li>
+							<hr class="bar-studi">	
+							</ul>
+							<ul id="descr_exp" class="container-fluid"><h4 class="bold_modified">Jan	2015</h4>
+								<li id="descr_list-xs">
+									<p>Trainer .Tech Training Course</p>
+									<hr class="bar-studi">									
+								</li>
+							</ul>
+							<ul id="descr_exp" class="container-fluid"><h4 class="bold_modified">Mar 2013</h4>
+								<li id="descr_list-xs">
+									<p><i id="stud" class="fa fa-graduation-cap"></i> Bachelor degree in Environmental Engineering</p>
+									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Università degli studi dell'Aquila</p>								
+									<p><i id="stud" class="fa fa-university"></i> 101/110</p>
+									<p><i id="stud"><a href="images/Tesi_triennale.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> River transport of pollutants. Case of study: Sacco river in Colleferro (RM)</i></a></p>									
+						
+								</li>
+							<hr class="bar-studi">									
+							</ul>	
+							<ul id="descr_exp" class="container-fluid"><h4 class="bold_modified">Jun 2008</h4>
+								<li id="descr_list-xs">
+									<p><i id="stud" class="fa fa-graduation-cap"></i> High scool diploma</p>
+									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Liceo Scientifico F.Severi (FR)</p> 							
+									<p><i id="stud" class="fa fa-university"></i> 72/110</p>
+								</li>
+							<hr class="bar-studi">									
+							</ul>
+							<ul id="descr_exp" class="container-fluid"><h4 class="bold_modified">Mar 2006</h4>
+								<li id="descr_list-xs">
+									<p><i id="stud" class="fa fa-graduation-cap"></i>Swim teacher - 1<sup>st</sup> level</p>
+									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> F.I.N. Roma</p>
+								</li>
+							<hr class="bar-studi">										
+							</ul>							
+							
+						</div>
+				</div>
+			</div>
+			<div>
+
+				<div class="section-title-3">
+
+					<div id="blog-xs"  class="title-frame"><h2 class="title bold"> <span> Blog </span></h2></div>
+					<div class="experience">
+							<ul id="descr_exp" class="container-fluid"><h3>Page in progress...</h3><i class="fa  fa-refresh w3-spin"></i>	
+								
+								
+							</ul>
+							
+							
+						</div>
+				</div>
+			</div>
+
+			<div>
+
+				<div class="section-title">
+					<div id="contatti-xs"  class="title-frame"><h2 class="title bold"> <span> Contacts </span></h2></div>
+					<div class="experience">
+							<div id="Contacts" class="container-fluid">
+							<ul>
+								<li class="table-multi">
+									<a id= "CH_num" href="tel:+41788223025" target="_blank" class="fa fa-phone-square"><sub>CH</sub></a>
+									<a id= "Mail" href="mailto:giampaolo.carducci@gmail.com" target="_blank" class="fa fa-envelope"></i></a>
+									<a id= "It_num" href="tel:+393339217550" target="_blank" class="fa fa-phone-square"><sub>IT</sub></a>
+								</li>
+							</ul>
+							</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+</div>
+				<div><hr></div>
+
+
+	
+ </div>
+ 
+ </div>
+
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+  <!-- *********    VISIBLE ONLY XS - END -->  
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+  <!-- ############################################################################### -->
+  
+
+ 
+</nav>
+</header>
+
+
+
+
+ 
+  
+   
+
+  
+
+  <footer class="panel-footer, container-fluid, text-center">
+	   <p><span id="footer"> &copy; Copyright G.Carducci - 2022	</span>
+						<div class="website-counter"></div>
+			<!-- 			<button id="reset">Reset</button>	-->	
+					</p>
+
+  <!-- PROVA FLOATING OBJECT 		
+	<div id="prova">
+	<a id= "github" 	ef="https://github.com/giampcar" target="_blank" class="fa fa-github-square"></a>
+	</div>
+		-->		
+
+
+			
+  </footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utils.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
