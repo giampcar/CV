@@ -1078,13 +1078,15 @@ margin:0;
     position: fixed!important;
 	color: white;
 	margin:10px;
+	left:94.5%;
 	}
 	
-#contenitore_button{
-	background-color:transparent;
-
-	z-index: 1;
+#apri:hover{
+	background-color:transparent!important;
+	color: purple!important;
 	}
+	
+
 
 
 #mySidebar{

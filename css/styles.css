@@ -1078,6 +1078,12 @@ margin:0;
     position: fixed!important;
 	color: white;
 	margin:10px;
+	left:94.5%;
+	}
+	
+#apri:hover{
+	background-color:transparent!important;
+	color: grey!important;
 	}
 	
 
