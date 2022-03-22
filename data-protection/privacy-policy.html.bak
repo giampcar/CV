@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Giampaolo Carducci</title>
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="./CV/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./CV/css/styles.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,1063 +34,170 @@
   
 <body 	onload="checkCookie()"	class= "container-fluid center">
   <header>
-
- 
-
-
-
-   <nav id="title" class="navbar navbar-default container-fluid">
-	
-	<nav id="header-nav" class=" navbar-default ">
-	 <div id="contenitore_button" class="container-fluid">
-	  <button id="menu-button" type="button" class="navbar-toggle collapsed  visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-     </div>
-	 <div id="collapsable-nav" class="collapse navbar-collapse, visible-xs, .d-{sm,md,lg,xl}-block ">
-		<ul id="nav-list" class="nav, navbar-nav, visible-xs ">
-		    <hr>
-			
-			<li><a href="../Index.html"><span class="nav-text">Home</span></a></li>
-		   <hr>
-		   <li><a href="#esperienza-lavorativa-xs"><span class="nav-text">Experiences</span></a></li>
-		   <hr>
-		   <li><a href="#studi-xs"><span class="nav-text">Studies and publications</span></a></li>
-			 <hr>
-		   <li><a href="#blog-xs"><span class="nav-text">Blog</span></a></li>
-			 <hr>
-		   <li><a href="#contatti-xs"><span class="nav-text">Contacts</span></a></li>
-			<hr>
-		</ul>
-	 </div><!-- .collapse .navbar-collapse -->
-    </nav><!-- #header-nav -->
-
-<!-- MENU LATO DX - attivo fino a xs -->
-
- <div class="raw hidden-xs"><!-- RIGA CONTENENTE LE 3 COLONNE - nascosto a xs -->
-	
- 
- 
-  <div id="riepilogo" class="container-fluid  col-lg-3 col-md-4 col-sd-12">
-	<div id="photo_container" class="container-fluid">
-			<div id="photo_1" class="container-fluid"></div>
-			<div id="Nome" class="container-fluid"><a><h4>Giampaolo Carducci</h4></a></div>
-			<div id="Descr_gen" class="container-fluid"><a><h5>Environmental Engineer</h5></a></div>
-			<div id="Contacts" class="container-fluid">
-				<ul>
-					<li class="table-multi">
-						<a id= "CH_num" href="tel:+41788223025" target="_blank" class="fa fa-phone-square"><sub>CH</sub></a>
-						<a id= "Mail" href="mailto:giampaolo.carducci@gmail.com" target="_blank" class="fa fa-envelope"></i></a>
-						<a id= "It_num" href="tel:+393339217550" target="_blank" class="fa fa-phone-square"><sub>IT</sub></a>
-					</li>
-				</ul>
-			</div>
-	</div>
-	
-	
-	<!-- START SCROLLING OVERBOX -->
-	<div id="scroll-left" class="container-fluid"><!-- START SCROLLING -->
-	   <div><hr></div>
-		<div id="info" class="container-fluid">
-	
-			<ul>
-				<li class="table_sample">
-					<h5 class="bold">Nationality:</h5>
-					<span><h5>Italian</h5></span>
-				</li>
-				<li class="table_sample">
-					<h5 class="bold">Residence:</h5>
-					<span><h5>Lyss</h5></span>
-				</li>
-			</ul>
-		</div>
-		
-   <div><hr></div>
-   	<div class="art-lang-skills p-30-15">
-	<div class="art-lang-skills-item">
-		<div id="circleprog1-1" data-type="circles" data-value="100" class="art-cirkle-progress art-skills-progress" style="position: relative;">
-		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 292.273, 292.273; stroke-dashoffset: 0;"></path>
-		</svg>
-		
-		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%)">100</div>
-		</div><h6>Italian</h6>
-		
-		</div>
-		
-	<div class="art-lang-skills-item">
-	<div id="circleprog1-2" data-type="circles" data-value="50" class="art-cirkle-progress art-skills-progress" style="position: relative;">
-		
-		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 100;"></path>
-		</svg>
-		
-		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%)">90</div>
-	</div><h6>English</h6>
-	</div>
-	<div class="art-lang-skills-item"><div id="circleprog1-3" data-type="circles" data-value="70" class="art-cirkle-progress art-skills-progress" style="position: relative;">
-		
-		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 270;"></path>
-		</svg>
-		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%);">25</div>
-		</div><h6>French</h6>
-	</div>
-		<div class="art-lang-skills-item"><div id="circleprog1-3" data-type="circles" data-value="70" class="art-cirkle-progress art-skills-progress" style="position: relative;">
-		
-		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 320;"></path>
-		</svg>
-		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); ">10</div>
-		</div><h6>German</h6>
-	</div>
-	
-
-		
-		
-	</div>	
-		
-     <div><hr></div>
-   
-   <div class="skills_container">
-   
-   <!-- SKILLS LEFT -->
-   <div class="skills_left ">
-	<div class="skills-item">
-		<div class="skill-heading">
-			<h6>Construction supervision - CSA</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="95" >
-				<svg id="style-bar" viewBox="0 0 100 2"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">95%</div>
-			</div>
-		</div>
-	</div>
-	<div class="skills-item">
-		<div class="skill-heading">
-			<h6>Machinery directive - 42/2006/EU - EKAS</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="95" >
-				<svg id="style-bar" viewBox="0 0 100 2"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">95%</div>
-			</div>
-		</div>
-	</div>
-		<div class="skills-item">
-		<div class="skill-heading">
-			<h6>Life Science / Pharma</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="90" >
-				<svg id="style-bar" viewBox="0 0 100 2"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">90%</div>
-			</div>
-		</div>
-	</div>
-		<div class="skills-item">
-		<div class="skill-heading">
-			<h6> Fire protection (VKF -SUVA)</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="90" >
-				<svg id="style-bar" viewBox="0 0 100 2"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">90%</div>
-			</div>
-		</div>
-	</div>
-		<div class="skills-item">
-		<div class="skill-heading">
-			<h6> Javascript</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="25" >
-				<svg id="style-bar" viewBox="0 0 100 2"  >
-					<path id="background-25" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-25"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">25%</div>
-			</div>
-		</div>
-	</div>
- 	</div> <!-- END SKILLS LEFT -->
-	
-	   <!-- SKILLS RIGHT -->
-	   <div class="skills_right">
-	<div class="skills-item">
-		<div class="skill-heading">
-			<h6>Clean/Black Uilities CQV</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="95" >
-				<svg id="style-bar" viewBox="0 0 100 2"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">95%</div>
-			</div>
-		</div>
-	</div>
-		<div class="skills-item">
-		<div class="skill-heading">
-			<h6>CAPEX - CAPA - Deviations</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="75" >
-				<svg id="style-bar" viewBox="0 0 100 2"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-75"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">75%</div>
-			</div>
-		</div>
-	</div>
-		<div class="skills-item">
-		<div class="skill-heading">
-			<h6>GMP - GDP - GxP</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="90" >
-				<svg id="style-bar" viewBox="0 0 100 2"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">90 %</div>
-			</div>
-		</div>
-	</div>
-	<div class="skills-item">
-		<div class="skill-heading">
-			<h6>Risk analysis – 12100:2010</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="90" >
-				<svg id="style-bar" viewBox="0 0 100 2"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">90%</div>
-			</div>
-		</div>
-	</div>
-		<div class="skills-item">
-		<div class="skill-heading">
-			<h6>HTML - CSS</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="65" >
-				<svg id="style-bar" viewBox="0 0 100 2"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-65"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">65%</div>
-			</div>
-		</div>
-	</div>
-
- 	</div> 
-	
-
-	<!-- END SKILLS RIGHT -->
-
-	
-   </div>
-
-	
-	</div> <!-- STOP SCROLLING OVERBOX -->
-	
-   		<div id="CV-download" class="container-fluid"> 
-	
-			<ul>
-				<li class="table_sample">
-					<button class="button "><a href="images/CV_G_Carducci_2022.pdf" target="_blank" ><span class="glyphicon glyphicon-cloud-download"> Curriculum Vitae</span ></a></button>
-
-				</li>
-<li class="table-multi">
-					<a id= "linkedin" href="https://www.linkedin.com/in/giampaolocarducci/" target="_blank" class="fa fa-linkedin"></a>
-					<a id= "github" href="https://github.com/giampcar" target="_blank" class="fa fa-github"></a>
-					<a id= "facebook" href="https://www.facebook.com/giampaolo.carducci" target="_blank" class="fa fa-facebook"></a>
-					<a id= "skype" href="skype:carducci_89@live.it" target="_skype" class="fa fa-skype"></a>
-					<a id= "instagram" href="https://www.instagram.com/giamp_/" target="_blank" class="fa fa-instagram"></a>
-					<a id= "twitter" href="REFERNECE NOT WORKING" target="_blank" class="fa fa-twitter"></a>
-				</li>
-				  </ul>
-		</div>	
-</div>
-
-
-  <!-- END FIRST COLUMN LEFT -->
-    
-  
-  
- <div id="main-content" class="container-fluid  col-lg-9 col-md-8 col-sd-12 ">
-	<div id="photo_2" class="container-fluid w3-content w3-section w3-center">
-			<img class="mySlides w3-animate-right" src="./images/slideshow_1/2.jpg">
-			<img class="mySlides w3-animate-right" src="./images/slideshow_1/7.jpg">
-			<img class="mySlides w3-animate-right" src="./images/slideshow_1/11.jpg">
-	</div>
-		<div id="photo_3" class="container-fluid w3-content w3-section w3-center">
-			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/1.jpg">
-			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/5.jpg">
-			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/7.jpg">
-			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/9.jpg">
-			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/10.jpg">
-			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/11.jpg">
-	</div>
-				<div><hr></div>
-				
-<div class="widget-container">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sd-12">
-				<div class="section-title">
-					<div id="esperienza-lavorativa" class="title-frame"><h2 class="title bold"> <span> Experiences </span></h2></div>
-						<div  class="experience">
-							<ul id="descr_exp" class="container-fluid, hidden-xs"><h3>CSL Behring – Lengnau (BE) <a id="maps" target="_blank" href="https://www.cslbehring.ch/uber-uns/standort-lengnau" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">	Mar 2020 – Dec 2021 </h4><h5 class="bold">	Role: <span> CSA Handover Engineer</span> </h5><h5 class="bold">Key responsibilities: </h5>
-								<li id="descr_list">
-								<p> Civil-Structural-Architectural Handover Engineer (administrative, Labs, production and classified clean room (E-D-C) areas)</p>
-								<p> QA/QC civil department. Definition of standard documentation for clean rooms and labs. </p>
-								<p> Work and contractors supervision. Direct interface with client for revamping/changes requests, local contractors management and internal QA/QC audit on executed works.</p>
-								<p> Responsible for quality, schedule, costs of all assigned CSA sub-systems. CSA completion walk-downs and safety walk-downs execution.</p>
-								<p> Integral test planner and executor for final building occupancy // Inspections with GVB for final building acceptance </p>
-								<p> Fire protection requirements construction supervisor</p>
-								<hr>								
-								</li>
-								<div id="timebar_1" class="container-fluid"></div><div id="timebardot_1" class=" fa fa-angle-double-down"></div>
-							</ul>
-							<ul id="descr_exp" class="container-fluid, visible-xs"><h3>CSL Behring – Lengnau (BE) <a id="maps" target="_blank" href="https://www.cslbehring.ch/uber-uns/standort-lengnau" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">	Mar 2020 – Dec 2021 </h4><h5 class="bold">	Role: <span> CSA Handover Engineer</span> </h5><h5 class="bold">Key responsibilities: </h5>
-								<li id="descr_list-xs">
-								<p> Civil-Structural-Architectural Handover Engineer (administrative, Labs, production and classified clean room (E-D-C) areas)</p>
-								<p> QA/QC civil department. Definition of standard documentation for clean rooms and labs. </p>
-								<p> Work and contractors supervision. Direct interface with client for revamping/changes requests, local contractors management and internal QA/QC audit on executed works.</p>
-								<p> Responsible for quality, schedule, costs of all assigned CSA sub-systems. CSA completion walk-downs and safety walk-downs execution.</p>
-								<p> Integral test planner and executor for final building occupancy // Inspections with GVB for final building acceptance </p>
-								<p> Fire protection requirements construction supervisor</p>
-								<hr>								
-								</li>
-							</ul>
-							
-							<ul id="descr_exp" class="container-fluid"><h3>Biogen – Solothurn (SO) <a id="maps" target="_blank" href="https://www.biogen-solothurn.ch/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">Aug 2018 – March 2020</h4> <h5 class="bold">Role: <span>Construction Engineer // Machinery and PED directive</span>  <h5 class="bold">	Key responsibilities: </h5>
-								<li id="descr_list">
-								<p>Coordination of all process relevant activities incl. review and approve process engineering specifications, including process piping & instrumentation diagrams (P&IDs), datasheets, and procurement packages for quipment and systems.</p>
-								<p>Close collaboration with all project discipline (incl. Contactors), key Project & Site stakeholders and project managers.</p>
-								<p>Interface with stakeholders to ensure the design execution and delivery are in accordance with Global Engineering, Quality, Environmental and Safety procedures.</p>
-								<p>Integral test planner and executor for final building occupancy.</p>
-								<p>Inspections with SGV, AWA/SUVA, AfU for final building acceptance (fire protection approval for the building insurance, environmental office and work insurance department)</p>
-								<p>Fire protection requirements construction supervisor (QS brandschutz support).</p>
-								<p>Compliance supervision according to local and European fire protection directives (VKF/AEAI – FM global for sprinkler system).</p>
-								<p>TUV Sud Basel consultant support on machinery directive procedures for documental compliance with MD 2006/42/EC and 2014/68/EU and EKAS requirements.</p>
-								<p>Scheduler and coordinator for cantonal inspections (AWA, SUVA, SGV, FM global, AfU).</p>
-								<p>Lightning protection system coordination for final cantonal approval.</p>
-								<hr>	
-								</li>
-								<div id="timebar_2" class="container-fluid"> </div><div id="timebardot_1" class=" fa fa-angle-double-down"></div>
-							</ul>
-							<ul id="descr_exp" class="container-fluid"><h3>GSK vaccines – Siena (ITALY)<a id="maps" target="_blank" href="https://it.gsk.com/it-it/home/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">Nov 2016 – Aug 2018</h4><h5 class="bold">Role: <span>Engineering-process consultant // CQV Clean Utilities and Maintenance</span>  <h5 class="bold">	Key responsibilities: </h5>
-								<li id="descr_list">
-									<p>URS definition for clean utilities production plant revamping (Ultrafiltration system, Softened water system, Purified water system (double stage reverse osmosis equipment ), Water for injection (5 stages distillator equipment), clean steam generator. Clean gasses (CO2, O2, N2, He) storage and distribution.</p>
-									<p>Clean utilities installation (FAT/SAT) and qualification (IQ,OQ) execution and supervision. </p>
-									<p>Instrument calibration planning and supervision (support to relevant project manager)- Key validator for temperature mapping.</p>
-									<p>Performance qualification (PQ) supervision, GMP deviations and gap assessment execution for all the equipment and relevant mechanical interconnections related to the clean utilities mentioned above according to GMP, FDA and AIFA requirements. </p>
-									<p>Commissioning supervision. PW (purified water), WFI (water for injection) loops sanification process tuning during IQ-OQ using Delta-V and OSI PI software.</p>
-									<p>Monitor external service providers, participate in internal audits, and serve as SME for production issues.</p>
-									<p>Capture and maintain consistent data on technical systems (spare parts lists, operating instructions, Clean utilities SOPs creation, technical documentation request and revision)</p>
-									<p>Clean utilities maintenance department : activity planner, Start up/shut down scheduler, spare part list creation and client support with vendors’/suppliers’ contact for ordinary and not-ordinary maintenance.</p>
-								<hr>	
-								</li>
-								<div id="timebar_3" class="container-fluid"> </div><div id="timebardot_1" class="fa fa-angle-double-down"></div>
-							</ul>
-							<ul id="descr_exp" class="container-fluid"><h3>Pharmaceutical, Chemical, Food and Mechanical companies <a id="maps" target="_blank" href="https://www.amengineering.it/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">Jan 2016 – Nov 2016 </h4> <h5 class="bold">Role: <span>Engineering-process consultant // Machinery and PED directive</span>  <h5 class="bold">	Key responsibilities: </h5>
-								<li id="descr_list">
-								<p> Pressurized equipment compliance check with D.M. 329/2004, 97/32/CE (P.E.D.) and D.Lgs. 26/2016 – ISO 9001 and 2014/68/EU. </p>
-								<p> Equipment and assembly of machineries authorities registration according to D.Lgs. 17/2010.</p>
-								<p> Compliance, design and revamping of pressurized equipment (ASTM e ISPESL directives, ASME for piping and equimpent).</p>
-								<p> Operating manuals creation for equipment according to machinery directive (D.Lgs 17/2010) and 2006/42/ European directive.</p>
-								<p> Execution of risk analysis according to local D.Lgs. (81/2008) and EN 12100.</p>
-								<hr>	
-								</li>
-								<div id="timebar_4" class="container-fluid"></div><div id="timebardot_1" class="fa fa-angle-double-down"></div>
-							</ul>
-						</div>
-						<div><hr></div>
-				
-				</div>
-			</div>
-			
-			<div class="col-lg-12 col-md-12 col-sd-12">
-	<div><hr id="intra"></div>						
-				<div class="section-title-2">
-					<div id="studi"  class="title-frame"><h2 class="title bold"> <span> Studies and publications </span></h2></div>
-					<div class="experience">
-					
-							<ul id="descr_exp" class="container-fluid"><h4 id="anno" class="bold">Jan 2018</h4>
-								<li id="descr_list">
-								<p><i class="fa fa-graduation-cap"></i> Seminary - Treatment of water in heating systems and sanitary circuits according to current legislation as a tool for energy efficiency </p>
-																	
-								</li>
-								<hr class="bar-studi">	
-							</ul>
-
-							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Dec	2015</h4>
-								<li id="descr_list-xs">
-									<p><i id="stud" class="fa fa-graduation-cap"></i> Master degree on Environmental engineering [LM-35]</p>
-									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Università degli studi dell'Aquila</p>								
-									<p><i id="stud" class="fa fa-university"></i> 110/110</p>
-									<p><i id="stud"><a href="images/2015_Carducci.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> Numerical model for the characterization of the downstream jet of ski jump spillways</i></a></p>
-							
-								</li>
-							<hr class="bar-studi">	
-							</ul>
-							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Jan	2015</h4>
-								<li id="descr_list-xs">
-									<p>Trainer .Tech Training Course</p>
-									<hr class="bar-studi">									
-								</li>
-							</ul>
-							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Mar 2013</h4>
-								<li id="descr_list-xs">
-									<p><i id="stud" class="fa fa-graduation-cap"></i> Bachelor degree in Environmental Engineering</p>
-									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Università degli studi dell'Aquila</p>								
-									<p><i id="stud" class="fa fa-university"></i> 101/110</p>
-									<p><i id="stud"><a href="images/Tesi_triennale.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> River transport of pollutants. Case of study: Sacco river in Colleferro (RM)</i></a></p>									
-						
-								</li>
-							<hr class="bar-studi">									
-							</ul>	
-							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Jun 2008</h4>
-								<li id="descr_list-xs">
-									<p><i id="stud" class="fa fa-graduation-cap"></i> High scool diploma</p>
-									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Liceo Scientifico F.Severi (FR)</p> 							
-									<p><i id="stud" class="fa fa-university"></i> 72/110</p>
-								</li>
-							<hr class="bar-studi">									
-							</ul>
-							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Mar 2006</h4>
-								<li id="descr_list-xs">
-									<p><i id="stud" class="fa fa-graduation-cap"></i>Swim teacher - 1<sup>st</sup> level</p>
-									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> F.I.N. Roma</p>
-								</li>
-							<hr class="bar-studi">										
-							</ul>							
-							
-						</div>
-				</div>
-			</div>
-			<div class="col-lg-12 col-md-12 col-sd-12">
-	<div><hr id="intra"></div>	
-				<div class="section-title-3">
-					<div id="blog"  class="title-frame"><h2 class="title bold"> <span> Blog </span></h2></div>
-					<div class="experience">
-								<ul id="descr_exp" class="container-fluid"><h3>Page in progress...</h3><i class="fa  fa-refresh w3-spin"></i>	
-								
-								
-							</ul>
-							
-							
-						</div>
-				</div>
-			</div>
-
-			<div class="col-lg-12 col-md-12 col-sd-12">
-	<div><hr id="intra"></div>	
-				<div class="section-title">
-					<div  id="contatti" class="title-frame"><h2 class="title bold"> <span> Contacts </span></h2></div>
-					<div class="experience">
-							<div id="Contacts" class="container-fluid">
-							<ul>
-								<li class="table-multi">
-									<a id= "CH_num" href="tel:+41788223025" target="_blank" class="fa fa-phone-square"><sub>CH</sub></a>
-									<a id= "Mail" href="mailto:giampaolo.carducci@gmail.com" target="_blank" class="fa fa-envelope"></i></a>
-									<a id= "It_num" href="tel:+393339217550" target="_blank" class="fa fa-phone-square"><sub>IT</sub></a>
-								</li>
-							</ul>
-							</div>
-							
-							
-						</div>
-				</div>
-			</div>
-
-
-		</div>
-	</div>
-</div>
-	<div><hr id="intra"></div>	
-
-	<!-- 		<div class="col-lg-12">
-				<div class="section-title">
-					<div class="title-frame"><h4 class="title"> <span> Get in touch </span></h4></div>
-				</div>
-			</div>
-			SEND EMAIL FORM
-			<div id="identifica" class="container-fluid col-lg-4 col-md-4 col-sd-4-xs-4">
-				<div class="card container-fluid">
-					<div role="form" id="wpcf7-f80-p177-o1" lang="en-US" dir="ltr">
-					<form action="mailto:giampaolo.carducci@gmail.com" method="post"  novalidate="novalidate" data-status="init">
-						<div class="contact-form ">
-							<div class="form-field container-fluid col-lg-12 col-md-12 col-sd-12 col-xs-12"> 
-								<div id="form-icon"><label><i class="fa fa-user"></i></label></div>
-								<div id="form-text"  class="form-icon"><span class="your-name">
-									<input type="text" name="your-name" value="" size="auto" aria-required="true" aria-invalid="false" placeholder="Name">
-								</span></div>
-								
-							</div>
-							<div class="form-field container-fluid col-lg-12 col-md-12 col-sd-12 col-xs-12"> 
-								<div id="form-icon"><label><i class="fa fa-at"></i></label></div>
-								<div id="form-text"  class="form-icon"><span>
-									<input type="email" name="your-email" value="" size="auto" aria-required="true" aria-invalid="false" placeholder="Email">
-															</span></div>
-															
-													</div>
-													<div class="form-field container-fluid col-lg-12 col-md-12 col-sd-12 col-xs-12">
-														<div id="form-icon"><label><i class="fa fa-envelope"></i></label></div>
-														<div id="form-text"  class="form-icon"><span>
-															<textarea name="your-message" cols="auto" rows="3" aria-required="true" aria-invalid="false" placeholder="Message"></textarea>
-															</span></div>
-															
-													</div>
-													<div class="submit-frame container-fluid">
-														<button class="submit-email" type="submit">
-															<span>Send message</span>
-														</button>
-													</div>
-												</div>
-												<div class="wpcf7-response-output" aria-hidden="true">
-												</div>
-											</form>
-										</div>
-									</div>
-								</div> -->
-	
- </div>
- 
-<div id="mySidebar" class="sidebar w3-animate-l">
- 	<div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
-  <button onclick="closeRightMenu()" class="w3-bar-item w3-button fa fa-sliders"></button>
-			<li>
-			<a href="../Index.html">
-			<span class="nav-text">Home</span>
-			</a>
-			<a href="#esperienza-lavorativa">
-			<span class="nav-text">Experiences</span>
-			</a>
- 			<a href="#studi">
-			<span class="nav-text">Studies and Publications</span>
-			</a>
-			<a href="#blog">
-			<span class="nav-text">Blog</span>
-			</a>
-			<a href="#contatti">
-			<span class="nav-text">Contacts</span>
-			</a>
-			</li>
-</div>
-
 <div>
-  <button id="apri" class="w3-button w3-right fa fa-align-justify" onclick="openRightMenu()"</button>
+
+Privacy and Cookie Policy for GC Gmbh Websites
+In this Privacy Policy we explain the principles governing how the GC Gmbh Group (including GC Gmbh Supplementary Insurances Ltd, GC Gmbh Insurance Company Ltd, GC Gmbh Accidents Ltd, hereinafter collectively referred to as GC Gmbh, we or us) collects and processes personal data through this website and other websites operated by GC Gmbh (hereinafter referred to as Website). Personal data refers to any information that personally identifies you or makes your identification possible.
+
+Version 1.2 dated 12. December 2021
+
+1. Scope
+This Privacy Policy explains the acquisition and further processing of personal data collected via GC Gmbh’s Website. This Privacy Policy does not conclusively govern all aspects of data processing performed by GC Gmbh. Data processing may be covered by other privacy policies or data protection statements and processing regulations, or may arise through specific circumstances or be governed by law.
+
+2. Data controller | Data Protection Officer
+GC Gmbh Ltd is responsible for all data processing performed within the scope of this Privacy Policy. GC Gmbh’s Data Protection Officer can be contacted at:
+
+GC Gmbh Ltd
+Data Protection Officer
+Zürichstrasse 130
+CH-8600 Dübendorf
+
+To the extent that GC Gmbh falls within the scope of the GDPR, Active-Assets A2 GmbH serves both as its Data Protection Officer within the meaning of Art. 37 GDPR and its representative pursuant to Art. 27 GDPR. Its contact details are as follows:
+
+Active-Assets A2 GmbH
+Gottlieb-Daimler-Str. 5
+78467 Constance
+Germany
+privacy@GC Gmbh.ch
+
+3. Collection and processing of personal data when using the Website
+3.1 Type of data collected
+When you visit our Website, your Internet browser automatically sends us certain data regarding your usage and stores this in log files. This concerns the following data in particular: Date and time when the Website was accessed, name of the Website accessed, IP address of your computer or mobile device, address of the referring website, transferred data volume as well as the name and version of the Internet browser used. 
+
+These data form the basis for statistical, anonymous evaluations, help to optimise and continuously further develop the Websites and can also be evaluated for marketing purposes. If you wish to prevent this, you can change your settings in the cookie preference centre at any time.
+
+As described below, certain uses of the Website also require GC Gmbh to collect personal data. When using the Website, you either provide these manually (see Section 4 below) or their provision is dependent on your Internet browser’s technical settings and these are either automatically collected or made available by third parties in accordance with those settings (see Section 5). If you do not wish to provide us with this personal data, you may not be able to take advantage of certain offers on the Website (such as the premium calculator) or their functionality may be impaired. 
+
+3.2 Personal data collected in connection with the use of the Website 
+In connection with the use of the Website, GC Gmbh collects the following categories of personal data: 
+
+Data provided manually: This includes, but is not limited to, first name, surname, gender, date of birth, age, marital status, (e-mail) address, insurance number, telephone number, family members, preferred communication channel, personal data contained in uploaded files, etc.;
+Personal data collected automatically: This includes cookies, date, time and number of visits to the Website, pages and content accessed, referring websites, downloaded files, etc. 
+3.3 Use of personal data collected on the Website and legal basis
+If you are already a customer of GC Gmbh or wish to become one, we collect and process personal data during the conclusion and execution of contracts with our customers. We may link the personal data you provide via the Website to other existing personal data. Data are processed for purposes that are primarily geared toward specific products (e.g. basic insurance, BeneFit PLUS, SANA, COMPLETA, PRIMEO), and may include requirements analyses and insurance consultations. For information regarding further purposes of data processing conducted as part of the contractual relationship, please refer to the corresponding privacy policies.
+
+Other than for the fulfilment of the contract or outside an existing contractual relationship, we use data collected via the Website to protect the legitimate interests of us or third parties. Examples: 
+
+to provide and develop the Website and improve and ensure the Website’s customer friendliness;
+to perform statistical analyses of Website use; 
+to examine and optimise requirements analysis methods for the purpose of approaching customers directly; 
+to advertise and market our products and services; 
+to conduct market research, customer satisfaction and opinion surveys, as long as you have not objected to the use of your data; 
+to enforce legal claims and as defence in legal disputes; 
+to safeguard IT security and IT operations of the insurance company; 
+to prevent and investigate criminal offences; 
+to adopt measures for the further development of services and products, also in connection with corporate transactions where appropriate. 
+We may also use the data to comply with our legal and regulatory obligations. 
+
+If, in individual cases, you have consented to the processing of your personal data for a specific purpose, we will base the processing on this consent. You may withdraw your consent at any time, whereby such withdrawal only applies to the future and does not affect the legality of data processing already carried out. Data processing carried out on the basis of your consent includes, in particular, delivery of the newsletter or submission of a contract offer based on the information you entered into the premium calculator.
+
+4. Personal data provided manually by the user
+4.1 Newsletter 
+On this Website, you can subscribe to our newsletter by providing us with personal data (first name, surname and e-mail address). For verification purposes, we will send you a confirmation e-mail immediately after completion of the registration process. The personal data collected during your registration will be used for sending our newsletter. This personal data may be passed on to our marketing department, which processes the data only on our behalf. To the extent permitted by applicable data protection law, we may include codes in our newsletters with which we can recognise whether the recipient has opened the e-mail and downloaded the images contained therein. The recipient can block this in their e-mail program. 
+
+You can unsubscribe from our newsletter by clicking on the link at the end of each newsletter.
+
+4.2 E-mail
+Normal e-mails that you send to GC Gmbh are not encrypted and may potentially be viewed by third parties. Since we are unable to safeguard the data security of unencrypted e-mail traffic sent to GC Gmbh, GC Gmbh excludes any warranty and liability for such traffic. For this reason, we recommend that you get in touch with us directly by using the available contact forms.
+
+4.3 Contact forms
+Confidential, personal data that you send to GC Gmbh using the forms provided on the Websites are transmitted in encrypted form according to the current state of the art and cannot be viewed by third parties. The data you enter via the Website will be used in particular to process contracts, process your requests and, if necessary, for marketing purposes within the GC Gmbh Group. 
+
+By entering your data in the premium calculator, you agree in particular to be contacted by the companies of the GC Gmbh Group by telephone or another channel for the purpose of making you an offer.
+
+5. Personal user data collected automatically
+5.1 Cookies 
+What are cookies?
+
+We use cookies on our Websites. Cookies are small text files that are sent by the websites you visit to the browser you use (Firefox, Google Chrome, etc.) and stored on the hard drive of your computer or mobile device. They enable websites to run or are intended to provide information to the owners of a website or third parties who receive data from this website, such as information about the devices you use and your preferences. Cookies store certain settings about your browser as well as data concerning interactions with the website through your browser. When a cookie is activated, it is assigned an identification number (cookie ID), which is used to identify your browser and use the information contained in the cookie. Generally speaking, this information does not identify you directly, however it can make it possible for you to have a tailored online experience.
+
+Most of the cookies we use are temporary session cookies that are automatically deleted from your computer or mobile device at the end of your browser session. We also use permanent cookies. These remain stored on your computer or mobile device after your browser session has ended. Depending on the type of cookie, permanent cookies remain stored on your computer or mobile device for up to two years and are automatically deactivated at the end of the pre-programmed time.
+
+Why do we use cookies?
+
+The cookies we use help enable various functions offered by our Websites. For example, cookies help save your language preferences across different pages visited during a single Internet session and thus facilitate your access to the Websites. Cookies also enable us to track and analyse the behaviour of visitors to our Websites. This helps us design our Websites in a more user-friendly, effective way and to make your visit to our Websites as pleasant as possible and to improve the Website’s general visitor experience. 
+
+If you use the “myGC Gmbh” client portal or other parts of our Website where users must log in to access content, the Website may use cookies or some other technology that helps us authenticate you more easily, store and recognise your configuration and user attributes, facilitate your navigation on the Website and provide you with more tailored content to make the available information more interesting for you.
+
+However, cookies also enable us to personalise the content of our Website in general. We also use remarketing cookies to help us target advertisements on other websites to the interests of our Website’s visitors based on the pages you view on our Website. Cookies on our Websites additionally enable us to offer social media features that let you share content via Facebook, Twitter, etc.
+
+How can you change your cookie settings?
+
+In our Cookie Preference Centre you can adjust your consent to the use of cookies on our Website at any time based on your needs.
+
+You can choose at any time to set your browser such that no cookies are accepted or saved. Instead, you can choose to receive a warning message each time before accepting a cookie or set your browser to accept only cookies from certain websites. You can also delete any cookies that have already been saved at any time.
+
+We would like to point out that the use of individual functions offered by our Website may be restricted or prevented altogether if you reject cookies from the Website. In order to make website navigation easier, we recommend that you accept cookies and do not delete them. If you block cookies, you may not be able to make full use of the interactive functions on this Website.
+
+Which cookies do we use?
+
+5.2 Web analysis 
+We use Google Analytics or similar services on our Website. This is a service provided by third parties who may be located in any country of the world (in the case of Google Analytics it is Google Ireland Limited in Ireland, www.google.com) which we can use to measure and evaluate the use of the Website. Permanent cookies, set by the service provider, are also used for this purpose. The service provider does not receive any personal data from us (and does not store any IP addresses), but may track your use of the Website, combine this information with data from other websites you have visited and which are also tracked by service providers, and use these findings for its own purposes (e.g. to control advertising). If you are registered with the service provider, the service provider also recognises you. The service provider’s processing of your personal data is then the responsibility of the service provider and is carried out in accordance with its data protection provisions. The service provider merely informs us how our respective Website is used (without any information about you personally).
+
+5.3 Google reCAPTCHA
+We use reCAPTCHA from Google to determine whether a person or a computer makes a certain entry in our contact or newsletter form. The legal basis for this usage is Art. 13(1) of the Data Protection Act and Art. 6(1)(f) GDPR, because GC Gmbh has a legitimate interest in ensuring the security of its own Website and protecting it from automated entries (attacks). reCAPTCHA is a service that protects websites from spam and misuse. It uses advanced risk analysis techniques to distinguish between human and non-human users (bots). For example, Google uses the following data to check whether you are a human or a computer: IP address of the device used, which Website of ours you visit and in which reCAPTCHA is integrated, the date and duration of the visit, the identification data of the browser and operating system type used, Google account if you are logged in to Google, mouse movements and keystrokes, and the number of click and touch actions in reCAPTCHA areas.
+
+To see the data that Google captures and the purposes for which it is used, please consult https://policies.google.com/privacy. You can find the Terms of Service for Google products and services at https://policies.google.com/terms.
+
+5.4 Social plug-ins
+Our websites use social media plug-ins, e.g. for Facebook, Twitter or Google+ (providers). These plug-ins are labelled with the provider’s logo and can, for example, be a Like button, a Google+ button or a Twitter button. 
+
+When you visit one of our Websites that features a plug-in of this nature, your Internet browser establishes a direct connection with the provider’s computers. The provider’s website sends the content of the plug-in directly to your browser, which incorporates it into the Website. Through the incorporation of the plug-in, the provider is informed that you visited our Website. If you are logged in to your account on the provider’s website at the same time, the provider can match the visit to your profile. If you interact with the plug-ins – for example by pressing the Like button or posting a comment – the corresponding information is sent by your browser directly to the provider and stored on their servers. 
+
+If you do not want the provider to collect data on you via our Website, you have to log out of your account on the provider’s website before visiting our Website. Even if you have logged out of your account, providers still collect data in anonymised form via the social plug-ins and place a cookie on your computer. If you log in to your account on the provider’s website at a later date, this data can be linked to your profile. 
+
+If a login is offered via a social login service, e.g. Facebook Connect, data will be exchanged between the provider and our Website. In the case of Facebook Connect, this could be, for example, data from your public Facebook profile. By using such login services, you are agreeing to the transfer of your data. 
+
+Please see the provider’s privacy policy for the purpose and scope of the database and the further processing of your data by the provider, as well as your associated rights and configuration options to protect your privacy:
+
+For Facebook: https://www.facebook.com/policy
+
+For Google: https://policies.google.com/privacy?hl=en
+
+For Twitter Inc.: http://twitter.com/privacy
+
+6. Data security
+We take appropriate technical and organisational measures to protect your personal data collected via Websites against unauthorised processing, loss and destruction. We are also concerned about the confidentiality, availability and integrity of your personal data.
+
+7. Data retention
+We will retain your personal data for as long as necessary to provide the services available on the Website or for other processing purposes, such as fulfilling legal obligations, resolving disputes and enforcing our policies. If we have a legal obligation to retain your personal data, we will delete it after expiry of the respective retention period.
+
+8. Disclosure of data and transfer of personal data abroad
+Regardless of how we collect your personal data in connection with the Website, all GC Gmbh Group companies have access to the personal data. This means that your personal data can also be processed for various purposes and linked together with personal data that is collected by another company of the GC Gmbh Group.
+
+Furthermore and to the extent permitted by applicable (data protection) law, GC Gmbh may also disclose personal data to contracted service providers (both inside and outside Switzerland). In connection with data collected on the Website, these specifically consist of IT service providers working in the area of data storage and data analysis.
+
+Personal data obtained in connection with the use of the Website may also be disclosed to third parties (inside or outside Switzerland) if we are obliged to do so by law, by court order or by official order or if this is necessary to support internal or external investigations, other legal investigations or proceedings in Switzerland or abroad or any corporate transactions.
+
+The service providers and third parties to whom GC Gmbh transmits data may be located in any country in the world (specifically the USA and Ireland). If data is transferred to a country without adequate data protection, GC Gmbh guarantees adequate protection through the use of sufficient contractual guarantees, specifically on the basis of EU Standard Contractual Clauses, binding corporate rules or based on exceptions with respect to consent, contract execution, the determination, exercise or enforcement of legal claims, overriding public interest, the data published by you or because it is necessary to protect your individual integrity. You may request a copy of the contractual guarantees by sending a written request along with a copy of an official form of identification to the contact address specified above (see Section 2) or find out from this contact where you can obtain such a copy. GC Gmbh reserves the right to black out such copies for reasons of data protection or secrecy or to deliver only excerpts.
+
+9. Profiling and automated individual decision-making
+We or service providers acting on our behalf do not process data with the aim of evaluating specific personal characteristics (profiling).
+
+As a matter of principle, we do not use fully automated decision-making pursuant to Art. 22 GDPR to establish and engage in the business relationship. Should we use these methods in individual cases, we will inform you separately if this is required by law.
+
+10. Obligation to provide data
+Access to the Website and the related collection of connection data (such as IP addresses) must be logged; this happens automatically during use and cannot be disabled for individual users. With the exception of the data required for technical reasons (see Section 3.1 above), you are not obliged to provide us with any personal data in connection with your use of the Website. However, certain services cannot be used without the provision of personal data, otherwise their functionality is impaired.
+
+11. Users’ rights
+Within the scope of the data protection law applicable to you, you have the right to access your data, to have it rectified or erased, the right to restrict data processing and otherwise to object to our data processing and to the disclosure of certain personal data for the purpose of transferring such personal data to another location (data portability). If the processing of personal data is based on your consent, you may withdraw this consent at any time. Exercising these rights usually requires that you can clearly prove your identity. Please note, however, that we reserve the right to enforce the statutory restrictions, for example if we are obliged to retain or process certain data, have an overriding interest in it (insofar as we may invoke it) or need it for enforcing claims.
+
+If GC Gmbh automatically takes a decision concerning an individual person, which has a legal impact or significantly affects the data subject in a similar way, the data subject may speak to a competent person at GC Gmbh and request a reconsideration of the decision, or demand from the very start that this be assessed by a competent person, to the extent provided for by law. In this case, the data subject might no longer be able to use certain automated services. The person will be informed of such decisions subsequently or separately in advance.
+
+Every data subject has the right to file a complaint with the competent data protection authority. In Switzerland, this is the Federal Data Protection and Information Commissioner (http://www.edoeb.admin.ch/).
+
+You can also prevent or restrict the installation of cookies by changing your browser settings accordingly. However, we would like to point out that, in this case, you may not be able to use all the functions of this Website to their full extent.
+
+Furthermore, the automated data processing carried out on this Website can be technically prevented as follows:
+
+Google Analytics: install the browser add-on by clicking the following link:  https://tools.google.com/dlpage/gaoptout.
+If you do not want the provider of social media plug-ins to collect data on you via our Website, you have to log out of your account on the provider’s website before visiting our Website. Even if you have logged out of your account, providers still collect data in anonymised form via the social plug-ins and place a cookie on your computer. If you log in to your account on the provider’s website at a later date, this data can be linked to your profile.
+12. Changes to the Privacy Policy
+GC Gmbh may modify this Privacy Policy at any time without advance notice and without notification. The version currently published on the Website shall apply.
+
 
 </div>
-</div>
 
-
- 
- 
- 
- 
-</div>
-
-
-
-
-  <!-- ############################################################################### -->
-  <!-- ############################################################################### -->
-  <!-- ############################################################################### -->
-  <!-- ############################################################################### -->
-  <!-- *********    VISIBLE ONLY XS - START BELOW -->  
-  <!-- ############################################################################### -->
-  <!-- ############################################################################### -->
-  <!-- ############################################################################### -->
-  <!-- ############################################################################### -->
-
-
- <div class="raw visible-xs "><!-- RIGA CONTENENTE LE 3 COLONNE - nascosto a xs -->
- 
- 
-  <div id="riepilogo_xs" class="container-fluid ">
-	<div id="photo_container_xs" class="container-fluid">
-			<div id="photo_1" class="container-fluid"></div>
-			<div id="Nome" class="container-fluid"><a><h4>Giampaolo Carducci</h4></a></div>
-			<div id="Descr_gen" class="container-fluid"><a><h5>Environmental Engineer</h5></a></div>
-			<div id="Contacts" class="container-fluid">
-				<ul>
-					<li class="table-multi">
-						<a id= "CH_num" href="tel:+41788223025" target="_blank" class="fa fa-phone-square"><sub>CH</sub></a>
-						<a id= "Mail" href="mailto:giampaolo.carducci@gmail.com" target="_blank" class="fa fa-envelope"></i></a>
-						<a id= "It_num" href="tel:+393339217550" target="_blank" class="fa fa-phone-square"><sub>IT</sub></a>
-					</li>
-				</ul>
-			</div>
-	</div>
-	
-	
-	<!-- START SCROLLING OVERBOX -->
-	<div id="scroll-left" class="container-fluid"><!-- START SCROLLING -->
-	   <div><hr></div>
-		<div id="info" class="container-fluid">
-	
-			<ul>
-				<li class="table_sample">
-					<h5 class="bold">Nationality:</h5>
-					<span><h5>Italian</h5></span>
-				</li>
-				<li class="table_sample">
-					<h5 class="bold">Residence:</h5>
-					<span><h5>Lyss</h5></span>
-				</li>
-			</ul>
-		</div>
-		
-   <div><hr></div>
-   	<div class="art-lang-skills p-30-15">
-	<div class="art-lang-skills-item">
-		<div id="circleprog1-1" data-type="circles" data-value="100" class="art-cirkle-progress art-skills-progress" style="position: relative;">
-		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 292.273, 292.273; stroke-dashoffset: 0;"></path>
-		</svg>
-		
-		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%)">100</div>
-		</div><h6>Italian</h6>
-		
-		</div>
-		
-	<div class="art-lang-skills-item">
-	<div id="circleprog1-2" data-type="circles" data-value="50" class="art-cirkle-progress art-skills-progress" style="position: relative;">
-		
-		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 100;"></path>
-		</svg>
-		
-		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%)">90</div>
-	</div><h6>English</h6>
-	</div>
-	<div class="art-lang-skills-item"><div id="circleprog1-3" data-type="circles" data-value="70" class="art-cirkle-progress art-skills-progress" style="position: relative;">
-		
-		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 270;"></path>
-		</svg>
-		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%);">25</div>
-		</div><h6>French</h6>
-	</div>
-		<div class="art-lang-skills-item"><div id="circleprog1-3" data-type="circles" data-value="70" class="art-cirkle-progress art-skills-progress" style="position: relative;">
-		
-		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 320;"></path>
-		</svg>
-		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); ">10</div>
-		</div><h6>German</h6>
-	</div>
-	
-
-		
-		
-	</div>	
-		
-     <div><hr></div>
-   
-   <div class="skills_container">
-   
-   <!-- SKILLS LEFT -->
-   <div class="skills_left ">
-	<div class="skills-item">
-		<div class="skill-heading">
-			<h6>Construction supervision - CSA</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="95" >
-				<svg id="style-bar" viewBox="0 0 100 2"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">95%</div>
-			</div>
-		</div>
-	</div>
-	<div class="skills-item">
-		<div class="skill-heading">
-			<h6>Machinery directive - 42/2006/EU - EKAS</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="95" >
-				<svg id="style-bar" viewBox="0 0 100 2"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">95%</div>
-			</div>
-		</div>
-	</div>
-		<div class="skills-item">
-		<div class="skill-heading">
-			<h6>Life Science / Pharma</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="90" >
-				<svg id="style-bar" viewBox="0 0 100 2"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">90%</div>
-			</div>
-		</div>
-	</div>
-		<div class="skills-item">
-		<div class="skill-heading">
-			<h6> Fire protection (VKF -SUVA)</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="90" >
-				<svg id="style-bar" viewBox="0 0 100 2"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">90%</div>
-			</div>
-		</div>
-	</div>
-		<div class="skills-item">
-		<div class="skill-heading">
-			<h6> Javascript</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="25" >
-				<svg id="style-bar" viewBox="0 0 100 2"  >
-					<path id="background-25" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-25"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">25%</div>
-			</div>
-		</div>
-	</div>
- 	</div> <!-- END SKILLS LEFT -->
-	
-	   <!-- SKILLS RIGHT -->
-	   <div class="skills_right">
-	<div class="skills-item">
-		<div class="skill-heading">
-			<h6>Clean/Black Uilities CQV</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="95" >
-				<svg id="style-bar" viewBox="0 0 100 2"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">95%</div>
-			</div>
-		</div>
-	</div>
-		<div class="skills-item">
-		<div class="skill-heading">
-			<h6>CAPEX - CAPA - Deviations</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="75" >
-				<svg id="style-bar" viewBox="0 0 100 2"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-75"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">75%</div>
-			</div>
-		</div>
-	</div>
-		<div class="skills-item">
-		<div class="skill-heading">
-			<h6>GMP - GDP - GxP</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="90" >
-				<svg id="style-bar" viewBox="0 0 100 2"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">90 %</div>
-			</div>
-		</div>
-	</div>
-	<div class="skills-item">
-		<div class="skill-heading">
-			<h6>Risk analysis – 12100:2010</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="90" >
-				<svg id="style-bar" viewBox="0 0 100 2"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">90%</div>
-			</div>
-		</div>
-	</div>
-		<div class="skills-item">
-		<div class="skill-heading">
-			<h6>HTML - CSS</h6>
-		</div>
-		<div class="line-progress">
-			<div id="lineprog2-1" data-type="progress" data-value="65" >
-				<svg id="style-bar" viewBox="0 0 100 2"  >
-					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-65"d="M 0,0.86 L 100,0.86" ></path>
-				</svg>
-   				<div class="progressbar-text">65%</div>
-			</div>
-		</div>
-
-	</div>
-
- 	</div> 
-	
-
-	<!-- END SKILLS RIGHT -->
-
-	
-	
-   </div>
-
-	
-	
-	</div> <!-- STOP SCROLLING OVERBOX -->
-	
-   		<div  class="container-fluid"> 
-	
-			<ul>
-				<li  class="table_sample">
-					<button id="CV-download" class="button "><a href="images/CV_G_Carducci_2022.pdf" target="_blank" ><span class="glyphicon glyphicon-cloud-download"> Curriculum Vitae</span ></a></button>
-					 
-				</li>
-<li class="table-multi-social">
-					<a id= "linkedin" href="https://www.linkedin.com/in/giampaolocarducci/" target="_blank" class="fa fa-linkedin"></a>
-					<a id= "github" href="https://github.com/giampcar" target="_blank" class="fa fa-github"></a>
-					<a id= "facebook" href="https://www.facebook.com/giampaolo.carducci" target="_blank" class="fa fa-facebook"></a>
-					<a id= "skype" href="skype:carducci_89@live.it" target="_skype" class="fa fa-skype"></a>
-					<a id= "instagram" href="https://www.instagram.com/giamp_/" target="_blank" class="fa fa-instagram"></a>
-					<a id= "twitter" href="REFERNECE NOT WORKING" target="_blank" class="fa fa-twitter"></a>
-				</li>
-				  </ul>
-		</div>	
-</div>
-
-
-  <!-- END FIRST COLUMN LEFT -->
-    
-  
-
- <div id="main-content_xs" class="container-fluid">
-	
-
-				
-<div class="widget-container">
-	<div class="container-fluid">
-		<div class="row">
-			<div>
-				<div class="section-title">
-					<div id="esperienza-lavorativa-xs" class="title-frame"><h2 class="title bold"> <span> Experiences </span></h2></div>
-						<div  class="experience">
-							<ul id="descr_exp" class="container-fluid"><h3>CSL Behring – Lengnau (BE) <a id="maps" target="_blank" href="https://www.cslbehring.ch/uber-uns/standort-lengnau" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold_xs">	Mar 2020 – Dec 2021 </h4><h5 class="bold">	Role: <span> CSA Handover Engineer</span> </h5><h5 class="bold">Key responsibilities: </h5>
-								<li id="descr_list-xs">
-								<p> Civil-Structural-Architectural Handover Engineer (administrative, Labs, production and classified clean room (E-D-C) areas)</p>
-								<p> QA/QC civil department. Definition of standard documentation for clean rooms and labs. </p>
-								<p> Work and contractors supervision. Direct interface with client for revamping/changes requests, local contractors management and internal QA/QC audit on executed works.</p>
-								<p> Responsible for quality, schedule, costs of all assigned CSA sub-systems. CSA completion walk-downs and safety walk-downs execution.</p>
-								<p> Integral test planner and executor for final building occupancy // Inspections with GVB for final building acceptance </p>
-								<p> Fire protection requirements construction supervisor</p>
-								<hr>								
-								</li>
-							</ul>
-							
-							<ul id="descr_exp" class="container-fluid"><h3>Biogen – Solothurn (SO) <a id="maps" target="_blank" href="https://www.biogen-solothurn.ch/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold_xs">Aug 2018 – March 2020</h4> <h5 class="bold">Role: <span>Construction Engineer // Machinery and PED directive</span>  <h5 class="bold">	Key responsibilities: </h5>
-								<li id="descr_list-xs">
-								<p>Coordination of all process relevant activities incl. review and approve process engineering specifications, including process piping & instrumentation diagrams (P&IDs), datasheets, and procurement packages for quipment and systems.</p>
-								<p>Close collaboration with all project discipline (incl. Contactors), key Project & Site stakeholders and project managers.</p>
-								<p>Interface with stakeholders to ensure the design execution and delivery are in accordance with Global Engineering, Quality, Environmental and Safety procedures.</p>
-								<p>Integral test planner and executor for final building occupancy.</p>
-								<p>Inspections with SGV, AWA/SUVA, AfU for final building acceptance (fire protection approval for the building insurance, environmental office and work insurance department)</p>
-								<p>Fire protection requirements construction supervisor (QS brandschutz support).</p>
-								<p>Compliance supervision according to local and European fire protection directives (VKF/AEAI – FM global for sprinkler system).</p>
-								<p>TUV Sud Basel consultant support on machinery directive procedures for documental compliance with MD 2006/42/EC and 2014/68/EU and EKAS requirements.</p>
-								<p>Scheduler and coordinator for cantonal inspections (AWA, SUVA, SGV, FM global, AfU).</p>
-								<p>Lightning protection system coordination for final cantonal approval.</p>
-								<hr>	
-								</li>
-							</ul>
-							<ul id="descr_exp" class="container-fluid"><h3>GSK vaccines – Siena (ITALY)<a id="maps" target="_blank" href="https://it.gsk.com/it-it/home/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold_xs">Nov 2016 – Aug 2018</h4><h5 class="bold">Role: <span>Engineering-process consultant // CQV Clean Utilities and Maintenance</span>  <h5 class="bold">	Key responsibilities: </h5>
-								<li id="descr_list-xs">
-									<p>URS definition for clean utilities production plant revamping (Ultrafiltration system, Softened water system, Purified water system (double stage reverse osmosis equipment ), Water for injection (5 stages distillator equipment), clean steam generator. Clean gasses (CO2, O2, N2, He) storage and distribution.</p>
-									<p>Clean utilities installation (FAT/SAT) and qualification (IQ,OQ) execution and supervision. </p>
-									<p>Instrument calibration planning and supervision (support to relevant project manager)- Key validator for temperature mapping.</p>
-									<p>Performance qualification (PQ) supervision, GMP deviations and gap assessment execution for all the equipment and relevant mechanical interconnections related to the clean utilities mentioned above according to GMP, FDA and AIFA requirements. </p>
-									<p>Commissioning supervision. PW (purified water), WFI (water for injection) loops sanification process tuning during IQ-OQ using Delta-V and OSI PI software.</p>
-									<p>Monitor external service providers, participate in internal audits, and serve as SME for production issues.</p>
-									<p>Capture and maintain consistent data on technical systems (spare parts lists, operating instructions, Clean utilities SOPs creation, technical documentation request and revision)</p>
-									<p>Clean utilities maintenance department : activity planner, Start up/shut down scheduler, spare part list creation and client support with vendors’/suppliers’ contact for ordinary and not-ordinary maintenance.</p>
-								<hr>	
-								</li>
-							</ul>
-							<ul id="descr_exp" class="container-fluid"><h3>Pharmaceutical, Chemical, Food and Mechanical companies <a id="maps" target="_blank" href="https://www.amengineering.it/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold_xs">Jan 2016 – Nov 2016 </h4> <h5 class="bold">Role: <span>Engineering-process consultant // Machinery and PED directive</span>  <h5 class="bold">	Key responsibilities: </h5>
-								<li id="descr_list-xs">
-								<p> Pressurized equipment compliance check with D.M. 329/2004, 97/32/CE (P.E.D.) and D.Lgs. 26/2016 – ISO 9001 and 2014/68/EU. </p>
-								<p> Equipment and assembly of machineries authorities registration according to D.Lgs. 17/2010.</p>
-								<p> Compliance, design and revamping of pressurized equipment (ASTM e ISPESL directives, ASME for piping and equimpent).</p>
-								<p> Operating manuals creation for equipment according to machinery directive (D.Lgs 17/2010) and 2006/42/ European directive.</p>
-								<p> Execution of risk analysis according to local D.Lgs. (81/2008) and EN 12100.</p>
-								<hr>	
-								</li>
-							</ul>
-						</div>
-						<div><hr></div>
-				
-				</div>
-			</div>
-			
-			<div>
-				
-				<div class="section-title-2">
-					<div id="studi-xs"  class="title-frame"><h2 class="title bold"> <span>Studies</span></h2></div>
-					<div class="experience">
-					
-							<ul id="descr_exp" class="container-fluid"><h4 id="anno" class="bold_modified">Jan 2018</h4>
-								<li id="descr_list">
-								<p><i class="fa fa-graduation-cap"></i> Seminary - Treatment of water in heating systems and sanitary circuits according to current legislation as a tool for energy efficiency </p>
-																	
-								</li>
-								<hr class="bar-studi">	
-							</ul>
-
-							<ul id="descr_exp" class="container-fluid"><h4 class="bold_modified">Dec	2015</h4>
-								<li id="descr_list-xs">
-									<p><i id="stud" class="fa fa-graduation-cap"></i> Master degree on Environmental engineering [LM-35]</p>
-									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Università degli studi dell'Aquila</p>								
-									<p><i id="stud" class="fa fa-university"></i> 110/110</p>
-									<p><i id="stud"><a href="images/2015_Carducci.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> Numerical model for the characterization of the downstream jet of ski jump spillways</i></a></p>
-							
-								</li>
-							<hr class="bar-studi">	
-							</ul>
-							<ul id="descr_exp" class="container-fluid"><h4 class="bold_modified">Jan	2015</h4>
-								<li id="descr_list-xs">
-									<p>Trainer .Tech Training Course</p>
-									<hr class="bar-studi">									
-								</li>
-							</ul>
-							<ul id="descr_exp" class="container-fluid"><h4 class="bold_modified">Mar 2013</h4>
-								<li id="descr_list-xs">
-									<p><i id="stud" class="fa fa-graduation-cap"></i> Bachelor degree in Environmental Engineering</p>
-									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Università degli studi dell'Aquila</p>								
-									<p><i id="stud" class="fa fa-university"></i> 101/110</p>
-									<p><i id="stud"><a href="images/Tesi_triennale.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> River transport of pollutants. Case of study: Sacco river in Colleferro (RM)</i></a></p>									
-						
-								</li>
-							<hr class="bar-studi">									
-							</ul>	
-							<ul id="descr_exp" class="container-fluid"><h4 class="bold_modified">Jun 2008</h4>
-								<li id="descr_list-xs">
-									<p><i id="stud" class="fa fa-graduation-cap"></i> High scool diploma</p>
-									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Liceo Scientifico F.Severi (FR)</p> 							
-									<p><i id="stud" class="fa fa-university"></i> 72/110</p>
-								</li>
-							<hr class="bar-studi">									
-							</ul>
-							<ul id="descr_exp" class="container-fluid"><h4 class="bold_modified">Mar 2006</h4>
-								<li id="descr_list-xs">
-									<p><i id="stud" class="fa fa-graduation-cap"></i>Swim teacher - 1<sup>st</sup> level</p>
-									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> F.I.N. Roma</p>
-								</li>
-							<hr class="bar-studi">										
-							</ul>							
-							
-						</div>
-				</div>
-			</div>
-			<div>
-
-				<div class="section-title-3">
-
-					<div id="blog-xs"  class="title-frame"><h2 class="title bold"> <span> Blog </span></h2></div>
-					<div class="experience">
-							<ul id="descr_exp" class="container-fluid"><h3>Page in progress...</h3><i class="fa  fa-refresh w3-spin"></i>	
-								
-								
-							</ul>
-							
-							
-						</div>
-				</div>
-			</div>
-
-			<div>
-
-				<div class="section-title">
-					<div id="contatti-xs"  class="title-frame"><h2 class="title bold"> <span> Contacts </span></h2></div>
-					<div class="experience">
-							<div id="Contacts" class="container-fluid">
-							<ul>
-								<li class="table-multi">
-									<a id= "CH_num" href="tel:+41788223025" target="_blank" class="fa fa-phone-square"><sub>CH</sub></a>
-									<a id= "Mail" href="mailto:giampaolo.carducci@gmail.com" target="_blank" class="fa fa-envelope"></i></a>
-									<a id= "It_num" href="tel:+393339217550" target="_blank" class="fa fa-phone-square"><sub>IT</sub></a>
-								</li>
-							</ul>
-							</div>
-				</div>
-			</div>
-
-
-		</div>
-	</div>
-</div>
-				<div><hr></div>
-
-
-	
- </div>
- 
- </div>
-
-  <!-- ############################################################################### -->
-  <!-- ############################################################################### -->
-  <!-- ############################################################################### -->
-  <!-- ############################################################################### -->
-  <!-- *********    VISIBLE ONLY XS - END -->  
-  <!-- ############################################################################### -->
-  <!-- ############################################################################### -->
-  <!-- ############################################################################### -->
-  <!-- ############################################################################### -->
-  
-
- 
-</nav>
 </header>
 
 

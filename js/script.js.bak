@@ -90,9 +90,11 @@ function checkCookie() {
   if (user != "") {
     alert("Welcome again " + user);
   } else {
-    user = prompt("This website uses cookies to improve your experiene. Please insert your name, username or nickname to personalize this website and don't see anymore this message. Otherwise, select CANCEL. We wish you a pleasent experience", "Insert Name, username or nickname to personalize cookies");
+    user = prompt("We and selected third parties use cookies or similar technologies for technical purposes and, with your consent, also for other purposes (experience improvement and measurement) as specified in the","BOOOOOOOO");
+	
+	user = prompt("You can freely give, refuse or revoke your consent at any time.", "Insert Name, username or nickname to personalize cookies");
     if (user != "" && user != null) {
-      setCookie("username", user, 2000);
+      setCookie("username", user, 365);
     }
   }
 }
