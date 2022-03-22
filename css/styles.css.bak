@@ -1075,8 +1075,16 @@ margin:0;
 
 #apri{
 	background-color:transparent;
-	color:blue;
-}
+    position: fixed!important;
+	color: white;
+	margin:10px;
+	}
+	
+#contenitore_button{
+	background-color:transparent;
+
+	z-index: 1;
+	}
 
 
 #mySidebar{
@@ -1090,8 +1098,15 @@ margin-left:10px;
 }
 
 .fa-sliders{
-	
-	text-align:right;
+	position:relative;
+	margin-left:80%;
 }
 
+.w3-sidebar {
+    height: 30%;
+    width: 180px;
+    background-color: #fff;
+    position: fixed!important;
+    z-index: 1;
+}
 
