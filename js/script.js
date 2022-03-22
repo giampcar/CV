@@ -1,3 +1,4 @@
+
 var myIndex = 0;
 carousel();
 carousel_1();
@@ -89,7 +90,7 @@ function checkCookie() {
   if (user != "") {
     alert("Welcome again " + user);
   } else {
-    user = prompt("Please accept the cookies entering your username:", "");
+    user = prompt("This website uses cookies to improve your experiene. Please insert your name, username or nickname to personalize this website and don't see anymore this message. Otherwise, select CANCEL. We wish you a pleasent experience", "Insert Name, username or nickname to personalize cookies");
     if (user != "" && user != null) {
       setCookie("username", user, 365);
     }

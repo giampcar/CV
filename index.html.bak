@@ -980,7 +980,7 @@
 					<div id="studi-xs"  class="title-frame"><h2 class="title bold"> <span>Studies</span></h2></div>
 					<div class="experience">
 					
-							<ul id="descr_exp" class="container-fluid"><h4 id="anno" class="bold">Jan 2018</h4>
+							<ul id="descr_exp" class="container-fluid"><h4 id="anno" class="bold_modified">Jan 2018</h4>
 								<li id="descr_list">
 								<p><i class="fa fa-graduation-cap"></i> Seminary - Treatment of water in heating systems and sanitary circuits according to current legislation as a tool for energy efficiency </p>
 																	
@@ -998,13 +998,13 @@
 								</li>
 							<hr class="bar-studi">	
 							</ul>
-							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Jan	2015</h4>
+							<ul id="descr_exp" class="container-fluid"><h4 class="bold_modified">Jan	2015</h4>
 								<li id="descr_list-xs">
 									<p>Trainer .Tech Training Course</p>
 									<hr class="bar-studi">									
 								</li>
 							</ul>
-							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Mar 2013</h4>
+							<ul id="descr_exp" class="container-fluid"><h4 class="bold_modified">Mar 2013</h4>
 								<li id="descr_list-xs">
 									<p><i id="stud" class="fa fa-graduation-cap"></i> Bachelor degree in Environmental Engineering</p>
 									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Università degli studi dell'Aquila</p>								
@@ -1014,7 +1014,7 @@
 								</li>
 							<hr class="bar-studi">									
 							</ul>	
-							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Jun 2008</h4>
+							<ul id="descr_exp" class="container-fluid"><h4 class="bold_modified">Jun 2008</h4>
 								<li id="descr_list-xs">
 									<p><i id="stud" class="fa fa-graduation-cap"></i> High scool diploma</p>
 									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Liceo Scientifico F.Severi (FR)</p> 							
@@ -1022,7 +1022,7 @@
 								</li>
 							<hr class="bar-studi">									
 							</ul>
-							<ul id="descr_exp" class="container-fluid"><h4 class="bold">Mar 2006</h4>
+							<ul id="descr_exp" class="container-fluid"><h4 class="bold_modified">Mar 2006</h4>
 								<li id="descr_list-xs">
 									<p><i id="stud" class="fa fa-graduation-cap"></i>Swim teacher - 1<sup>st</sup> level</p>
 									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> F.I.N. Roma</p>
@@ -1125,6 +1125,8 @@
   <script src="js/script.js"></script>
 
   
-  
+
+
+
 </body>
 </html>
