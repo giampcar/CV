@@ -6,6 +6,10 @@ body {
   position:relative;
 }
 
+.normalizzatore{
+	max-width:1500px;
+		}
+
 header {
     background-color:  MintCream;
 }
@@ -546,7 +550,7 @@ stroke-dasharray: 100;
 	font-weight: bold;
 	width:30%;
 		position:relative;
-	top:-25px;
+	top:-20px;
 	right:-20px;
 	}
 	
