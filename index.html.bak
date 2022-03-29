@@ -34,8 +34,8 @@
   
 <body class= "container-fluid center">
 
-  <header>
-   <div class="normalizzatore container-fluid"> 
+  <header class="normalizzatore container-fluid">
+
 
 <!--	 <div onload="checkCookie()"><a href="./data-protection/privacy-policy.html" target="_blank">Cookies</a></div> -->
    <nav id="title" class="navbar navbar-default container-fluid">
@@ -342,17 +342,17 @@
   
  <div id="main-content" class="container-fluid  col-lg-9 col-md-8 col-sd-12 ">
 	<div id="photo_2" class="container-fluid w3-content w3-section w3-center">
-			<img class="mySlides w3-animate-right" src="./images/slideshow_1/2.jpg">
-			<img class="mySlides w3-animate-right" src="./images/slideshow_1/7.jpg">
-			<img class="mySlides w3-animate-right" src="./images/slideshow_1/11.jpg">
+			<img class="mySlides w3-animate-opacity" src="./images/slideshow_1/2.jpg">
+			<img class="mySlides w3-animate-opacity" src="./images/slideshow_1/7.jpg">
+			<img class="mySlides w3-animate-opacity" src="./images/slideshow_1/11.jpg">
 	</div>
 		<div id="photo_3" class="container-fluid w3-content w3-section w3-center">
-			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/1.jpg">
-			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/5.jpg">
-			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/7.jpg">
-			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/9.jpg">
-			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/10.jpg">
-			<img class="mySlides_2 w3-animate-left" src="./images/slideshow_2/11.jpg">
+			<img class="mySlides_2 w3-animate-opacity" src="./images/slideshow_2/1.jpg">
+			<img class="mySlides_2 w3-animate-opacity" src="./images/slideshow_2/5.jpg">
+			<img class="mySlides_2 w3-animate-opacity" src="./images/slideshow_2/7.jpg">
+			<img class="mySlides_2 w3-animate-opacity" src="./images/slideshow_2/9.jpg">
+			<img class="mySlides_2 w3-animate-opacity" src="./images/slideshow_2/10.jpg">
+			<img class="mySlides_2 w3-animate-opacity" src="./images/slideshow_2/11.jpg">
 	</div>
 				<div><hr></div>
 				
@@ -1089,16 +1089,7 @@
 
  
 </nav>
- </div> 
 </header>
-
-
-
-
- 
-  
-   
-
   
 
   <footer class="panel-footer, container-fluid, text-center">

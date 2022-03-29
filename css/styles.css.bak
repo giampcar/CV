@@ -7,7 +7,7 @@ body {
 }
 
 .normalizzatore{
-	max-width:1500px;
+	max-width:1250px;
 		}
 
 header {
@@ -1130,5 +1130,11 @@ margin-left:10px;
     background-color: #fff;
     position: fixed!important;
     z-index: 1;
+}
+
+
+
+.w3-animate-fading {
+    animation: fading 20s 1;
 }
 

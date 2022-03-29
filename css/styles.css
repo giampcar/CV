@@ -1132,3 +1132,9 @@ margin-left:10px;
     z-index: 1;
 }
 
+
+
+.w3-animate-fading {
+    animation: fading 10s 1;
+}
+

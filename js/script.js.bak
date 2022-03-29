@@ -12,7 +12,7 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel,3000); // Change image every 2 seconds
+  setTimeout(carousel,10000++); // Change image every 2 seconds
 }
 
 
@@ -25,7 +25,7 @@ function carousel_1() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel_1, 3000); // Change image every 2 seconds
+  setTimeout(carousel_1, 10000); // Change image every 2 seconds
 }
 
 
@@ -91,8 +91,7 @@ function checkCookie() {
     alert("Welcome again " + user);
   } else {
     user = prompt("We and selected third parties use cookies or similar technologies for technical purposes and, with your consent, also for other purposes (experience improvement and measurement) as specified in the","BOOOOOOOO");
-	
-	user = prompt("You can freely give, refuse or revoke your consent at any time.", "Insert Name, username or nickname to personalize cookies");
+	user = prompt("You can freely give, refuse or revoke your consent at any time.");
     if (user != "" && user != null) {
       setCookie("username", user, 365);
     }
