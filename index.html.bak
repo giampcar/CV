@@ -49,18 +49,18 @@
      </div>
 	 <div id="collapsable-nav" class="collapse navbar-collapse, visible-xs, .d-{sm,md,lg,xl}-block ">
 		<ul id="nav-list" class="nav, navbar-nav, visible-xs ">
-		    <hr>
+		    <li><hr></li>
 			
 			<li><a href="./index.html"><span class="nav-text">Home</span></a></li>
-		   <hr>
+			<li><hr></li>
 		   <li><a href="#esperienza-lavorativa-xs"><span class="nav-text">Experiences</span></a></li>
-		   <hr>
+			<li><hr></li>
 		   <li><a href="#studi-xs"><span class="nav-text">Studies and publications</span></a></li>
-			 <hr>
+			<li><hr></li>
 		   <li><a href="#blog-xs"><span class="nav-text">Blog</span></a></li>
-			 <hr>
+			<li><hr></li>
 		   <li><a href="#contatti-xs"><span class="nav-text">Contacts</span></a></li>
-			<hr>
+			<li><hr></li>
 		</ul>
 	 </div><!-- .collapse .navbar-collapse -->
     </nav><!-- #header-nav -->
@@ -80,7 +80,7 @@
 				<ul>
 					<li class="table-multi">
 						<a id= "CH_num" href="tel:+41788223025" target="_blank" class="fa fa-phone-square"><sub>CH</sub></a>
-						<a id= "Mail" href="mailto:giampaolo.carducci@gmail.com" target="_blank" class="fa fa-envelope"></i></a>
+						<a id= "Mail" href="mailto:giampaolo.carducci@gmail.com" target="_blank" class="fa fa-envelope"></a>
 						<a id= "It_num" href="tel:+393339217550" target="_blank" class="fa fa-phone-square"><sub>IT</sub></a>
 					</li>
 				</ul>
@@ -96,11 +96,11 @@
 			<ul>
 				<li class="table_sample">
 					<h5 class="bold">Nationality:</h5>
-					<span><h5>Italian</h5></span>
+					<a><h5>Italian</h5></a>
 				</li>
 				<li class="table_sample">
 					<h5 class="bold">Residence:</h5>
-					<span><h5>Lyss</h5></span>
+					<a><h5>Lyss</h5></a>
 				</li>
 			</ul>
 		</div>
@@ -168,7 +168,7 @@
 			<div id="lineprog2-1" data-type="progress" data-value="95" >
 				<svg id="style-bar" viewBox="0 0 100 2"  >
 					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-95" d="M 0,0.86 L 100,0.86" ></path>
 				</svg>
    				<div class="progressbar-text">95%</div>
 			</div>
@@ -182,7 +182,7 @@
 			<div id="lineprog2-1" data-type="progress" data-value="95" >
 				<svg id="style-bar" viewBox="0 0 100 2"  >
 					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-95" d="M 0,0.86 L 100,0.86" ></path>
 				</svg>
    				<div class="progressbar-text">95%</div>
 			</div>
@@ -196,7 +196,7 @@
 			<div id="lineprog2-1" data-type="progress" data-value="90" >
 				<svg id="style-bar" viewBox="0 0 100 2"  >
 					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90" d="M 0,0.86 L 100,0.86" ></path>
 				</svg>
    				<div class="progressbar-text">90%</div>
 			</div>
@@ -210,7 +210,7 @@
 			<div id="lineprog2-1" data-type="progress" data-value="90" >
 				<svg id="style-bar" viewBox="0 0 100 2"  >
 					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90" d="M 0,0.86 L 100,0.86" ></path>
 				</svg>
    				<div class="progressbar-text">90%</div>
 			</div>
@@ -224,7 +224,7 @@
 			<div id="lineprog2-1" data-type="progress" data-value="25" >
 				<svg id="style-bar" viewBox="0 0 100 2"  >
 					<path id="background-25" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-25"d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-25" d="M 0,0.86 L 100,0.86" ></path>
 				</svg>
    				<div class="progressbar-text">25%</div>
 			</div>
@@ -242,7 +242,7 @@
 			<div id="lineprog2-1" data-type="progress" data-value="95" >
 				<svg id="style-bar" viewBox="0 0 100 2"  >
 					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-95" d="M 0,0.86 L 100,0.86" ></path>
 				</svg>
    				<div class="progressbar-text">95%</div>
 			</div>
@@ -256,7 +256,7 @@
 			<div id="lineprog2-1" data-type="progress" data-value="75" >
 				<svg id="style-bar" viewBox="0 0 100 2"  >
 					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-75"d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-75" d="M 0,0.86 L 100,0.86" ></path>
 				</svg>
    				<div class="progressbar-text">75%</div>
 			</div>
@@ -270,7 +270,7 @@
 			<div id="lineprog2-1" data-type="progress" data-value="90" >
 				<svg id="style-bar" viewBox="0 0 100 2"  >
 					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90" d="M 0,0.86 L 100,0.86" ></path>
 				</svg>
    				<div class="progressbar-text">90 %</div>
 			</div>
@@ -284,7 +284,7 @@
 			<div id="lineprog2-1" data-type="progress" data-value="90" >
 				<svg id="style-bar" viewBox="0 0 100 2"  >
 					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90" d="M 0,0.86 L 100,0.86" ></path>
 				</svg>
    				<div class="progressbar-text">90%</div>
 			</div>
@@ -298,7 +298,7 @@
 			<div id="lineprog2-1" data-type="progress" data-value="65" >
 				<svg id="style-bar" viewBox="0 0 100 2"  >
 					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-65"d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-65" d="M 0,0.86 L 100,0.86" ></path>
 				</svg>
    				<div class="progressbar-text">65%</div>
 			</div>
@@ -342,17 +342,17 @@
   
  <div id="main-content" class="container-fluid  col-lg-9 col-md-8 col-sd-12 ">
 	<div id="photo_2" class="container-fluid w3-content w3-section w3-center">
-			<img class="mySlides w3-animate-opacity" src="./images/slideshow_1/2.jpg">
-			<img class="mySlides w3-animate-opacity" src="./images/slideshow_1/7.jpg">
-			<img class="mySlides w3-animate-opacity" src="./images/slideshow_1/11.jpg">
+			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/2.jpg">
+			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/7.jpg">
+			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/11.jpg">
 	</div>
 		<div id="photo_3" class="container-fluid w3-content w3-section w3-center">
-			<img class="mySlides_2 w3-animate-opacity" src="./images/slideshow_2/1.jpg">
-			<img class="mySlides_2 w3-animate-opacity" src="./images/slideshow_2/5.jpg">
-			<img class="mySlides_2 w3-animate-opacity" src="./images/slideshow_2/7.jpg">
-			<img class="mySlides_2 w3-animate-opacity" src="./images/slideshow_2/9.jpg">
-			<img class="mySlides_2 w3-animate-opacity" src="./images/slideshow_2/10.jpg">
-			<img class="mySlides_2 w3-animate-opacity" src="./images/slideshow_2/11.jpg">
+			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/1.jpg">
+			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/5.jpg">
+			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/7.jpg">
+			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/9.jpg">
+			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/10.jpg">
+			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/11.jpg">
 	</div>
 				<div><hr></div>
 				
@@ -387,7 +387,7 @@
 								</li>
 							</ul>
 							
-							<ul id="descr_exp" class="container-fluid"><h3>Biogen – Solothurn (SO) <a id="maps" target="_blank" href="https://www.biogen-solothurn.ch/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">Aug 2018 – March 2020</h4> <h5 class="bold">Role: <span>Construction Engineer // Machinery and PED directive</span>  <h5 class="bold">	Key responsibilities: </h5>
+							<ul id="descr_exp" class="container-fluid"><h3>Biogen – Solothurn (SO) <a id="maps" target="_blank" href="https://www.biogen-solothurn.ch/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">Aug 2018 – March 2020</h4> <h5 class="bold">Role: <span>Construction Engineer // Machinery and PED directive</span></h5>  <h5 class="bold">	Key responsibilities: </h5>
 								<li id="descr_list">
 								<p>Coordination of all process relevant activities incl. review and approve process engineering specifications, including process piping & instrumentation diagrams (P&IDs), datasheets, and procurement packages for quipment and systems.</p>
 								<p>Close collaboration with all project discipline (incl. Contactors), key Project & Site stakeholders and project managers.</p>
@@ -403,7 +403,7 @@
 								</li>
 								<div id="timebar_2" class="container-fluid"> </div><div id="timebardot_1" class=" fa fa-angle-double-down"></div>
 							</ul>
-							<ul id="descr_exp" class="container-fluid"><h3>GSK vaccines – Siena (ITALY)<a id="maps" target="_blank" href="https://it.gsk.com/it-it/home/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">Nov 2016 – Aug 2018</h4><h5 class="bold">Role: <span>Engineering-process consultant // CQV Clean Utilities and Maintenance</span>  <h5 class="bold">	Key responsibilities: </h5>
+							<ul id="descr_exp" class="container-fluid"><h3>GSK vaccines – Siena (ITALY)<a id="maps" target="_blank" href="https://it.gsk.com/it-it/home/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">Nov 2016 – Aug 2018</h4><h5 class="bold">Role: <span>Engineering-process consultant // CQV Clean Utilities and Maintenance</span></h5>  <h5 class="bold">	Key responsibilities: </h5>
 								<li id="descr_list">
 									<p>URS definition for clean utilities production plant revamping (Ultrafiltration system, Softened water system, Purified water system (double stage reverse osmosis equipment ), Water for injection (5 stages distillator equipment), clean steam generator. Clean gasses (CO2, O2, N2, He) storage and distribution.</p>
 									<p>Clean utilities installation (FAT/SAT) and qualification (IQ,OQ) execution and supervision. </p>
@@ -417,7 +417,7 @@
 								</li>
 								<div id="timebar_3" class="container-fluid"> </div><div id="timebardot_1" class="fa fa-angle-double-down"></div>
 							</ul>
-							<ul id="descr_exp" class="container-fluid"><h3>Pharmaceutical, Chemical, Food and Mechanical companies <a id="maps" target="_blank" href="https://www.amengineering.it/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">Jan 2016 – Nov 2016 </h4> <h5 class="bold">Role: <span>Engineering-process consultant // Machinery and PED directive</span>  <h5 class="bold">	Key responsibilities: </h5>
+							<ul id="descr_exp" class="container-fluid"><h3>Pharmaceutical, Chemical, Food and Mechanical companies <a id="maps" target="_blank" href="https://www.amengineering.it/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">Jan 2016 – Nov 2016 </h4> <h5 class="bold">Role: <span>Engineering-process consultant // Machinery and PED directive</span></h5><h5 class="bold">	Key responsibilities: </h5>
 								<li id="descr_list">
 								<p> Pressurized equipment compliance check with D.M. 329/2004, 97/32/CE (P.E.D.) and D.Lgs. 26/2016 – ISO 9001 and 2014/68/EU. </p>
 								<p> Equipment and assembly of machineries authorities registration according to D.Lgs. 17/2010.</p>
@@ -453,7 +453,7 @@
 									<p><i id="stud" class="fa fa-graduation-cap"></i> Master degree on Environmental engineering [LM-35]</p>
 									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Università degli studi dell'Aquila</p>								
 									<p><i id="stud" class="fa fa-university"></i> 110/110</p>
-									<p><i id="stud"><a href="images/2015_Carducci.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> Numerical model for the characterization of the downstream jet of ski jump spillways</i></a></p>
+									<p><i id="stud"> </i><a href="images/2015_Carducci.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> Numerical model for the characterization of the downstream jet of ski jump spillways</a></p>
 							
 								</li>
 							<hr class="bar-studi">	
@@ -469,7 +469,7 @@
 									<p><i id="stud" class="fa fa-graduation-cap"></i> Bachelor degree in Environmental Engineering</p>
 									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Università degli studi dell'Aquila</p>								
 									<p><i id="stud" class="fa fa-university"></i> 101/110</p>
-									<p><i id="stud"><a href="images/Tesi_triennale.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> River transport of pollutants. Case of study: Sacco river in Colleferro (RM)</i></a></p>									
+									<p><i id="stud"> </i><a href="images/Tesi_triennale.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> River transport of pollutants. Case of study: Sacco river in Colleferro (RM)</a></p>
 						
 								</li>
 							<hr class="bar-studi">									
@@ -517,7 +517,7 @@
 							<ul>
 								<li class="table-multi">
 									<a id= "CH_num" href="tel:+41788223025" target="_blank" class="fa fa-phone-square"><sub>CH</sub></a>
-									<a id= "Mail" href="mailto:giampaolo.carducci@gmail.com" target="_blank" class="fa fa-envelope"></i></a>
+									<a id= "Mail" href="mailto:giampaolo.carducci@gmail.com" target="_blank" class="fa fa-envelope"></a>
 									<a id= "It_num" href="tel:+393339217550" target="_blank" class="fa fa-phone-square"><sub>IT</sub></a>
 								</li>
 							</ul>
@@ -584,7 +584,8 @@
 <div id="mySidebar" class="sidebar w3-animate-l">
  	<div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
   <button onclick="closeRightMenu()" class="w3-bar-item w3-button fa fa-sliders"></button>
-			<li>
+		<ul>
+		<li>
 			<a href="./index.html">
 			<span class="nav-text">Home</span>
 			</a>
@@ -601,10 +602,11 @@
 			<span class="nav-text">Contacts</span>
 			</a>
 			</li>
+		</ul>
 </div>
 
 <div>
-  <button id="apri" class="w3-button w3-right fa fa-align-justify" onclick="openRightMenu()"</button>
+  <button id="apri" class="w3-button w3-right fa fa-align-justify" onclick="openRightMenu()"></button>
 
 </div>
 </div>
@@ -642,7 +644,7 @@
 				<ul>
 					<li class="table-multi">
 						<a id= "CH_num" href="tel:+41788223025" target="_blank" class="fa fa-phone-square"><sub>CH</sub></a>
-						<a id= "Mail" href="mailto:giampaolo.carducci@gmail.com" target="_blank" class="fa fa-envelope"></i></a>
+						<a id= "Mail" href="mailto:giampaolo.carducci@gmail.com" target="_blank" class="fa fa-envelope"></a>
 						<a id= "It_num" href="tel:+393339217550" target="_blank" class="fa fa-phone-square"><sub>IT</sub></a>
 					</li>
 				</ul>
@@ -730,7 +732,7 @@
 			<div id="lineprog2-1" data-type="progress" data-value="95" >
 				<svg id="style-bar" viewBox="0 0 100 2"  >
 					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-95" d="M 0,0.86 L 100,0.86" ></path>
 				</svg>
    				<div class="progressbar-text">95%</div>
 			</div>
@@ -744,7 +746,7 @@
 			<div id="lineprog2-1" data-type="progress" data-value="95" >
 				<svg id="style-bar" viewBox="0 0 100 2"  >
 					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-95" d="M 0,0.86 L 100,0.86" ></path>
 				</svg>
    				<div class="progressbar-text">95%</div>
 			</div>
@@ -758,7 +760,7 @@
 			<div id="lineprog2-1" data-type="progress" data-value="90" >
 				<svg id="style-bar" viewBox="0 0 100 2"  >
 					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90" d="M 0,0.86 L 100,0.86" ></path>
 				</svg>
    				<div class="progressbar-text">90%</div>
 			</div>
@@ -772,7 +774,7 @@
 			<div id="lineprog2-1" data-type="progress" data-value="90" >
 				<svg id="style-bar" viewBox="0 0 100 2"  >
 					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90" d="M 0,0.86 L 100,0.86" ></path>
 				</svg>
    				<div class="progressbar-text">90%</div>
 			</div>
@@ -786,7 +788,7 @@
 			<div id="lineprog2-1" data-type="progress" data-value="25" >
 				<svg id="style-bar" viewBox="0 0 100 2"  >
 					<path id="background-25" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-25"d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-25" d="M 0,0.86 L 100,0.86" ></path>
 				</svg>
    				<div class="progressbar-text">25%</div>
 			</div>
@@ -804,7 +806,7 @@
 			<div id="lineprog2-1" data-type="progress" data-value="95" >
 				<svg id="style-bar" viewBox="0 0 100 2"  >
 					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-95"d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-95" d="M 0,0.86 L 100,0.86" ></path>
 				</svg>
    				<div class="progressbar-text">95%</div>
 			</div>
@@ -818,7 +820,7 @@
 			<div id="lineprog2-1" data-type="progress" data-value="75" >
 				<svg id="style-bar" viewBox="0 0 100 2"  >
 					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-75"d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-75" d="M 0,0.86 L 100,0.86" ></path>
 				</svg>
    				<div class="progressbar-text">75%</div>
 			</div>
@@ -832,7 +834,7 @@
 			<div id="lineprog2-1" data-type="progress" data-value="90" >
 				<svg id="style-bar" viewBox="0 0 100 2"  >
 					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90" d="M 0,0.86 L 100,0.86" ></path>
 				</svg>
    				<div class="progressbar-text">90 %</div>
 			</div>
@@ -846,7 +848,7 @@
 			<div id="lineprog2-1" data-type="progress" data-value="90" >
 				<svg id="style-bar" viewBox="0 0 100 2"  >
 					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-90"d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-90" d="M 0,0.86 L 100,0.86" ></path>
 				</svg>
    				<div class="progressbar-text">90%</div>
 			</div>
@@ -860,7 +862,7 @@
 			<div id="lineprog2-1" data-type="progress" data-value="65" >
 				<svg id="style-bar" viewBox="0 0 100 2"  >
 					<path id="background" d="M 0,0.86 L 100,0.86" ></path>
-					<path id="bar-value-65"d="M 0,0.86 L 100,0.86" ></path>
+					<path id="bar-value-65" d="M 0,0.86 L 100,0.86" ></path>
 				</svg>
    				<div class="progressbar-text">65%</div>
 			</div>
@@ -928,7 +930,7 @@
 								</li>
 							</ul>
 							
-							<ul id="descr_exp" class="container-fluid"><h3>Biogen – Solothurn (SO) <a id="maps" target="_blank" href="https://www.biogen-solothurn.ch/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold_xs">Aug 2018 – March 2020</h4> <h5 class="bold">Role: <span>Construction Engineer // Machinery and PED directive</span>  <h5 class="bold">	Key responsibilities: </h5>
+							<ul id="descr_exp" class="container-fluid"><h3>Biogen – Solothurn (SO) <a id="maps" target="_blank" href="https://www.biogen-solothurn.ch/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold_xs">Aug 2018 – March 2020</h4> <h5 class="bold">Role: <span>Construction Engineer // Machinery and PED directive</span> </h5> <h5 class="bold">	Key responsibilities: </h5>
 								<li id="descr_list-xs">
 								<p>Coordination of all process relevant activities incl. review and approve process engineering specifications, including process piping & instrumentation diagrams (P&IDs), datasheets, and procurement packages for quipment and systems.</p>
 								<p>Close collaboration with all project discipline (incl. Contactors), key Project & Site stakeholders and project managers.</p>
@@ -943,7 +945,7 @@
 								<hr>	
 								</li>
 							</ul>
-							<ul id="descr_exp" class="container-fluid"><h3>GSK vaccines – Siena (ITALY)<a id="maps" target="_blank" href="https://it.gsk.com/it-it/home/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold_xs">Nov 2016 – Aug 2018</h4><h5 class="bold">Role: <span>Engineering-process consultant // CQV Clean Utilities and Maintenance</span>  <h5 class="bold">	Key responsibilities: </h5>
+							<ul id="descr_exp" class="container-fluid"><h3>GSK vaccines – Siena (ITALY)<a id="maps" target="_blank" href="https://it.gsk.com/it-it/home/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold_xs">Nov 2016 – Aug 2018</h4><h5 class="bold">Role: <span>Engineering-process consultant // CQV Clean Utilities and Maintenance</span></h5>  <h5 class="bold">	Key responsibilities: </h5>
 								<li id="descr_list-xs">
 									<p>URS definition for clean utilities production plant revamping (Ultrafiltration system, Softened water system, Purified water system (double stage reverse osmosis equipment ), Water for injection (5 stages distillator equipment), clean steam generator. Clean gasses (CO2, O2, N2, He) storage and distribution.</p>
 									<p>Clean utilities installation (FAT/SAT) and qualification (IQ,OQ) execution and supervision. </p>
@@ -956,7 +958,7 @@
 								<hr>	
 								</li>
 							</ul>
-							<ul id="descr_exp" class="container-fluid"><h3>Pharmaceutical, Chemical, Food and Mechanical companies <a id="maps" target="_blank" href="https://www.amengineering.it/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold_xs">Jan 2016 – Nov 2016 </h4> <h5 class="bold">Role: <span>Engineering-process consultant // Machinery and PED directive</span>  <h5 class="bold">	Key responsibilities: </h5>
+							<ul id="descr_exp" class="container-fluid"><h3>Pharmaceutical, Chemical, Food and Mechanical companies <a id="maps" target="_blank" href="https://www.amengineering.it/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold_xs">Jan 2016 – Nov 2016 </h4> <h5 class="bold">Role: <span>Engineering-process consultant // Machinery and PED directive</span></h5>  <h5 class="bold">	Key responsibilities: </h5>
 								<li id="descr_list-xs">
 								<p> Pressurized equipment compliance check with D.M. 329/2004, 97/32/CE (P.E.D.) and D.Lgs. 26/2016 – ISO 9001 and 2014/68/EU. </p>
 								<p> Equipment and assembly of machineries authorities registration according to D.Lgs. 17/2010.</p>
@@ -991,7 +993,7 @@
 									<p><i id="stud" class="fa fa-graduation-cap"></i> Master degree on Environmental engineering [LM-35]</p>
 									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Università degli studi dell'Aquila</p>								
 									<p><i id="stud" class="fa fa-university"></i> 110/110</p>
-									<p><i id="stud"><a href="images/2015_Carducci.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> Numerical model for the characterization of the downstream jet of ski jump spillways</i></a></p>
+									<p><i id="stud"></i><a href="images/2015_Carducci.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> Numerical model for the characterization of the downstream jet of ski jump spillways</a></p>
 							
 								</li>
 							<hr class="bar-studi">	
@@ -1007,7 +1009,7 @@
 									<p><i id="stud" class="fa fa-graduation-cap"></i> Bachelor degree in Environmental Engineering</p>
 									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Università degli studi dell'Aquila</p>								
 									<p><i id="stud" class="fa fa-university"></i> 101/110</p>
-									<p><i id="stud"><a href="images/Tesi_triennale.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> River transport of pollutants. Case of study: Sacco river in Colleferro (RM)</i></a></p>									
+									<p><i id="stud"></i><a href="images/Tesi_triennale.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> River transport of pollutants. Case of study: Sacco river in Colleferro (RM)</a></p>
 						
 								</li>
 							<hr class="bar-studi">									
@@ -1087,7 +1089,7 @@
   <!-- ############################################################################### -->
   
 
- 
+ </div>
 </nav>
 </header>
   
