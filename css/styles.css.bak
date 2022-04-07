@@ -33,6 +33,54 @@ header {
 /** Sienna  RGB: (255,0,0)**/
 
 
+
+/** Button language select **/
+/** ################################**/
+.button {
+	position:absolute;
+	left:85%;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #DABDAB;
+  border: none;
+  color: LightSlateGrey;
+  text-align: center;
+  font-size: .7em;
+   width: 25px;
+  height: 15px;
+  transition: all 0.5s;
+  margin: 5px;
+  box-shadow: 0px 2px 5px 1px LightSlateGrey;
+}
+
+
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 10px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
 /** ################################**/
 /** ################################**/
 
@@ -1135,6 +1183,6 @@ margin-left:10px;
 
 
 .w3-animate-fading {
-    animation: fading 20s 1;
+    animation: fading 10s 1;
 }
 
