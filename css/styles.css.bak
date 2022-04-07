@@ -360,10 +360,10 @@ height: 65px;
 
 #photo_2{
 	position:relative;
-	float:left;
+	float:right;
 height:250px;
 width:50%;
-padding:10px;
+padding: 0px 10px 0px 10px;
 
 }
 
@@ -372,7 +372,7 @@ position:relative;
 	float:left;
 height:250px;
 width:50%;
-padding:10px;
+padding: 0px 10px 0px 50px;
 
 }
 
@@ -1001,20 +1001,25 @@ hr {
 	border-radius:10%;
 /**	max-width:200px; **/
 /**	max-height:200px;**/
-	width:100%;
-	height:100%;
+	max-width:100%;
+	height:250px;
 	}
 	
 	.mySlides_2 {
 	border-radius:10%;
 /**	max-width:200px; **/
 /**	max-height:200px;**/
-	width:100%;
-	height:100%;
+	max-width:100%;
+	height:250px;
+	}
+	
+	#fotocontainer{
+	 display: flex;
+    justify-content: space-between;	
 	}
 
 .w3-animate-fading {
-    animation: fading 5s 1;
+    animation: fading 0.5s 1;
 }
 .w3-animate-zoom {
 }
