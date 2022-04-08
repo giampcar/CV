@@ -34,11 +34,7 @@
   
 <body class= "container-fluid center">
 
-
-
   <header class="normalizzatore container-fluid">
-  
-
 
 
 <!--	 <div onload="checkCookie()"><a href="./data-protection/privacy-policy.html" target="_blank">Cookies</a></div> -->
@@ -77,7 +73,7 @@
  
   <div id="riepilogo" class="container-fluid  col-lg-3 col-md-4 col-sd-12">
 	<div id="photo_container" class="container-fluid">
-			<div id="photo_1" class="container-fluid"></div>
+			<div class="container-fluid" id="photo_1"></div>
 			<div id="Nome" class="container-fluid"><a><h4>Giampaolo Carducci</h4></a></div>
 			<div id="Descr_gen" class="container-fluid"><a><h5>Environmental Engineer</h5></a></div>
 			<div id="Contacts" class="container-fluid">
@@ -346,14 +342,27 @@
   
  <div id="main-content" class="container-fluid  col-lg-9 col-md-8 col-sd-12 ">
 	<div id="photo_2" class="container-fluid w3-content w3-section w3-center">
+			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/1.jpg">
 			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/2.jpg">
-			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/7.jpg">
+			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/3.jpg">
+			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/4.jpg">
+			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/5.jpg">
+			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/6.jpg">
+			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/7.jpg">			
+			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/8.jpg">
+			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/9.jpg">
+			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/10.jpg">			
 			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/11.jpg">
 	</div>
 		<div id="photo_3" class="container-fluid w3-content w3-section w3-center">
 			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/1.jpg">
+			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/2.jpg">
+			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/3.jpg">
+			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/4.jpg">
 			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/5.jpg">
+			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/6.jpg">
 			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/7.jpg">
+			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/8.jpg">
 			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/9.jpg">
 			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/10.jpg">
 			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/11.jpg">
