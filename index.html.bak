@@ -512,7 +512,12 @@
 					<div id="blog"  class="title-frame"><h2 class="title bold"> <span> Blog </span></h2></div>
 					<div class="experience">
 								<ul id="descr_exp" class="container-fluid"><h3>Page in progress...</h3><i class="fa  fa-refresh w3-spin"></i>	
-								
+							<li><div>
+							<video width="600" height="300" controls>
+								<source src="./images/video/Complete_3.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+								</video>
+							</div></li>
 								
 							</ul>
 							
@@ -1052,8 +1057,14 @@
 
 					<div id="blog-xs"  class="title-frame"><h2 class="title bold"> <span> Blog </span></h2></div>
 					<div class="experience">
-							<ul id="descr_exp" class="container-fluid"><h3>Page in progress...</h3><i class="fa  fa-refresh w3-spin"></i>	
-								
+							<ul id="descr_exp" class="container-fluid"><h3>Page in progress...</h3><i class="fa  fa-refresh w3-spin"></i>
+							
+							<li><div>
+							<video width="320" height="240" controls>
+								<source src="./images/video/Complete_3.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+								</video>
+							</div></li>
 								
 							</ul>
 							
@@ -1074,6 +1085,14 @@
 									<a id= "Mail" href="mailto:giampaolo.carducci@gmail.com" target="_blank" class="fa fa-envelope"></i></a>
 									<a id= "It_num" href="tel:+393339217550" target="_blank" class="fa fa-phone-square"><sub>IT</sub></a>
 								</li>
+								
+														<li><div>
+							<video width="320" height="240" controls>
+								<source src="./images/video/Complete_3.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+								</video>
+							</div></li>
+							
 							</ul>
 							</div>
 				</div>
@@ -1128,6 +1147,8 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/ajax-utils.js"></script>
   <script src="js/script.js"></script>
+  
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4016648310864619"crossorigin="anonymous"></script>
 
 </body>
 </html>
