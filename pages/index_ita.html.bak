@@ -46,8 +46,8 @@
 
 <!-- PRELOAD IMAGES-->	
 		
-<link rel="icon" href=".\images\favicon.ico" type="image/x-icon" />
-	<link rel="shortcut icon" href=".\images\favicon.ico" type="image/x-icon" />
+<link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
 	    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9YDV0XJ3GE"></script>
 <script>
