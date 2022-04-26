@@ -110,6 +110,63 @@ sub{
 
 */
 
+/** ################################**/
+/** ################################**/
+/** Button language select **/
+/** ################################**/
+.button_leng {
+	position:absolute;
+	left:75%;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: MintCream;
+  border: none;
+  color: LightSlateGrey;
+  text-align: center;
+  font-size: .7em;
+   width: 35px;
+  height: 15px;
+  transition: all 0.5s;
+  margin: 5px;
+  box-shadow: 0px 2px 5px 1px LightSlateGrey;
+}
+
+
+
+.button_leng span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button_leng span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button_leng:hover span {
+  padding-right: 10px;
+}
+
+.button_leng:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+/** Button language select END **/
+/** ################################**/
+/** ################################**/
+/** ################################**/
+
 
 
 /** Button language select **/

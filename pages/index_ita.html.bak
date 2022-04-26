@@ -73,6 +73,7 @@
  
   <div id="riepilogo" class="container-fluid  col-lg-3 col-md-4 col-sd-12">
 	<div id="photo_container" class="container-fluid">
+	<button class="button_leng" ><a href="../index.html"><span>EN</span></a></button>
 			<div id="photo_1" class="container-fluid"></div>
 			<div id="Nome" class="container-fluid"><a><h4>Giampaolo Carducci</h4></a></div>
 			<div id="Descr_gen" class="container-fluid"><a><h5>Ingegnere civile-ambientale</h5></a></div>
@@ -376,7 +377,7 @@
 				<div class="section-title">
 					<div id="esperienza-lavorativa" class="title-frame"><h2 class="title bold"> <span> Esperienze lavorative </span></h2></div>
 						<div  class="experience">
-							<ul id="descr_exp" class="container-fluid, hidden-xs"><h3>CSL Behring – Lengnau (BE) <a id="maps" target="_blank" href="https://www.cslbehring.ch/uber-uns/standort-lengnau" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">	Mar 2020 – Dec 2021 </h4><h5 class="bold">	Role: <span> CSA Handover Engineer</span> </h5><h5 class="bold">Attività principali: </h5>
+							<ul id="descr_exp" class="container-fluid, hidden-xs"><h3>CSL Behring – Lengnau (BE) <a id="maps" target="_blank" href="https://www.cslbehring.ch/uber-uns/standort-lengnau" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">	Mar 2020 – Dec 2021 </h4><h5 class="bold">	Ruolo: <span> CSA Handover Engineer</span> </h5><h5 class="bold">Attività principali: </h5>
 								<li id="descr_list">
 								<p> Ingegnere per l'handover civile/strutturale (edifici amministrativi, Laboratori, reparti di produzione ed aree classificate (ISO-1,2,3,4).</p>
 								<p> Dipartimento civile QA/QC. Definizione degli standard di documentazione per aree classificate e laboratori. </p>
