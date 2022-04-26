@@ -656,6 +656,7 @@
  
   <div id="riepilogo_xs" class="container-fluid ">
 	<div id="photo_container_xs" class="container-fluid">
+			  <button class="button_leng" ><a href="../Pages/index_ita.html"><span>ITA</span></a></button>
 			<div id="photo_1" class="container-fluid"></div>
 			<div id="Nome" class="container-fluid"><a><h4>Giampaolo Carducci</h4></a></div>
 			<div id="Descr_gen" class="container-fluid"><a><h5>Environmental Engineer</h5></a></div>
