@@ -34,12 +34,12 @@
 
 <link rel="preload" as="image" href="../images/slideshow_2/1.jpg">
 <link rel="preload" as="image" href="../images/slideshow_2/2.jpg">
-<!-- <link rel="preload" as="image" href="../images/slideshow_2/3.jpg">-->
-<!-- <link rel="preload" as="image" href="../images/slideshow_2/4.jpg">-->
+<link rel="preload" as="image" href="../images/slideshow_2/3.jpg">
+<link rel="preload" as="image" href="../images/slideshow_2/4.jpg">
 <link rel="preload" as="image" href="../images/slideshow_2/5.jpg">
-<!-- <link rel="preload" as="image" href="../images/slideshow_2/6.jpg">-->
+<link rel="preload" as="image" href="../images/slideshow_2/6.jpg">
 <link rel="preload" as="image" href="../images/slideshow_2/7.jpg">
-<!-- <link rel="preload" as="image" href="../images/slideshow_2/8.jpg">-->
+<link rel="preload" as="image" href="../images/slideshow_2/8.jpg">
 <link rel="preload" as="image" href="../images/slideshow_2/9.jpg">
 <link rel="preload" as="image" href="../images/slideshow_2/10.jpg">
 <link rel="preload" as="image" href="../images/slideshow_2/11.jpg">
@@ -350,7 +350,7 @@
 	
 			<ul>
 				<li class="table_sample">
-					<button class="button "><a href="images/CV_G_Carducci_2022.pdf" target="_blank" ><span class="glyphicon glyphicon-cloud-download"> Curriculum Vitae</span ></a></button>
+					<button class="button "><a href="../images/CV_G_Carducci_2022.pdf" target="_blank" ><span class="glyphicon glyphicon-cloud-download"> Curriculum Vitae</span ></a></button>
 
 				</li>
 <li class="table-multi">
@@ -387,12 +387,12 @@
 		<div id="photo_3" class="container-fluid w3-content w3-section w3-center">
 			<img class="mySlides_2 w3-animate-fading" src="../images/slideshow_2/1.jpg">
 			<img class="mySlides_2 w3-animate-fading" src="../images/slideshow_2/2.jpg">
-			<img class="mySlides_2 w3-animate-fading" src="../images/slideshow_2/3.jpg">
-			<img class="mySlides_2 w3-animate-fading" src="../images/slideshow_2/4.jpg">
+			<!-- <img class="mySlides_2 w3-animate-fading" src="../images/slideshow_2/3.jpg"> -->
+			<!-- <img class="mySlides_2 w3-animate-fading" src="../images/slideshow_2/4.jpg">-->
 			<img class="mySlides_2 w3-animate-fading" src="../images/slideshow_2/5.jpg">
-			<img class="mySlides_2 w3-animate-fading" src="../images/slideshow_2/6.jpg">
+			<!-- <img class="mySlides_2 w3-animate-fading" src="../images/slideshow_2/6.jpg">-->
 			<img class="mySlides_2 w3-animate-fading" src="../images/slideshow_2/7.jpg">
-			<img class="mySlides_2 w3-animate-fading" src="../images/slideshow_2/8.jpg">
+			<!-- <img class="mySlides_2 w3-animate-fading" src="../images/slideshow_2/8.jpg">-->
 			<img class="mySlides_2 w3-animate-fading" src="../images/slideshow_2/9.jpg">
 			<img class="mySlides_2 w3-animate-fading" src="../images/slideshow_2/10.jpg">
 			<img class="mySlides_2 w3-animate-fading" src="../images/slideshow_2/11.jpg">
@@ -496,8 +496,8 @@
 									<p><i id="stud" class="fa fa-graduation-cap"></i> Master degree on Environmental engineering [LM-35]</p>
 									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Università degli studi dell'Aquila</p>								
 									<p><i id="stud" class="fa fa-university"></i> 110/110</p>
-									<p><i id="stud"> </i><a href="images/2015_Carducci.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> Numerical model for the characterization of the downstream jet of ski jump spillways</a></p>
-							
+									<p><i id="stud"> </i><a href="../images/2015_Carducci.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> Numerical model for the characterization of the downstream jet of ski jump spillways</a></p>
+									<p><i id="stud"> </i><a href="../images/Relazione_tecnica.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> Digitalization and map analysis - 112_II_NE_1947 - Villamagna ,Volterra (PI) </a></p>
 								</li>
 							<hr class="bar-studi">	
 							</ul>
@@ -512,7 +512,7 @@
 									<p><i id="stud" class="fa fa-graduation-cap"></i> Bachelor degree in Environmental Engineering</p>
 									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Università degli studi dell'Aquila</p>								
 									<p><i id="stud" class="fa fa-university"></i> 101/110</p>
-									<p><i id="stud"> </i><a href="images/Tesi_triennale.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> River transport of pollutants. Case of study: Sacco river in Colleferro (RM)</a></p>
+									<p><i id="stud"> </i><a href="../images/Tesi_triennale.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> River transport of pollutants. Case of study: Sacco river in Colleferro (RM)</a></p>
 						
 								</li>
 							<hr class="bar-studi">									
