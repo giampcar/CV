@@ -230,14 +230,14 @@ sub{
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
-
   color: darkred;
   font-weight: bold;
   font-size: 10px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
-  position:left;
   padding: 5px;
+  position: relative;
+  left: -40%;
 
 }
 
@@ -456,8 +456,9 @@ height: 65px;
 #photo_2{
 	position:relative;
 	float:right;
+	margin-right: 5%;
 height:200px;
-width:50%;
+width:40%;
 
 
 }
@@ -465,8 +466,9 @@ width:50%;
 #photo_3{
 position:relative;
 	float:left;
+		margin-left: 5%;
 height:200px;
-width:50%;
+width:40%;
 
 
 }
@@ -718,6 +720,22 @@ overflow-y: scroll;
 }
 
 .experience::-webkit-scrollbar {
+    display: none;
+}
+
+.standard_setup{
+	position:relative;
+	float:left;
+
+padding:10px;
+height:100px;
+width:100%;
+overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.standard_setup::-webkit-scrollbar {
     display: none;
 }
 
@@ -1080,6 +1098,7 @@ hr {
 	  border-radius: 2px;
 	  position:relative;
 	  left:0;
+	  border-color: darkred;
 }
 
 
