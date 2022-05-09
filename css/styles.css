@@ -11,7 +11,7 @@ body {
 		}
 
 header {
-    background-color:  MintCream;
+    background-color:  MintCrezzam;
 }
 /** ################################**/
 /** ################################**/
@@ -141,16 +141,17 @@ sub{
 }
 
 .button_leng span:after {
-  content: '\00bb';
+  content: 'IT \00bb';
   position: absolute;
   opacity: 0;
   top: 0;
-  right: -20px;
+  right: -50px;
   transition: 0.5s;
+  background-color:MintCream;
 }
 
 .button_leng:hover span {
-  padding-right: 10px;
+  padding-right: 4px;
 }
 
 .button_leng:hover span:after {
@@ -162,12 +163,38 @@ sub{
 
 
 
+
+
 /** Button language select END **/
 /** ################################**/
 /** ################################**/
 /** ################################**/
 
+.button_leng_2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
 
+.button_leng_2 span:after {
+  content: 'EN \00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -50px;
+  transition: 0.5s;
+  background-color:MintCream;
+}
+
+.button_leng_2:hover span {
+  padding-right: 4px;
+}
+
+.button_leng_2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 
 /** Button language select **/
 /** ################################**/
@@ -182,8 +209,41 @@ sub{
 /** ################################**/
 /** ################################**/
 
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  width: auto;
+  color: darkred;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: lightgrey;
+}
 
 
+	
+/** ################################**/
+/** ################################**/
+/** ################################**/
+/** ################################**/
+/** ################################**/
+/** ################################**/
+/** ################################**/
+/** ################################**/
+/** ################################**/
+/** ################################**/
 
 #riepilogo, #main-content, #menu-lato{
 position:relative;
@@ -213,11 +273,13 @@ overflow-y: scroll;
 #main-content{
 margin:0;
 padding:0px;
-height:60em;
+height:850px;
 overflow-y: scroll;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+
 
 #main-content::-webkit-scrollbar {
     display: none;
@@ -370,18 +432,18 @@ height: 65px;
 #photo_2{
 	position:relative;
 	float:right;
-height:250px;
+height:200px;
 width:50%;
-padding: 0px 10px 0px 10px;
+padding: 0px 10px 0px 50px;
 
 }
 
 #photo_3{
 position:relative;
 	float:left;
-height:250px;
+height:200px;
 width:50%;
-padding: 0px 10px 0px 50px;
+padding: 0px 10px 0px 80px;
 
 }
 
@@ -1011,7 +1073,7 @@ hr {
 /**	max-width:200px; **/
 /**	max-height:200px;**/
 	max-width:100%;
-	max-height:100%;
+	height:200px;
 	}
 	
 	.mySlides_2 {
@@ -1019,7 +1081,7 @@ hr {
 /**	max-width:200px; **/
 /**	max-height:200px;**/
 	max-width:100%;
-	max-height:100%;
+	height:200px;
 	}
 	
 	#fotocontainer{

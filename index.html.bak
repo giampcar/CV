@@ -103,7 +103,7 @@
  
   <div id="riepilogo" class="container-fluid  col-lg-3 col-md-4 col-sd-12">
 	<div id="photo_container" class="container-fluid">
-		  <button class="button_leng" ><a href="/pages/index_ita.html"><span>ITA</span></a></button>
+		  <button class="button_leng" ><a href="/pages/index_ita.html"><span>EN</span></a></button>
 			<div class="container-fluid" id="photo_1"></div>
 			<div id="Nome" class="container-fluid"><a><h4>Giampaolo Carducci</h4></a></div>
 			<div id="Descr_gen" class="container-fluid"><a><h5>Environmental Engineer</h5></a></div>
@@ -372,7 +372,8 @@
   
   
  <div id="main-content" class="container-fluid  col-lg-9 col-md-8 col-sd-12 ">
-	<div id="photo_2" class="container-fluid w3-content w3-section w3-center">
+ <div class "container-fluid slideshow-container">
+	<div id="photo_2" class="container-fluid w3-content w3-section w3-left">
 			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/1.jpg">
 			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/2.jpg">
 			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/3.jpg">
@@ -384,8 +385,11 @@
 			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/9.jpg">
 			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/10.jpg">			
 			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/11.jpg">
+			<!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 	</div>
-		<div id="photo_3" class="container-fluid w3-content w3-section w3-center">
+		<div id="photo_3" class="container-fluid w3-content w3-section w3-right">
 			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/1.jpg">
 			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/2.jpg">
 			<!-- <img class="mySlides_2 w3-animate-fading" src="../images/slideshow_2/3.jpg"> -->
@@ -397,6 +401,11 @@
 			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/9.jpg">
 			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/10.jpg">
 			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/11.jpg">
+			<!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides_2(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides_2(1)">&#10095;</a>
+	</div>
+	
 	</div>
 				<div><hr></div>
 				
@@ -498,7 +507,7 @@
 									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Università degli studi dell'Aquila</p>								
 									<p><i id="stud" class="fa fa-university"></i> 110/110</p>
 									<p><i id="stud"> </i><a href="images/2015_Carducci.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> Numerical model for the characterization of the downstream jet of ski jump spillways</a></p>
-							
+									<p><i id="stud"> </i><a href="images/Relazione_tecnica.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> Digitalization and map analysis - 112_II_NE_1947 - Villamagna ,Volterra (PI) </a></p>
 								</li>
 							<hr class="bar-studi">	
 							</ul>
@@ -514,8 +523,7 @@
 									<p><i id="stud" class="glyphicon glyphicon-map-marker"></i> &nbsp;Università degli studi dell'Aquila</p>								
 									<p><i id="stud" class="fa fa-university"></i> 101/110</p>
 									<p><i id="stud"> </i><a href="images/Tesi_triennale.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> River transport of pollutants. Case of study: Sacco river in Colleferro (RM)</a></p>
-									<p><i id="stud"> </i><a href="images/Relazione_tecnica.pdf" class="glyphicon glyphicon-cloud-download" target="_blank"> Digitalization and map analysis - 112_II_NE_1947
-Villamagna ,Volterra (PI) </a></p>
+									
 								</li>
 							<hr class="bar-studi">									
 							</ul>	
@@ -544,12 +552,16 @@ Villamagna ,Volterra (PI) </a></p>
 					<div id="blog"  class="title-frame"><h2 class="title bold"> <span> Blog </span></h2></div>
 					<div class="experience">
 								<ul id="descr_exp" class="container-fluid"><h3>Page in progress...</h3><i class="fa  fa-refresh w3-spin"></i>	
-							<li><div>
+							
+							<!--	<p><h3><a href="/pages/blog.html">Blog-link</a></h3></p>
+							<li>
+							<div>
 							<video width="600" height="500" controls>
 								<source src="./images/video/Complete_3.mp4" type="video/mp4">
 									Your browser does not support the video tag.
 								</video>
-							</div></li>
+							</div>
+							</li> -->
 								
 							</ul>
 							
@@ -687,7 +699,7 @@ Villamagna ,Volterra (PI) </a></p>
  
   <div id="riepilogo_xs" class="container-fluid ">
 	<div id="photo_container_xs" class="container-fluid">
-			  <button class="button_leng" ><a href="/pages/index_ita.html"><span>ITA</span></a></button>
+			  <button class="button_leng" ><a href="/pages/index_ita.html"><span>EN</span></a></button>
 			<div id="photo_1" class="container-fluid"></div>
 			<div id="Nome" class="container-fluid"><a><h4>Giampaolo Carducci</h4></a></div>
 			<div id="Descr_gen" class="container-fluid"><a><h5>Environmental Engineer</h5></a></div>

@@ -102,7 +102,7 @@
  
   <div id="riepilogo" class="container-fluid  col-lg-3 col-md-4 col-sd-12">
 	<div id="photo_container" class="container-fluid">
-	<button class="button_leng" ><a href="../index.html"><span>EN</span></a></button>
+	<button class="button_leng_2" ><a href="../index.html"><span>IT</span></a></button>
 			<div id="photo_1" class="container-fluid"></div>
 			<div id="Nome" class="container-fluid"><a><h4>Giampaolo Carducci</h4></a></div>
 			<div id="Descr_gen" class="container-fluid"><a><h5>Ingegnere civile-ambientale</h5></a></div>
@@ -406,7 +406,8 @@
 				<div class="section-title">
 					<div id="esperienza-lavorativa" class="title-frame"><h2 class="title bold"> <span> Esperienze lavorative </span></h2></div>
 						<div  class="experience">
-							<ul id="descr_exp" class="container-fluid, hidden-xs"><h3>CSL Behring – Lengnau (BE) <a id="maps" target="_blank" href="https://www.cslbehring.ch/uber-uns/standort-lengnau" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">	Mar 2020 – Dec 2021 </h4><h5 class="bold">	Ruolo: <span> CSA Handover Engineer</span> </h5><h5 class="bold">Attività principali: </h5>
+							<ul id="descr_exp" class="container-fluid, hidden-xs">
+								<h3>CSL Behring – Lengnau (BE) <a id="maps" target="_blank" href="https://www.cslbehring.ch/uber-uns/standort-lengnau" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">	Mar 2020 – Dec 2021 </h4><h5 class="bold">	Ruolo: <span> CSA Handover Engineer</span> </h5><h5 class="bold">Attività principali: </h5>
 								<li id="descr_list">
 								<p> Ingegnere per l'handover civile/strutturale (edifici amministrativi, Laboratori, reparti di produzione ed aree classificate (ISO-1,2,3,4).</p>
 								<p> Dipartimento civile QA/QC. Definizione degli standard di documentazione per aree classificate e laboratori. </p>
@@ -418,19 +419,22 @@
 								</li>
 								<div id="timebar_1" class="container-fluid"></div><div id="timebardot_1" class=" fa fa-angle-double-down"></div>
 							</ul>
-							<ul id="descr_exp" class="container-fluid, visible-xs"><h3>CSL Behring – Lengnau (BE) <a id="maps" target="_blank" href="https://www.cslbehring.ch/uber-uns/standort-lengnau" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">	Mar 2020 – Dec 2021 </h4><h5 class="bold">	Role: <span> CSA Handover Engineer</span> </h5><h5 class="bold">Key responsibilities: </h5>
-								<li id="descr_list-xs">
-								<p> Civil-Structural-Architectural Handover Engineer (administrative, Labs, production and classified clean room (E-D-C) areas)</p>
-								<p> QA/QC civil department. Definition of standard documentation for clean rooms and labs. </p>
-								<p> Work and contractors supervision. Direct interface with client for revamping/changes requests, local contractors management and internal QA/QC audit on executed works.</p>
-								<p> Responsible for quality, schedule, costs of all assigned CSA sub-systems. CSA completion walk-downs and safety walk-downs execution.</p>
-								<p> Integral test planner and executor for final building occupancy // Inspections with GVB for final building acceptance </p>
-								<p> Fire protection requirements construction supervisor</p>
+							<ul id="descr_exp" class="container-fluid, visible-xs">
+								<h3>CSL Behring – Lengnau (BE) <a id="maps" target="_blank" href="https://www.cslbehring.ch/uber-uns/standort-lengnau" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">	Mar 2020 – Dec 2021 </h4><h5 class="bold">	Ruolo: <span> CSA Handover Engineer</span> </h5><h5 class="bold">Attività principali: </h5>
+								<li id="descr_list">
+								<p> Ingegnere per l'handover civile/strutturale (edifici amministrativi, Laboratori, reparti di produzione ed aree classificate (ISO-1,2,3,4).</p>
+								<p> Dipartimento civile QA/QC. Definizione degli standard di documentazione per aree classificate e laboratori. </p>
+								<p> Superrvisione appaltoatori in campo. Interfaccia con il cliente per richieste di cambaimenti/moduifiche. QA/QC audit di esecuzione lavori.</p>
+								<p> Responsabile per la qualità, tempistiche e gestione dei costi relativi ai sottosistemi Civili (CSA) assegnati. Esecuzione walk-downs civili e HSE.</p>
+								<p> Pianificatore ed esecutore di test integrali antincendio per l'occupazione degli edifici// Inspections with GVB for final building acceptance </p>
+								<p> Supervisiore tecnico per le installazioni antincendio</p>
 								<hr>								
+								</li>							
 								</li>
 							</ul>
 							
-							<ul id="descr_exp" class="container-fluid"><h3>Biogen – Solothurn (SO) <a id="maps" target="_blank" href="https://www.biogen-solothurn.ch/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">Aug 2018 – March 2020</h4> <h5 class="bold">Role: <span>Construction Engineer // Machinery and PED directive</span></h5>  <h5 class="bold">	Key responsibilities: </h5>
+							<ul id="descr_exp" class="container-fluid">
+							<h3>Biogen – Solothurn (SO) <a id="maps" target="_blank" href="https://www.biogen-solothurn.ch/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">Aug 2018 – March 2020</h4> <h5 class="bold">Role: <span>Construction Engineer // Machinery and PED directive</span></h5>  <h5 class="bold">	Key responsibilities: </h5>
 								<li id="descr_list">
 								<p>Coordination of all process relevant activities incl. review and approve process engineering specifications, including process piping & instrumentation diagrams (P&IDs), datasheets, and procurement packages for quipment and systems.</p>
 								<p>Close collaboration with all project discipline (incl. Contactors), key Project & Site stakeholders and project managers.</p>

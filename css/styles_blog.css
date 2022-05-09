@@ -1,0 +1,698 @@
+body {
+    background-color:  lightblue;
+font-family: 'Bilbo', cursive;
+  text-align: center;
+}
+
+.normalizzatore {
+  max-width:1250px;
+
+}
+
+/** HEADER **/
+
+/** ################################**/
+/** ################################**/
+/** Button language select **/
+/** ################################**/
+.button {
+	position:absolute;
+	left:85%;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #DABDAB;
+  border: none;
+  color: LightSlateGrey;
+  text-align: center;
+  font-size: .7em;
+   width: 25px;
+  height: 15px;
+  transition: all 0.5s;
+  margin: 5px;
+  box-shadow: 0px 2px 5px 1px LightSlateGrey;
+}
+
+
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 10px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+#button_switch{
+	position:absolute;
+	left:1%;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #DABDAB;
+  border: none;
+  color: LightSlateGrey;
+  text-align: center;
+  font-weight:700;
+   width: auto;
+  height: auto;
+  margin: 1px;
+  box-shadow: 0.5px 0.5px 1px 1px LightSlateGrey;
+}
+
+#menu-button{
+	  color: Ivory;
+}
+#menu-button:hover, #menu-button:focus, #menu-button:active {
+	  color: #DABDAB;
+}
+
+
+/** Button language select END **/
+/** ################################**/
+/** ################################**/
+/** ################################**/
+
+
+/** Sections background **/
+/** ################################**/
+/** ################################**/
+/** ################################**/
+#title {
+	font-family: 'Gentium Basic', serif;
+  background-color: Ivory;
+  width:90%;
+  height:auto;
+  margin: auto, 0, auto, 0;
+  color: #61122f;
+  padding:0px;
+  }
+#title-xs {
+	font-family: 'Gentium Basic', serif;
+  background-color: Ivory;
+  width:90%;
+  height:auto;
+  margin: auto, 0, auto, 0;
+  color: #61122f;
+  padding:0px;
+  }
+
+
+ 
+  
+  #sections {
+	position:relative;
+
+  width:100%;
+  padding: 10px; 
+  left:-12px;
+  margin:0;
+   
+}
+
+ 
+h1 { /* Site name */
+font-family: 'Bilbo', cursive;
+  color: darkred;
+    text-shadow: .2px .2px .2px #222;
+
+  margin-top: 30px;
+  margin-bottom: 0;
+   padding-top: 10px;
+   font-size: 2.7em; /* 1vw = 1% of viewport width */
+  }
+  
+  #title p > span{ /* Manuela Pok */
+  border: 0;
+  padding:0;
+   font-size: 1.1em;
+    text-shadow: .2px .2px .2px #222;
+}
+  #title-xs p > span{ /* Manuela Pok */
+  border: 0;
+  padding:0;
+   font-size: 0.6em;
+    text-shadow: .2px .2px .2px #222;
+}
+  
+  h2 { /* menu bars - from buttonlist */
+font-family: 'Bilbo', cursive;
+  color: #DABDAB;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 1px #222;
+  margin: 0px, 0px, 0px, 0px ;
+  padding:0px, 0px, 0px, 0px;
+  }
+  
+  
+  
+    #instagram, #facebook, #twitter {
+  font-size: 1em;
+    color:#61122f;
+	margin-left:5px;
+}
+
+
+
+
+#header-nav {
+	background-color:Ivory;
+	margin:0;
+	padding:0;
+	width:90%;
+  display: inline-block;
+  position: relative;
+
+}
+
+
+ #collapsable-nav a{ /* Collapsed nav menu text */
+    font-size: 1em;
+	width:100%;
+
+	margin:0;
+	padding:0;
+  }
+  
+  #collapsable-nav a:hover{ /* Collapsed nav menu text */
+  	width:100%;
+	background-color:#DABDAB;
+  }
+  
+  #nav-list a{
+font-family: 'Bilbo', cursive;
+  color: #61122f;
+  }
+  
+    #collapsable-nav ul,  #collapsable-nav li {
+ margin:0px;
+ font-size: 1.15em;
+  }
+
+
+
+/* posizione bottone menu tendina */
+.navbar-toggle {
+    position: relative;
+	left:0;
+    background-color: Ivory;
+    background-image: none;
+    border-radius: 10px;
+ border:1px;
+  margin:1px;
+}
+
+
+/* Froma bottone menu tendina */
+
+  #contenitore_button{
+	position: relative;
+	width:90%;
+}
+
+
+
+.navbar-toggle span{
+
+}
+
+.navbar {
+	margin-bottom:0px;
+}
+
+.navbar-toggle:hover, .navbar-toggle:focus {
+ background-color: red;
+}
+
+
+
+
+hr{
+	margin: 0;
+	padding: 0;
+	background-color:#DABDAB;
+	height:2px;
+	width: 90%;
+	position: relative;
+  display: inline-block;
+
+}
+
+
+
+#divider{
+	color: darkred;
+	  font-size: 7px;
+	  margin:13px;
+}
+
+  h3 { /* menu */
+font-family: 'Bilbo', cursive;
+  font-size: 1.5em;
+  margin:5px;
+  }
+  
+
+
+
+/* END HEADER */
+
+
+
+
+
+/* HOME PAGE */
+
+
+	/* MAIN CONTAINER */
+#main-content{	/* MAIN CONTAINER */
+
+    background:Ivory;
+	padding: 1% 4% 0 6%;
+	width:90%;
+		margin-top: -10px;
+
+}
+
+#main-content-xs{	/* MAIN CONTAINER */
+
+    background:Ivory;
+	padding: 1% 4% 0 6%;
+	width:90%;
+	margin-top: -10px;
+
+}
+
+#box-cerchio{
+position:relative;
+width:200px;
+height: 300px;
+
+}
+
+
+/*sections containers*/
+#box{
+
+}
+	
+	
+ul {
+  list-style-type: none;
+  padding:0;
+  
+  }
+  
+  	.table-multi {
+    width:100%;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+  	.table-multi-menu {
+    width:50%;
+	display: flex;
+	justify-content: space-between;
+	margin-left:25%;
+}
+	
+	
+	  #descr1 {
+
+ 	position:relative;
+	 background: url('../images/health-food.jpg') no-repeat center;
+	background-size: cover;
+     width:30%;
+     height: 200px;
+	    border-radius:20px;
+   }
+   
+   #descr2 {
+	position:relative;
+	 background: url('../images/Classes.jpg') no-repeat center;
+  background-size: cover;
+     width:30%;
+     height: 200px;
+	    border-radius:20px;
+   }
+   
+  
+   #descr3 {
+	position:relative;
+	 background: url('../images/mindset.jpg') no-repeat center;
+  background-size: cover;
+     width:30%;
+     height: 200px;
+	    border-radius:20px;
+}
+   
+
+   /*sections text and desctiption*/
+	  #descr1 a, #descr2 a, #descr3 a{
+ 	position:relative;
+	  color: black;
+	  	font-size: 2em; /* 1vw = 1% of viewport width */
+   margin-left:10px;
+   text-shadow: 1px 1px 3px  white;
+
+   }
+   
+   
+   
+   
+   #sections-xs {
+	position:relative;
+	width:80%;
+
+   
+}
+   	  #descr1-xs {
+	position:relative;
+
+	 background: url('../images/health-food.jpg') no-repeat center;
+
+  background-size: cover;
+     width:70%;
+     height: 100px;
+    padding:0 50% 0 50%;
+		    border-radius:15px;
+   }
+   
+   #descr2-xs  {
+	position:relative;
+	 background: url('../images/Classes.jpg') no-repeat center;
+  background-size: cover;
+     width:70%;
+     height: 100px;
+    padding:0 50% 0 50%;
+    border-radius:15px;
+   }
+   
+  
+   #descr3-xs  {
+	position:relative;
+	 background: url('../images/mindset.jpg') no-repeat center;
+  background-size: cover;
+    width:70%;
+     height: 100px;
+	     padding:0 50% 0 50%;
+		    border-radius:15px;
+}
+   
+
+   /*sections text and desctiption*/
+	  #descr1-xs  a, #descr2-xs  a, #descr3-xs a{
+ 	position:absolute;
+	color: black;
+	font-size: 2em; /* 1vw = 1% of viewport width */
+   text-shadow: 1px 1px 3px  white;
+   padding:0;
+   left:5%;
+   }
+   
+   /*end sections text and desctiption*/
+
+
+	
+
+
+   #menu-list p {
+    margin:0;
+	padding:0;
+  }
+   #menu-list ul {
+    margin:0;
+	padding:0;
+  }
+
+  
+  
+
+	 a:hover, a:focus {
+  text-decoration: none;
+  	color:#61122f;
+}
+
+
+
+
+
+
+/*wave shape*/
+svg {
+  display: inline-block;
+  position: relative;
+  top: -20%;
+   left: 0px;
+   
+  }
+  
+  
+ 
+.container {
+  display: inline-block;
+  position: relative;
+   width: 100%;
+  overflow: hidden;
+  height: auto;
+  background: url('../images/main_large.jpg')  center no-repeat;
+  box-shadow: 30px -30px 10px 0 Ivory inset, -30px -30px 10px 0 Ivory inset;
+  -webkit-background-size: 1000px 600px;
+   border-radius:0 0 15px 15px;
+     margin-left: -3%;
+	 padding:10px;
+}
+
+.container-xs {
+  display: inline-block;
+  position: relative;
+  margin-bottom:10px;
+  padding:0;
+   width: 90%;
+  overflow: hidden;
+  background: url('../images/main_large.jpg')  center no-repeat;
+  box-shadow: 20px -20px 5px 0 Ivory inset, -20px -20px 5px 0 Ivory inset;
+  -webkit-background-size: 400px 200px;
+   border-radius:0 0 15px 15px;
+  
+}
+
+
+
+#container-shape{
+border:0;
+padding:0;
+  display: inline-block;
+  position: relative;
+    width: 99%;
+height: 550px;
+
+
+}
+
+#container-shape-xs{
+border:0;
+padding:0;
+  display: inline-block;
+  position: relative;
+    width: 99%;
+height: 200px;
+
+}
+/* end wave shape*/
+
+
+/*wave shape*/
+
+.container-shape-end{
+  display: inline-block;
+  position: relative;
+  top:30px;
+  margin:0;
+  padding:0;
+   width: 90%;
+  vertical-align: middle;
+  height:150px;
+
+}
+
+.container-shape-end-xs{
+height:20px;
+}
+
+.posizione-xs{
+width:90%;
+  display: inline-block;
+  position: relative;
+
+}
+/* end wave shape*/
+
+/* evidenzia posizione menu */ 
+
+  
+  #menu-list {
+font-family: 'Bilbo', cursive;
+  width:110%;
+  background: lightblue;
+  margin:0;
+  margin-left:-3%;
+  padding:0;
+  border:0;
+  }
+  
+    #menu-list a{
+color:#61122f;
+  }
+
+/* evidenzia posizione menu */ 
+.selector-classes h3{
+color: !important:grey;
+		   }
+ 
+ .selector-home h3{
+	  color: !important:grey;;
+		   }
+ 
+
+
+  
+  /* evidenzia posizione menu */ 
+
+/* END HOME PAGE */
+
+/* FOOTER */
+
+	#footer {
+		width:90%;
+		position: relative;
+		text-align:center;
+ /* background: url('../images/main_large.jpeg') no-repeat;*/
+  font-size: 1em;
+  color: #61122f;
+	}
+	
+	    #github,  #linkedin {
+  color:#61122f;
+    font-size: 1em;
+}
+
+
+#footer-xs {
+position: relative;
+ /* background: url('../images/main_large.jpeg') no-repeat;*/
+  font-size: 0.8em;
+  color: #61122f;
+	}
+	
+	    #github-xs,  #linkedin-xs {
+  color:#61122f;
+  font-size: 0.8em;
+}
+
+/* PROVA FLOATING OBJECT
+@keyframes example {
+  0%   {background-color:red; left:20px; top:0px;}
+  25%  {background-color:yellow; left:90%; top:0px;}
+  50%  {background-color:blue; left:90%; top:20px;}
+  75%  {background-color:green; left:20px; top:20px;}
+  100% {background-color:red; left:20px; top:0px;}
+}
+
+#prova {
+  width: 5vw;
+  height: 5vw;
+  position: relative;
+  animation: example 5s linear 1s infinite alternate;
+}*/
+
+
+/* END FOOTER */
+
+
+.navbar-nav {
+    margin: 0px;
+}
+
+
+.maschera{
+	margin-top:20px;
+	  height: 100%;
+	  width: 100%;
+	  	margin-right:0px;
+
+   }
+
+/* CLASSES SECTION DETAILED */
+
+
+
+.ul-classes h3{
+	  color:#61122f;
+  font-size: 27px;
+		
+}
+
+.ul-classes h4{
+	  color:#61122f;
+  font-size: 25px;
+		
+}
+
+.ul-classes h5{
+  font-size: 20px;
+	}
+	
+.ul-classes-events h3{
+	  color:#61122f;
+  font-size: 27px;
+		
+}
+
+.ul-classes-events h4{
+	  color:#61122f;
+  font-size: 25px;
+		
+}
+
+.ul-classes-events h5{
+  font-size: 22px;
+	}
+
+.ul-classes hr{
+	  width:50%;	
+	 border:1px;
+}
+
+.ul-classes-events hr{
+	  width:90%;	
+	 border:1px;
+	 border-radius:100px;
+}
+
+.divid{
+	width:2px;
+	height:180px;
+		margin-top:15px;
+	background-color:#61122f;
+	 border-radius:100px;
+	 opacity:.6;
+}
+
