@@ -169,6 +169,24 @@ sub{
 /** ################################**/
 /** ################################**/
 /** ################################**/
+.button_leng_2 {
+	position:absolute;
+	left:75%;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: MintCream;
+  border: none;
+  color: LightSlateGrey;
+  text-align: center;
+  font-size: .7em;
+   width: 35px;
+  height: 15px;
+  transition: all 0.5s;
+  margin: 5px;
+  box-shadow: 0px 2px 5px 1px LightSlateGrey;
+}
+
+
 
 .button_leng_2 span {
   cursor: pointer;
@@ -212,12 +230,14 @@ sub{
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
-  width: auto;
+
   color: darkred;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 10px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
+  position:left;
+  padding: 5px;
 
 }
 
@@ -272,13 +292,17 @@ overflow-y: scroll;
 
 #main-content{
 margin:0;
-padding:0px;
+padding:20px;
 height:850px;
 overflow-y: scroll;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
 
+
+.slideshow-container{
+	padding: 300px;
+}
 
 
 #main-content::-webkit-scrollbar {
@@ -290,7 +314,7 @@ overflow-y: scroll;
 height:320px;
 width:100%;
 background-color:MintCream;
-padding:10px;
+padding:20px;
 box-shadow: 0px 2px 10px black;
 }
 
@@ -434,7 +458,7 @@ height: 65px;
 	float:right;
 height:200px;
 width:50%;
-padding: 0px 10px 0px 50px;
+
 
 }
 
@@ -443,7 +467,7 @@ position:relative;
 	float:left;
 height:200px;
 width:50%;
-padding: 0px 10px 0px 80px;
+
 
 }
 
