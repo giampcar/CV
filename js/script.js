@@ -83,33 +83,6 @@ function showSlides_2(n) {
 
 
 
-
-
-
-var counterContainer = document.querySelector(".website-counter");
-// var resetButton = document.querySelector("#reset");
-var visitCount = localStorage.getItem("page_view");
-
-// Check if page_view entry is present
-if (visitCount) {
-  visitCount = Number(visitCount) + 1;
-  localStorage.setItem("page_view", visitCount);
-} else {
-  visitCount = 1;
-  localStorage.setItem("page_view", 1);
-}
-counterContainer.innerHTML = visitCount;
-
-// Adding onClick event listener
-// resetButton.addEventListener("click", () => {
-//   visitCount = 1;
-//   localStorage.setItem("page_view", 1);
-//   counterContainer.innerHTML = visitCount;
-// });
-
-
-
-
 function openRightMenu() {
   document.getElementById("rightMenu").style.display = "block";
 }
@@ -117,6 +90,24 @@ function openRightMenu() {
 function closeRightMenu() {
   document.getElementById("rightMenu").style.display = "none";
 }
+
+
+
+
+
+$(".accept").click(function(){
+    $(".cookie").hide();
+
+    checkCookie();
+  
+  });
+
+$(".acceptpartial").click(function(){
+    $(".cookie").hide();
+
+    checkCookie();
+  
+  });
 
 
 function setCookie(cname, cvalue, exdays) {
@@ -144,14 +135,11 @@ function getCookie(cname) {
 function checkCookie() {
   let user = getCookie("username");
   if (user != "") {
-    alert("Welcome again " + user);
   } else {
-    user = prompt("We and selected third parties use cookies or similar technologies for technical purposes and, with your consent, also for other purposes (experience improvement and measurement) as specified in the","BOOOOOOOO");
-	user = prompt("You can freely give, refuse or revoke your consent at any time.");
-    if (user != "" && user != null) {
+    user = prompt(" This website uses cookies. Further information on the types of cookies can be found under the respective categories. Individual cookies can also be activated there. The cookie settings can be adjusted at any time via the link in the footer of this website", "Enter user name or click on accept");
+      if (user != "" && user != null) {
       setCookie("username", user, 365);
-    }
+}
   }
 }
-
 

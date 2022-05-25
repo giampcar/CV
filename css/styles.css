@@ -300,9 +300,12 @@ overflow-y: scroll;
 }
 
 
+
+
 .slideshow-container{
 	padding: 300px;
 }
+
 
 
 #main-content::-webkit-scrollbar {
