@@ -98,10 +98,11 @@ font-family: 'Bilbo', cursive;
 	font-family: 'Gentium Basic', serif;
   background-color: Ivory;
   width:90%;
-  height:auto;
+
   margin: auto, 0, auto, 0;
   color: #61122f;
-  padding:0px;
+
+   border-radius: 10px;
   }
 #title-xs {
 	font-family: 'Gentium Basic', serif;
@@ -111,6 +112,7 @@ font-family: 'Bilbo', cursive;
   margin: auto, 0, auto, 0;
   color: #61122f;
   padding:0px;
+   border-radius: 10px;
   }
 
 
@@ -130,35 +132,16 @@ font-family: 'Bilbo', cursive;
 h1 { /* Site name */
 font-family: 'Bilbo', cursive;
   color: darkred;
-    text-shadow: .2px .2px .2px #222;
 
   margin-top: 30px;
   margin-bottom: 0;
-   padding-top: 10px;
    font-size: 2.7em; /* 1vw = 1% of viewport width */
   }
   
-  #title p > span{ /* Manuela Pok */
-  border: 0;
-  padding:0;
-   font-size: 1.1em;
-    text-shadow: .2px .2px .2px #222;
-}
-  #title-xs p > span{ /* Manuela Pok */
-  border: 0;
-  padding:0;
-   font-size: 0.6em;
-    text-shadow: .2px .2px .2px #222;
-}
+
+
   
-  h2 { /* menu bars - from buttonlist */
-font-family: 'Bilbo', cursive;
-  color: #DABDAB;
-  font-size: 1.5em;
-  text-shadow: 1px 1px 1px #222;
-  margin: 0px, 0px, 0px, 0px ;
-  padding:0px, 0px, 0px, 0px;
-  }
+ 
   
   
   
@@ -228,12 +211,9 @@ font-family: 'Bilbo', cursive;
 
 
 
-.navbar-toggle span{
 
-}
-
-.navbar {
-	margin-bottom:0px;
+#proprietario {
+	margin-bottom:10px;
 }
 
 .navbar-toggle:hover, .navbar-toggle:focus {
@@ -286,7 +266,7 @@ font-family: 'Bilbo', cursive;
     background:Ivory;
 	padding: 1% 4% 0 6%;
 	width:90%;
-		margin-top: -10px;
+		margin-top: -20px;
 
 }
 
@@ -299,19 +279,9 @@ font-family: 'Bilbo', cursive;
 
 }
 
-#box-cerchio{
-position:relative;
-width:200px;
-height: 300px;
-
-}
 
 
-/*sections containers*/
-#box{
 
-}
-	
 	
 ul {
   list-style-type: none;
@@ -323,54 +293,97 @@ ul {
     width:100%;
 	display: flex;
 	justify-content: space-between;
+
 	
 }
 
   	.table-multi-menu {
-    width:50%;
+    width:90%;
 	display: flex;
 	justify-content: space-between;
-	margin-left:25%;
+	margin-left:5%;
+
 }
 	
 	
 	  #descr1 {
 
  	position:relative;
-	 background: url('../images/health-food.jpg') no-repeat center;
+	 background: url('../images/giorn_qual.JPG') no-repeat center;
 	background-size: cover;
      width:30%;
      height: 200px;
 	    border-radius:20px;
+				box-shadow: 2px 2px 5px black;		
+
+
+
    }
    
    #descr2 {
 	position:relative;
-	 background: url('../images/Classes.jpg') no-repeat center;
+	 background: url('../images/fre.jpg');
   background-size: cover;
      width:30%;
      height: 200px;
 	    border-radius:20px;
+				box-shadow: 2px 2px 5px black;
    }
    
   
    #descr3 {
 	position:relative;
-	 background: url('../images/mindset.jpg') no-repeat center;
+	 background: url('../images/trips.jpg')no-repeat center;
   background-size: cover;
      width:30%;
      height: 200px;
 	    border-radius:20px;
+				box-shadow: 2px 2px 5px black;
 }
+
+   #descr4{
+	position:relative;
+	 background: url('../images/ing.jpg')no-repeat center;
+  background-size: cover;
+     width:30%;
+     height: 200px;
+	    border-radius:20px;
+				box-shadow: 2px 2px 5px black;
+}
+
+
+   
+
    
 
    /*sections text and desctiption*/
-	  #descr1 a, #descr2 a, #descr3 a{
+	 #descr4 a{
  	position:relative;
-	  color: black;
-	  	font-size: 2em; /* 1vw = 1% of viewport width */
-   margin-left:10px;
-   text-shadow: 1px 1px 3px  white;
+	bottom: -173px; 
+	  color: darkred;
+	 				font-size:1.2em;
+
+   text-shadow: 1px 1px 1px  white;
+
+   }
+   
+   	  #descr2 a{
+ 	position:relative;
+	bottom: -145px; 
+	  color: white;
+	 				font-size:1.2em;
+ opacity:1;
+   text-shadow: 1px 1px 1px  black;
+
+   }
+   
+      /*sections text and desctiption*/
+	  #descr1 a, #descr3 a{
+ 	position:relative;
+	  color: darkred;
+	 				font-size:1.2em;	  
+   text-shadow: 1px 1px 1px  white;
+   	bottom: -10px; 
 
    }
    
@@ -435,11 +448,11 @@ ul {
 
    #menu-list p {
     margin:0;
-	padding:0;
+	padding:0px;
   }
    #menu-list ul {
     margin:0;
-	padding:0;
+	padding:1px;
   }
 
   
@@ -587,6 +600,7 @@ color: !important:grey;
  /* background: url('../images/main_large.jpeg') no-repeat;*/
   font-size: 1em;
   color: #61122f;
+  bottom:100px;
 	}
 	
 	    #github,  #linkedin {
@@ -698,44 +712,51 @@ position: relative;
 
 
 
-h4 { font-family: "Palatino Linotype";
- font-size: 18px;
-  font-style: normal;
-   font-variant: normal;
-    justify-content: space-between;
-     line-height: 22px; 
-     } 
 
-h5 { font-family: "Palatino Linotype";
- font-size: 16px;
-  font-style: normal;
-   font-variant: normal;
-  text-align: justify!important;
-  text-justify: inter-word!important;
+
+
+/** DROPDOWN menu **/
+/** ################################**/
+/** ################################**/
+/** ################################**/
+
+
+.dropdown {
+  position: relative;
+bottom:-70px;
+left:-20%;
+    z-index: 1;
+	color: white;
+	   text-shadow: 1px 1px 1px  black;
+  }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left:-90px;
+  background-color: Ivory;
+  text-align: justify;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px black;
+  border-radius: 10px;
+  padding: 5px 5px;
+  color:black!important;
+  	   text-shadow: 1px 1px 1px  white;
+font-family: 'Ubuntu', sans-serif;
+  z-index: 2;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: black;
+}
+
+.dropdown-content a{
+color:black;
+font-size:18px;
     line-height: 20px;
-     }
-     
-     p { font-family: "Palatino Linotype";
- font-size: 22px;
-  font-style: normal;
-   font-variant: normal;
+}
 
-    line-height: 24px;
-     }
-
- 
- blockquote { font-family: "Palatino Linotype";
-  font-size: 9px;
-   font-style: normal;
-    font-variant: normal;
-     font-weight: 400;
-     }
- 
- pre { font-family: "Palatino Linotype";
-  font-size: 13px;
-   font-style: normal;
-    font-variant: normal; 
-    font-weight: 400;
-     line-height: 18.5714px;
-      }
-
+/** ################################**/
+/** ################################**/
+/** ################################**/
