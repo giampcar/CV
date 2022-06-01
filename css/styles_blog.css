@@ -399,43 +399,58 @@ ul {
    	  #descr1-xs {
 	position:relative;
 
-	 background: url('../images/health-food.jpg') no-repeat center;
+	 background: url('../images/giorn_qual.JPG') no-repeat center;
 
   background-size: cover;
      width:70%;
      height: 100px;
     padding:0 50% 0 50%;
 		    border-radius:15px;
+			box-shadow: 2px 2px 5px black;
    }
    
    #descr2-xs  {
 	position:relative;
-	 background: url('../images/Classes.jpg') no-repeat center;
+	 background: url('../images/fre.jpg');
   background-size: cover;
      width:70%;
      height: 100px;
     padding:0 50% 0 50%;
     border-radius:15px;
+	box-shadow: 2px 2px 5px black;
    }
    
   
    #descr3-xs  {
 	position:relative;
-	 background: url('../images/mindset.jpg') no-repeat center;
+	 background: url('../images/trips.jpg')no-repeat center;
   background-size: cover;
     width:70%;
      height: 100px;
 	     padding:0 50% 0 50%;
 		    border-radius:15px;
+			box-shadow: 2px 2px 5px black;
+}
+
+   #descr4-xs  {
+	position:relative;
+	 background: url('../images/ing.jpg')no-repeat center;
+  background-size: cover;
+ bottom: 5%;
+ left:0%;
+     height: 100px;
+	     padding:0 50% 0 50%;
+		    border-radius:15px;
+				box-shadow: 2px 2px 5px black;			
 }
    
 
    /*sections text and desctiption*/
-	  #descr1-xs  a, #descr2-xs  a, #descr3-xs a{
+	  #descr1-xs  a, #descr2-xs  a, #descr3-xs a, #descr4-xs a{
  	position:absolute;
-	color: black;
+	color: white;
 	font-size: 2em; /* 1vw = 1% of viewport width */
-   text-shadow: 1px 1px 3px  white;
+   text-shadow: 1px 1px 1px  black;
    padding:0;
    left:5%;
    }
@@ -756,6 +771,47 @@ color:black;
 font-size:18px;
     line-height: 20px;
 }
+
+
+
+.dropdown-xs {
+  position: relative;
+    z-index: 2;
+
+  }
+
+.dropdown-content-xs {
+  display: none;
+  position: absolute;
+  left:50px;
+  top:30px;
+  background-color: Ivory;
+  height:75%;
+  text-align: justify;
+  width: 400px;
+
+  max-height: auto!important;
+  box-shadow: 0px 8px 16px 0px black;
+  border-radius: 10px;
+  z-index: 2;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.dropdown-xs:hover .dropdown-content-xs {
+  display: block;
+  color: black;
+}
+
+.dropdown-content-xs a{
+
+font-size:8px!important;
+    line-height: 15px!important;
+	color:black!important;
+  	   text-shadow: 1px 1px 1px  white !important;
+padding-top: 5px!important;
+padding-right:15px!important;
+}
+
 
 /** ################################**/
 /** ################################**/
