@@ -19,17 +19,17 @@
 
 <!-- PRELOAD IMAGES-->	
 
-<link rel="preload" as="image" href="/images/slideshow_1/1.jpg">
-<link rel="preload" as="image" href="/images/slideshow_1/2.jpg">
-<link rel="preload" as="image" href="/images/slideshow_1/3.jpg">
-<link rel="preload" as="image" href="/images/slideshow_1/4.jpg">
-<link rel="preload" as="image" href="/images/slideshow_1/5.jpg">
-<link rel="preload" as="image" href="/images/slideshow_1/6.jpg">
-<link rel="preload" as="image" href="/images/slideshow_1/7.jpg">
-<link rel="preload" as="image" href="/images/slideshow_1/8.jpg">
-<link rel="preload" as="image" href="/images/slideshow_1/9.jpg">
-<link rel="preload" as="image" href="/images/slideshow_1/10.jpg">
-<link rel="preload" as="image" href="/images/slideshow_1/11.jpg">
+<link rel="preload" as="image" href="/images/slideshow_1/1.webp">
+<link rel="preload" as="image" href="/images/slideshow_1/2.webp">
+<link rel="preload" as="image" href="/images/slideshow_1/3.webp">
+<link rel="preload" as="image" href="/images/slideshow_1/4.webp">
+<link rel="preload" as="image" href="/images/slideshow_1/5.webp">
+<link rel="preload" as="image" href="/images/slideshow_1/6.webp">
+<link rel="preload" as="image" href="/images/slideshow_1/7.webp">
+<link rel="preload" as="image" href="/images/slideshow_1/8.webp">
+<link rel="preload" as="image" href="/images/slideshow_1/9.webp">
+<link rel="preload" as="image" href="/images/slideshow_1/10.webp">
+<link rel="preload" as="image" href="/images/slideshow_1/11.webp">
 
 
 <link rel="preload" as="image" href="/images/slideshow_2/1.jpg">
@@ -62,12 +62,12 @@
   </head>
   
   
-<body class= "container-fluid center">
+<body onload="checkCookie()" class= "container-fluid center">
 
   <header class="normalizzatore container-fluid">
 
 
-<!--	 <div onload="checkCookie()"><a href="./data-protection/privacy-policy.html" target="_blank">Cookies</a></div> -->
+	 
    <nav id="title" class="navbar navbar-default container-fluid">
 	<nav id="header-nav" class=" navbar-default ">
 	 <div id="contenitore_button" class="container-fluid">
@@ -87,7 +87,7 @@
 			<li><hr></li>
 		   <li><a href="#studi-xs"><span class="nav-text">Studies and publications</span></a></li>
 			<li><hr></li>
-		   <li><a href="#blog-xs"><span class="nav-text">Blog</span></a></li>
+		   <li><a href="./pages/blog.html"><span class="nav-text">Blog</span></a></li>
 			<li><hr></li>
 		   <li><a href="#contatti-xs"><span class="nav-text">Contacts</span></a></li>
 			<li><hr></li>
@@ -372,24 +372,24 @@
   
   
  <div id="main-content" class="container-fluid  col-lg-9 col-md-8 col-sd-12 ">
- <div class "container-fluid slideshow-container">
-	<div id="photo_2" class="container-fluid w3-content w3-section w3-left">
-			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/1.jpg">
-			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/2.jpg">
-			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/3.jpg">
-			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/4.jpg">
-			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/5.jpg">
-			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/6.jpg">
-			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/7.jpg">			
-			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/8.jpg">
-			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/9.jpg">
-			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/10.jpg">			
-			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/11.jpg">
+ <div>
+	<div id="photo_2" class="container-fluid w3-content w3-section w3-center">
+			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/1.webp">
+			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/2.webp">
+			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/3.webp">
+			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/4.webp">
+			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/5.webp">
+			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/6.webp">
+			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/7.webp">			
+			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/8.webp">
+			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/9.webp">
+			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/10.webp">			
+			<img class="mySlides w3-animate-fading" src="./images/slideshow_1/11.webp">
 			<!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 	</div>
-		<div id="photo_3" class="container-fluid w3-content w3-section w3-right">
+		<div id="photo_3" class="container-fluid w3-content w3-section w3-center">
 			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/1.jpg">
 			<img class="mySlides_2 w3-animate-fading" src="./images/slideshow_2/2.jpg">
 			<!-- <img class="mySlides_2 w3-animate-fading" src="../images/slideshow_2/3.jpg"> -->
@@ -407,7 +407,7 @@
 	</div>
 	
 	</div>
-				<div><hr></div>
+
 				
 <div class="widget-container">
 	<div class="container-fluid">
@@ -481,9 +481,7 @@
 								</li>
 								<div id="timebar_4" class="container-fluid"></div><div id="timebardot_1" class="fa fa-angle-double-down"></div>
 							</ul>
-						</div>
-						<div><hr></div>
-				
+						</div>		
 				</div>
 			</div>
 			
@@ -550,7 +548,7 @@
 	<div><hr id="intra"></div>	
 				<div class="section-title-3">
 					<div id="blog"  class="title-frame"><h2 class="title bold"> <span> Blog </span></h2></div>
-					<div class="experience">
+					<div class="standard_setup">
 								<ul id="descr_exp" class="container-fluid"><h3>Page in progress...</h3><i class="fa  fa-refresh w3-spin"></i>	
 							
 							<!--	<p><h3><a href="/pages/blog.html">Blog-link</a></h3></p>
@@ -574,7 +572,7 @@
 	<div><hr id="intra"></div>	
 				<div class="section-title">
 					<div  id="contatti" class="title-frame"><h2 class="title bold"> <span> Contacts </span></h2></div>
-					<div class="experience">
+					<div class="standard_setup">
 							<div id="Contacts" class="container-fluid">
 							<ul>
 								<li class="table-multi">
@@ -594,7 +592,7 @@
 		</div>
 	</div>
 </div>
-	<div><hr id="intra"></div>	
+	
 
 	<!-- 		<div class="col-lg-12">
 				<div class="section-title">
@@ -657,7 +655,7 @@
  			<a href="#studi">
 			<span class="nav-text">Studies and Publications</span>
 			</a>
-			<a href="#blog">
+			<a href="./pages/blog.html">
 			<span class="nav-text">Blog</span>
 			</a>
 			<a href="#contatti">
@@ -1101,15 +1099,15 @@
 				<div class="section-title-3">
 
 					<div id="blog-xs"  class="title-frame"><h2 class="title bold"> <span> Blog </span></h2></div>
-					<div class="experience">
+					<div class="standard_setup">
 							<ul id="descr_exp" class="container-fluid"><h3>Page in progress...</h3><i class="fa  fa-refresh w3-spin"></i>
 							
-							<li><div>
+							<!-- <li><div>
 							<video width="320" height="240" controls>
 								<source src="./images/video/Complete_3.mp4" type="video/mp4">
 									Your browser does not support the video tag.
 								</video>
-							</div></li>
+							</div></li> -->
 								
 							</ul>
 							
@@ -1122,7 +1120,7 @@
 
 				<div class="section-title">
 					<div id="contatti-xs"  class="title-frame"><h2 class="title bold"> <span> Contacts </span></h2></div>
-					<div class="experience">
+					<div class="standard_setup">
 							<div id="Contacts" class="container-fluid">
 							<ul>
 								<li class="table-multi">
@@ -1173,8 +1171,7 @@
 
   <footer class="panel-footer, container-fluid, text-center">
 	   <p><span id="footer"> &copy; Copyright G.Carducci - 2022	</span>
-						<div class="website-counter"></div>
-			<!-- 			<button id="reset">Reset</button>	-->	
+<p><a href="./data-protection/privacy-policy.html" target="_blank">Cookies policy</a></p>
 					</p>
 
   <!-- PROVA FLOATING OBJECT 		
