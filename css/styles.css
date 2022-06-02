@@ -334,7 +334,7 @@ box-shadow: 0px 2px 10px black;
   max-width: 150px;
   height: 150px ;
 border-radius:100%;
-background: url('../images/profile.jpg') no-repeat center;
+background: url('../images/profile.webp') no-repeat center;
 background-size: cover;
 padding:10px;
 }

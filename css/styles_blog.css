@@ -309,7 +309,7 @@ width:90%;
 
  	position:relative;
 	
-	 background: url('../images/giorn_qual.JPG') no-repeat center;
+	 background: url('../images/giorn_qual.webp') no-repeat center;
 	background-size: cover;
  padding: 0 40% 0 40%;
 	max-width:600px;
@@ -323,7 +323,7 @@ z-index:0;
    
    #descr2 {
 	position:relative;
-	 background: url('../images/fre.jpg');
+	 background: url('../images/fre.webp');
   background-size: cover;
 	max-width:600px;
  padding: 0 60% 0 30%;
@@ -336,7 +336,7 @@ z-index:0;
   
    #descr3 {
 	position:relative;
-	 background: url('../images/trips.jpg')no-repeat center;
+	 background: url('../images/trips.webp')no-repeat center;
   background-size: cover;
  padding: 0 40% 0 40%;
 	max-width:600px;
@@ -348,7 +348,7 @@ z-index:0;
 
    #descr4{
 	position:relative;
-	 background: url('../images/ing.jpg')no-repeat center;
+	 background: url('../images/ing.webp')no-repeat center;
   background-size: cover;
  padding: 0 60% 0 30%;
 	max-width:600px;
@@ -407,7 +407,7 @@ z-index:0;
    	  #descr1-xs {
 	position:relative;
 
-	 background: url('../images/giorn_qual.JPG') no-repeat center;
+	 background: url('../images/giorn_qual.webp') no-repeat center;
 
   background-size: cover;
      width:70%;
@@ -419,7 +419,7 @@ z-index:0;
    
    #descr2-xs  {
 	position:relative;
-	 background: url('../images/fre.jpg');
+	 background: url('../images/fre.webp');
   background-size: cover;
      width:70%;
      height: 100px;
@@ -431,7 +431,7 @@ z-index:0;
   
    #descr3-xs  {
 	position:relative;
-	 background: url('../images/trips.jpg')no-repeat center;
+	 background: url('../images/trips.webp')no-repeat center;
   background-size: cover;
     width:70%;
      height: 100px;
@@ -442,7 +442,7 @@ z-index:0;
 
    #descr4-xs  {
 	position:relative;
-	 background: url('../images/ing.jpg')no-repeat center;
+	 background: url('../images/ing.webp')no-repeat center;
   background-size: cover;
  bottom: 5%;
  left:0%;
@@ -508,8 +508,8 @@ svg {
    width: 100%;
   overflow: hidden;
   height: auto;
-  background: url('../images/main_large.jpg')  center no-repeat;
-  box-shadow: 30px -30px 10px 0 Ivory inset, -30px -30px 10px 0 Ivory inset;
+
+
   -webkit-background-size: 1000px 600px;
    border-radius:0 0 15px 15px;
      margin-left: -3%;
@@ -523,8 +523,8 @@ svg {
   padding:0;
    width: 90%;
   overflow: hidden;
-  background: url('../images/main_large.jpg')  center no-repeat;
-  box-shadow: 20px -20px 5px 0 Ivory inset, -20px -20px 5px 0 Ivory inset;
+
+
   -webkit-background-size: 400px 200px;
    border-radius:0 0 15px 15px;
   

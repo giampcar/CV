@@ -95,19 +95,19 @@ function closeRightMenu() {
 
 
 
-$(".accept").click(function(){
-    $(".cookie").hide();
+// $(".accept").click(function(){
+//    $(".cookie").hide();
 
-    checkCookie();
+ //   checkCookie();
   
-  });
+//  });
 
-$(".acceptpartial").click(function(){
-    $(".cookie").hide();
+//$(".acceptpartial").click(function(){
+//    $(".cookie").hide();
 
-    checkCookie();
+//    checkCookie();
   
-  });
+ // });
 
 
 function setCookie(cname, cvalue, exdays) {
