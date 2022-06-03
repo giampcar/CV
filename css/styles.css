@@ -1144,6 +1144,11 @@ hr {
 .w3-animate-zoom {
 }
 
+.w3-animate-right {
+	display:none;
+	right:0;
+}
+
 
 
 /** ################################**/
@@ -1311,3 +1316,46 @@ margin-left:10px;
     animation: fading 10s 1;
 }
 
+
+/* ############################### */
+/* ############################### */
+/* SVG configuration  */
+/* ############################### */
+/* ############################### */
+.progressbar-text-lang{
+position: absolute; 
+left: 50%; 
+top: 50%; 
+padding: 0px; 
+margin: 0px; 
+transform: translate(-50%, -50%);
+}
+
+
+ .art-skills-progress{
+	 position:relative;
+ }
+ 
+  .svg-pathstyle{
+display: block; 
+width: 100%;
+ }
+ 
+ 
+  .italian{
+stroke-dasharray: 360; 
+stroke-dashoffset: 1;
+ }
+  .english{
+stroke-dasharray: 360; 
+stroke-dashoffset: 100;
+ }
+  .french{
+stroke-dasharray: 360; 
+stroke-dashoffset: 270;
+ } 
+ .german{
+stroke-dasharray: 360; 
+stroke-dashoffset: 320;
+ }
+ 
