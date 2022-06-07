@@ -12,7 +12,7 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel,20000); // Change image every 2 seconds
+  setTimeout(carousel,10000); // Change image every 2 seconds
 }
 
 
@@ -25,7 +25,7 @@ function carousel_1() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel_1, 20000); // Change image every 2 seconds
+  setTimeout(carousel_1, 10000); // Change image every 2 seconds
 }
 
 
@@ -81,17 +81,24 @@ function showSlides_2(n) {
 }
 
 
+//// // // 
+//// // // 
+//// // // 
+// TO USE lateral sliding menu!!!!!
+// // // // 
 
+// function openRightMenu() {
+//   document.getElementById("rightMenu").style.display = "block";
+// }
 
-function openRightMenu() {
-  document.getElementById("rightMenu").style.display = "block";
-}
+// function closeRightMenu() {
+//   document.getElementById("rightMenu").style.display = "none";
+// }
 
-function closeRightMenu() {
-  document.getElementById("rightMenu").style.display = "none";
-}
-
-
+//// // // 
+//// // // // 
+//// // // // 
+//// // // // 
 
 
 
