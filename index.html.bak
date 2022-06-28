@@ -17,35 +17,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
 
 
-<!-- PRELOAD IMAGES-->	
-
-<link rel="preload" as="image" href="/images/slideshow_1/1.webp">
-<link rel="preload" as="image" href="/images/slideshow_1/2.webp">
-<link rel="preload" as="image" href="/images/slideshow_1/3.webp">
-<link rel="preload" as="image" href="/images/slideshow_1/4.webp">
-<link rel="preload" as="image" href="/images/slideshow_1/5.webp">
-<link rel="preload" as="image" href="/images/slideshow_1/6.webp">
-<link rel="preload" as="image" href="/images/slideshow_1/7.webp">
-<link rel="preload" as="image" href="/images/slideshow_1/8.webp">
-<link rel="preload" as="image" href="/images/slideshow_1/9.webp">
-<link rel="preload" as="image" href="/images/slideshow_1/10.webp">
-<link rel="preload" as="image" href="/images/slideshow_1/11.webp">
-
-
-<link rel="preload" as="image" href="/images/slideshow_2/1.webp">
-<link rel="preload" as="image" href="/images/slideshow_2/2.webp">
-<link rel="preload" as="image" href="/images/slideshow_2/3.webp">
-<link rel="preload" as="image" href="/images/slideshow_2/4.webp">
-<link rel="preload" as="image" href="/images/slideshow_2/5.webp">
-<link rel="preload" as="image" href="/images/slideshow_2/6.webp">
-<link rel="preload" as="image" href="/images/slideshow_2/7.webp">
-<link rel="preload" as="image" href="/images/slideshow_2/8.webp">
-<link rel="preload" as="image" href="/images/slideshow_2/9.webp">
-<link rel="preload" as="image" href="/images/slideshow_2/10.webp">
-<link rel="preload" as="image" href="/images/slideshow_2/11.webp">
-
-<!-- PRELOAD IMAGES-->	
-		
+	
 		
 <link rel="icon" href="images\favicon.ico" type="image/x-icon" />
 	<link rel="shortcut icon" href="images\favicon.ico" type="image/x-icon" />
@@ -59,6 +31,18 @@
   gtag('config', 'G-9YDV0XJ3GE');
 </script>
 	
+
+<!--	<meta http-equiv="Content-Security-Policy" content=" worker-src 'none';	
+	frame-src 'self';
+
+img-src 'self';
+connect-src 'self' https://www.google-analytics.com;
+style-src 'report-sample' 'self' https://cdnjs.cloudflare.com https://fonts.googleapis.com https://www.w3schools.com;
+font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com;
+manifest-src 'self';
+object-src 'none';
+media-src 'self';"> -->
+
   </head>
   
   
@@ -87,7 +71,8 @@
 			<li><hr></li>
 		   <li><a href="#studi-xs"><span class="nav-text">Studies and publications</span></a></li>
 			<li><hr></li>
-		   <li><a href="./pages/blog.html"><span class="nav-text">Blog</span></a></li>
+		<!--   <li><a href="./pages/blog.html"><span class="nav-text">Blog</span></a></li>-->
+		   <li><a href="#blog-xs"><span class="nav-text">Blog</span></a></li>
 			<li><hr></li>
 		   <li><a href="#contatti-xs"><span class="nav-text">Contacts</span></a></li>
 			<li><hr></li>
@@ -139,44 +124,44 @@
    <div><hr></div>
    	<div class="art-lang-skills p-30-15">
 	<div class="art-lang-skills-item">
-		<div id="circleprog1-1" data-type="circles" data-value="100" class="art-cirkle-progress art-skills-progress" style="position: relative;">
-		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+		<div id="circleprog1-1" data-type="circles" data-value="100" class="art-cirkle-progress art-skills-progress">
+		<svg viewBox="0 0 100 100" class= "svg-pathstyle">
 		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 292.273, 292.273; stroke-dashoffset: 0;"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" class= "italian" ></path>
 		</svg>
 		
-		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%)">100</div>
+		<div class="progressbar-text-lang" >100</div>
 		</div><h6>Italian</h6>
 		
 		</div>
 		
 	<div class="art-lang-skills-item">
-	<div id="circleprog1-2" data-type="circles" data-value="50" class="art-cirkle-progress art-skills-progress" style="position: relative;">
+	<div id="circleprog1-2" data-type="circles" data-value="50" class="art-cirkle-progress art-skills-progress">
 		
-		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+		<svg viewBox="0 0 100 100" class= "svg-pathstyle">
 		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 100;"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" class= "english" ></path>
 		</svg>
 		
-		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%)">90</div>
+		<div class="progressbar-text-lang">90</div>
 	</div><h6>English</h6>
 	</div>
-	<div class="art-lang-skills-item"><div id="circleprog1-3" data-type="circles" data-value="70" class="art-cirkle-progress art-skills-progress" style="position: relative;">
+	<div class="art-lang-skills-item"><div id="circleprog1-3" data-type="circles" data-value="70" class="art-cirkle-progress art-skills-progress">
 		
-		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+		<svg viewBox="0 0 100 100" class= "svg-pathstyle">
 		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 270;"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" class= "french" ></path>
 		</svg>
-		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%);">25</div>
+		<div class="progressbar-text-lang" >25</div>
 		</div><h6>French</h6>
 	</div>
-		<div class="art-lang-skills-item"><div id="circleprog1-3" data-type="circles" data-value="70" class="art-cirkle-progress art-skills-progress" style="position: relative;">
+		<div class="art-lang-skills-item"><div id="circleprog1-3" data-type="circles" data-value="70" class="art-cirkle-progress art-skills-progress" >
 		
-		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+		<svg viewBox="0 0 100 100" class= "svg-pathstyle">
 		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 320;"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" class= "german" ></path>
 		</svg>
-		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); ">10</div>
+		<div class="progressbar-text-lang" >15</div>
 		</div><h6>German</h6>
 	</div>
 
@@ -460,7 +445,7 @@
 								<li id="descr_list">
 									<p>URS definition for clean utilities production plant revamping (Ultrafiltration system, Softened water system, Purified water system (double stage reverse osmosis equipment ), Water for injection (5 stages distillator equipment), clean steam generator. Clean gasses (CO2, O2, N2, He) storage and distribution.</p>
 									<p>Clean utilities installation (FAT/SAT) and qualification (IQ,OQ) execution and supervision. </p>
-									<p>Instrument calibration planning and supervision (support to relevant project manager)- Key validator for temperature mapping.</p>
+									<p>Instrument calibration planning and supervision (support to relevant project manager)- KAYE validator for temperature mapping.</p>
 									<p>Performance qualification (PQ) supervision, GMP deviations and gap assessment execution for all the equipment and relevant mechanical interconnections related to the clean utilities mentioned above according to GMP, FDA and AIFA requirements. </p>
 									<p>Commissioning supervision. PW (purified water), WFI (water for injection) loops sanification process tuning during IQ-OQ using Delta-V and OSI PI software.</p>
 									<p>Monitor external service providers, participate in internal audits, and serve as SME for production issues.</p>
@@ -598,8 +583,12 @@
 	
  </div>
  
+  <!-- ############################################################################### -->
+  <!-- *********   MENU LATERALE (da usare per contenuti lunghi in DESKTOP VIeW -->  
+  <!-- ############################################################################### -->
+ <!--
 <div id="mySidebar" class="sidebar w3-animate-l">
- 	<div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
+ 	<div class="w3-sidebar w3-bar-block w3-card w3-animate-right" id="rightMenu">
   <button onclick="closeRightMenu()" class="w3-bar-item w3-button fa fa-sliders"></button>
 		<ul>
 		<li>
@@ -612,7 +601,8 @@
  			<a href="#studi">
 			<span class="nav-text">Studies and Publications</span>
 			</a>
-			<a href="./pages/blog.html">
+			<!--<a href="./pages/blog.html">
+			<a href="#blog">
 			<span class="nav-text">Blog</span>
 			</a>
 			<a href="#contatti">
@@ -625,7 +615,7 @@
 <div>
   <button id="apri" class="w3-button w3-right fa fa-align-justify" onclick="openRightMenu()"></button>
 
-</div>
+</div>-->
 </div>
 
 
@@ -690,44 +680,44 @@
    <div><hr></div>
    	<div class="art-lang-skills p-30-15">
 	<div class="art-lang-skills-item">
-		<div id="circleprog1-1" data-type="circles" data-value="100" class="art-cirkle-progress art-skills-progress" style="position: relative;">
-		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+		<div id="circleprog1-1" data-type="circles" data-value="100" class="art-cirkle-progress art-skills-progress" >
+		<svg viewBox="0 0 100 100" class= "svg-pathstyle">
 		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 292.273, 292.273; stroke-dashoffset: 0;"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" class= "italian" ;"></path>
 		</svg>
 		
-		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%)">100</div>
+		<div class="progressbar-text-lang" >100</div>
 		</div><h6>Italian</h6>
 		
 		</div>
 		
 	<div class="art-lang-skills-item">
-	<div id="circleprog1-2" data-type="circles" data-value="50" class="art-cirkle-progress art-skills-progress" style="position: relative;">
+	<div id="circleprog1-2" data-type="circles" data-value="50" class="art-cirkle-progress art-skills-progress">
 		
-		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+		<svg viewBox="0 0 100 100" class= "svg-pathstyle">
 		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 100;"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" class= "english" "></path>
 		</svg>
 		
-		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%)">90</div>
+		<div class="progressbar-text-lang">90</div>
 	</div><h6>English</h6>
 	</div>
-	<div class="art-lang-skills-item"><div id="circleprog1-3" data-type="circles" data-value="70" class="art-cirkle-progress art-skills-progress" style="position: relative;">
+	<div class="art-lang-skills-item"><div id="circleprog1-3" data-type="circles" data-value="70" class="art-cirkle-progress art-skills-progress" >
 		
-		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+		<svg viewBox="0 0 100 100" class= "svg-pathstyle">
 		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 270;"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" class= "french" "></path>
 		</svg>
-		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%);">25</div>
+		<div class="progressbar-text-lang" >25</div>
 		</div><h6>French</h6>
 	</div>
-		<div class="art-lang-skills-item"><div id="circleprog1-3" data-type="circles" data-value="70" class="art-cirkle-progress art-skills-progress" style="position: relative;">
+		<div class="art-lang-skills-item"><div id="circleprog1-3" data-type="circles" data-value="70" class="art-cirkle-progress art-skills-progress">
 		
-		<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+		<svg viewBox="0 0 100 100" class= "svg-pathstyle">
 		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
-		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" style="stroke-dasharray: 360; stroke-dashoffset: 320;"></path>
+		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0"  class= "german" ></path>
 		</svg>
-		<div class="progressbar-text" style="position: absolute; left: 50%; top: 50%; padding: 0px; margin: 0px; transform: translate(-50%, -50%); ">10</div>
+		<div class="progressbar-text-lang">15</div>
 		</div><h6>German</h6>
 	</div>
 	
@@ -1086,12 +1076,12 @@
 									<a id= "It_num" href="tel:+393339217550" target="_blank" class="fa fa-phone-square"><sub>IT</sub></a>
 								</li>
 								
-														<li><div>
+						<!--										<li><div>
 							<video width="320" height="240" controls>
-								<source src="./images/video/Complete_3.mp4" type="video/mp4">
-									Your browser does not support the video tag.
+						<source src="./images/video/Complete_3.mp4" type="video/mp4"> 
+
 								</video>
-							</div></li>
+							</div></li>-->
 							
 							</ul>
 							</div>
@@ -1147,7 +1137,10 @@
   <script src="js/ajax-utils.js"></script>
   <script src="js/script.js"></script>
   
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4016648310864619"crossorigin="anonymous"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4016648310864619"
+     crossorigin="anonymous"></script>
+  
+  
 
 </body>
 </html>
