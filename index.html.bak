@@ -404,7 +404,7 @@ media-src 'self';"> -->
 							<ul id="descr_exp" class="container-fluid, hidden-xs"><h3>CSL Behring – Lengnau (BE) <a id="maps" target="_blank" href="https://www.cslbehring.ch/uber-uns/standort-lengnau" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">	Mar 2020 – Dec 2021 </h4><h5 class="bold">	Role: <span> CSA Handover Engineer</span> </h5><h5 class="bold">Key responsibilities: </h5>
 								<li id="descr_list">
 								<p> Civil-Structural-Architectural Handover Engineer (administrative, Labs, production and classified clean room (E-D-C) areas)</p>
-								<p> QA/QC civil department. Definition of standard documentation for clean rooms and labs. </p>
+								<p> Qualification document civil department. Definition of standard documentation for clean rooms and labs. </p>
 								<p> Work and contractors supervision. Direct interface with client for revamping/changes requests, local contractors management and internal QA/QC audit on executed works.</p>
 								<p> Responsible for quality, schedule, costs of all assigned CSA sub-systems. CSA completion walk-downs and safety walk-downs execution.</p>
 								<p> Integral test planner and executor for final building occupancy // Inspections with GVB for final building acceptance </p>
@@ -957,7 +957,7 @@ media-src 'self';"> -->
 								<li id="descr_list-xs">
 									<p>URS definition for clean utilities production plant revamping (Ultrafiltration system, Softened water system, Purified water system (double stage reverse osmosis equipment ), Water for injection (5 stages distillator equipment), clean steam generator. Clean gasses (CO2, O2, N2, He) storage and distribution.</p>
 									<p>Clean utilities installation (FAT/SAT) and qualification (IQ,OQ) execution and supervision. </p>
-									<p>Instrument calibration planning and supervision (support to relevant project manager)- Key validator for temperature mapping.</p>
+									<p>Instrument calibration planning and supervision (support to relevant project manager)- KAYE validator for temperature mapping.</p>
 									<p>Performance qualification (PQ) supervision, GMP deviations and gap assessment execution for all the equipment and relevant mechanical interconnections related to the clean utilities mentioned above according to GMP, FDA and AIFA requirements. </p>
 									<p>Commissioning supervision. PW (purified water), WFI (water for injection) loops sanification process tuning during IQ-OQ using Delta-V and OSI PI software.</p>
 									<p>Monitor external service providers, participate in internal audits, and serve as SME for production issues.</p>
