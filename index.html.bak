@@ -8,7 +8,9 @@
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-
+	
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap" rel="stylesheet" type='text/css'>
@@ -99,6 +101,10 @@ media-src 'self';"> -->
 						<a id= "Mail" href="mailto:giampaolo.carducci@gmail.com" target="_blank" class="fa fa-envelope"></a>
 						<a id= "It_num" href="tel:+393339217550" target="_blank" class="fa fa-phone-square"><sub>IT</sub></a>
 					</li>
+					<li class="table_sample">
+					<button class="button "><a href="images/CV_G_Carducci_2022.pdf" target="_blank" ><span class="glyphicon glyphicon-cloud-download"> Curriculum Vitae</span ></a></button>
+
+				</li>
 				</ul>
 			</div>
 	</div>
@@ -332,20 +338,17 @@ media-src 'self';"> -->
 	
 	</div> <!-- STOP SCROLLING OVERBOX -->
 	
-   		<div id="CV-download" class="container-fluid"> 
+   		<div id="icon-links" class="container-fluid"> 
 	
 			<ul>
-				<li class="table_sample">
-					<button class="button "><a href="images/CV_G_Carducci_2022.pdf" target="_blank" ><span class="glyphicon glyphicon-cloud-download"> Curriculum Vitae</span ></a></button>
-
-				</li>
+				
 <li class="table-multi">
 					<a id= "linkedin" href="https://www.linkedin.com/in/giampaolocarducci/" target="_blank" class="fa fa-linkedin"></a>
 					<a id= "github" href="https://github.com/giampcar" target="_blank" class="fa fa-github"></a>
 					<a id= "facebook" href="https://www.facebook.com/giampaolo.carducci" target="_blank" class="fa fa-facebook"></a>
 					<a id= "skype" href="skype:carducci_89@live.it" target="_skype" class="fa fa-skype"></a>
 					<a id= "instagram" href="https://www.instagram.com/giamp_/" target="_blank" class="fa fa-instagram"></a>
-					<a id= "twitter" href="REFERNECE NOT WORKING" target="_blank" class="fa fa-twitter"></a>
+					<a id= "gplay" href="https://play.google.com/store/apps/developer?id=Giampaolo+Carducci" target="_blank" class="fab fa-google-play" aria-hidden="true"></a>
 				</li>
 				  </ul>
 		</div>	
@@ -655,6 +658,10 @@ media-src 'self';"> -->
 						<a id= "Mail" href="mailto:giampaolo.carducci@gmail.com" target="_blank" class="fa fa-envelope"></a>
 						<a id= "It_num" href="tel:+393339217550" target="_blank" class="fa fa-phone-square"><sub>IT</sub></a>
 					</li>
+									<li  class="table_sample">
+					<button id="CV-download" class="button "><a href="images/CV_G_Carducci_2022.pdf" target="_blank" ><span class="glyphicon glyphicon-cloud-download"> Curriculum Vitae</span ></a></button>
+					 
+				</li>
 				</ul>
 			</div>
 	</div>
@@ -894,17 +901,14 @@ media-src 'self';"> -->
    		<div  class="container-fluid"> 
 	
 			<ul>
-				<li  class="table_sample">
-					<button id="CV-download" class="button "><a href="images/CV_G_Carducci_2022.pdf" target="_blank" ><span class="glyphicon glyphicon-cloud-download"> Curriculum Vitae</span ></a></button>
-					 
-				</li>
+
 <li class="table-multi-social">
 					<a id= "linkedin" href="https://www.linkedin.com/in/giampaolocarducci/" target="_blank" class="fa fa-linkedin"></a>
 					<a id= "github" href="https://github.com/giampcar" target="_blank" class="fa fa-github"></a>
 					<a id= "facebook" href="https://www.facebook.com/giampaolo.carducci" target="_blank" class="fa fa-facebook"></a>
 					<a id= "skype" href="skype:carducci_89@live.it" target="_skype" class="fa fa-skype"></a>
 					<a id= "instagram" href="https://www.instagram.com/giamp_/" target="_blank" class="fa fa-instagram"></a>
-					<a id= "twitter" href="REFERNECE NOT WORKING" target="_blank" class="fa fa-twitter"></a>
+					<a id= "gplay" href="https://play.google.com/store/apps/developer?id=Giampaolo+Carducci" target="_blank" class="fab fa-google-play" aria-hidden="true""></a>
 				</li>
 				  </ul>
 		</div>	
@@ -930,7 +934,7 @@ media-src 'self';"> -->
 								<li id="descr_list-xs">
 								<p> Civil-Structural-Architectural Handover Engineer (administrative, Labs, production and classified clean room (E-D-C) areas)</p>
 								<p> Qualification document civil department. Definition of standard documentation for clean rooms and labs. CTOP, VTOP, ETOP documental review support (KNEAT) </p>
-								<p> Work and contractors supervision. Direct interface with client for revamping/changes requests, local contractors management and internal QA/QC audit on executed works.</p>
+								<p> Work and contractors supervision. Direct interface with client for revamping/changes requests, local contractors management and internal QA audit on executed works.</p>
 								<p> Responsible for quality, schedule, costs of all assigned CSA sub-systems. CSA completion walk-downs and safety walk-downs execution.</p>
 								<p> Integral test planner and executor for final building occupancy // Inspections with GVB for final building acceptance </p>
 								<p> Fire protection requirements construction supervisor</p>
