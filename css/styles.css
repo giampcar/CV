@@ -413,6 +413,23 @@ list-style-type: none;
 	border:0;
 	margin-bottom: 5px;
 	}
+	
+		.table-multi-menu {
+    width:80%;
+	 display: flex;
+	justify-content: space-between;
+    margin-bottom: 5px;
+	margin:0;
+	margin-left: 40px;
+	padding:0;
+	border:0;
+}
+.table-multi-menu a{
+	margin:0;
+	padding:0;
+	border:0;
+	margin-bottom: 5px;
+	}
 
 .art-lang-skills-item {
 width: 23%;

@@ -74,7 +74,7 @@ sub{
   font-weight:700;
   min-width:150px;
   margin-top: 10px;
-  left:-20%;
+  left:-15%;
   box-shadow: 1px 2px 10px black;
 }
 
@@ -408,6 +408,25 @@ list-style-type: none;
 	border:0;
 }
 .table-multi a{
+	margin:0;
+	padding:0;
+	border:0;
+	margin-bottom: 5px;
+	}
+	
+		.table-multi-menu {
+	position:absolute;
+    width:80%;
+	 display: flex;
+	justify-content: space-between;
+    margin-bottom: 5px;
+	margin:0;
+	margin-left: 40px;
+	z-index:2;
+	padding:0;
+	border:0;
+}
+.table-multi-menu a{
 	margin:0;
 	padding:0;
 	border:0;
