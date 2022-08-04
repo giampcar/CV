@@ -120,11 +120,9 @@ font-family: 'Bilbo', cursive;
   
   #sections {
 	position:relative;
-
-  width:100%;
-
-  margin:0;
-   
+       display: flex;
+    justify-content: space-between;
+    height: 350px;
 }
 
  
@@ -308,12 +306,11 @@ width:90%;
 	  #descr1 {
 
  	position:relative;
-	
 	 background: url('../images/giorn_qual.webp') no-repeat center;
 	background-size: cover;
- padding: 0 40% 0 40%;
-	max-width:600px;
-     height: 150px;
+  float: left;
+min-width: 140px;
+     height: 140px;
 	    border-radius:10px;
 		box-shadow: 2px 2px 5px black;		
 z-index:0;
@@ -325,22 +322,22 @@ z-index:0;
 	position:relative;
 	 background: url('../images/fre.webp');
   background-size: cover;
-	max-width:600px;
- padding: 0 60% 0 30%;
-     height: 150px;
+  float: left; 
+min-width: 140px;
+     height: 140px;
 	    border-radius:10px;
 				box-shadow: 2px 2px 5px black;
 				z-index:0;
    }
    
-  
+ 
    #descr3 {
 	position:relative;
 	 background: url('../images/trips.webp')no-repeat center;
   background-size: cover;
- padding: 0 40% 0 40%;
-	max-width:600px;
-     height: 150px;
+  float: left;
+min-width: 150px;
+     height: 140px;
 	    border-radius:10px;
 				box-shadow: 2px 2px 5px black;
 				z-index:0;
@@ -350,9 +347,9 @@ z-index:0;
 	position:relative;
 	 background: url('../images/ing.webp')no-repeat center;
   background-size: cover;
- padding: 0 60% 0 30%;
-	max-width:600px;
-     height: 150px;
+  float: left;
+min-width: 150px;
+     height: 140px;
 	    border-radius:10px;
 				box-shadow: 2px 2px 5px black;
 
@@ -376,7 +373,7 @@ z-index:0;
    
    	  #descr2 a{
  	position:relative;
-	bottom: -100px; 
+	bottom: -80px; 
 	  color: white;
 	 				font-size:1.2em;
  opacity:1;
@@ -755,17 +752,15 @@ position: relative;
   display: none;
   position: absolute;
   background-color: Ivory;
-  text-align: justify;
-
   box-shadow: 0px 8px 16px 0px black;
   border-radius: 10px;
   padding: 5px 5px;
   color:black!important;
   	   text-shadow: 1px 1px 1px  white;
-font-family: 'Ubuntu', sans-serif;
     z-index: 1!important;
-	font-size:12px!important;
+    font-size:1.15em!important;
   line-height: 110%!important;
+    font-family: 'Palatino', serif;
 }
 
 .dropdown:hover .dropdown-content {
@@ -791,18 +786,16 @@ color:black;
   display: none;
   position: absolute;
   left:-50px;
-  top:30px;
+  top:20px;
   background-color: Ivory;
-  height:75%;
-  text-align: justify;
-  width: 400px;
+  height:85%;
+  width: 450px;
 
-  max-height: auto!important;
   box-shadow: 0px 8px 16px 0px black;
   border-radius: 10px;
-  z-index: 2;
-	font-family: 'Ubuntu', sans-serif;
-}
+  z-index: 1;
+
+   } 
 
 .dropdown-xs:hover .dropdown-content-xs {
   display: block;
@@ -817,6 +810,8 @@ font-size:8px!important;
   	   text-shadow: 1px 1px 1px  white !important;
 padding-top: 5px!important;
 padding-right:15px!important;
+    font-family: 'Palatino', serif;
+    font-size: 2vw!important ;
 }
 
 
