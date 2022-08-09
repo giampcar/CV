@@ -1,23 +1,24 @@
-
+const xlabels = [];
+const ytemps = [];
 const xhumlabels = [];
 const yhum = [];
 
-chartIt();
-getData();
-async function chartIt(){
-	await getData();
+chartIt1();
+getData1();
+async function chartIt1(){
+	await getData1();
 
-const ctx = document.getElementById('humidity').getContext('2d');
+const ctx = document.getElementById('myChart').getContext('2d');
 
 
-const humidity = new Chart(ctx, {
+const myChart = new Chart(ctx, {
 
     type: 'line',
     data: {
-        labels: xhumlabels,
+        labels: xlabels,
         datasets: [{
-            label: 'Humidity [%]',
-            data: yhum,
+            label: 'External temperature',
+            data: ytemps,
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
 
@@ -25,6 +26,20 @@ const humidity = new Chart(ctx, {
             ],
             borderColor: [
                 'rgba(255, 99, 132, 1)',
+      
+            ],
+            borderWidth: 1
+        },
+		{
+            label: 'Internal temperature',
+            data: [150,200,80,20,-10],
+            backgroundColor: [
+                'rgba(30, 99, 20, 0.2)',
+
+      
+            ],
+            borderColor: [
+                'rgba(30, 99, 20, 1)',
       
             ],
             borderWidth: 1
@@ -45,7 +60,61 @@ const humidity = new Chart(ctx, {
 
 
 
-async function getData(){
+
+//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+
+chartIt();
+getData1();
+async function chartIt(){
+	await getData1();
+
+const ctx = document.getElementById('humidity').getContext('2d');
+
+
+const humidity = new Chart(ctx, {
+
+    type: 'line',
+    data: {
+        labels: xhumlabels,
+        datasets: [{
+            label: 'Humidity [%]',
+            data: yhum,
+            backgroundColor: [
+                'rgba(50, 50, 150, 0.2)',
+
+      
+            ],
+            borderColor: [
+                'rgba(50, 50, 150, 1)',
+      
+            ],
+            borderWidth: 1
+        }
+		]
+    },
+	
+
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+		
+    }
+})
+}
+
+
+
+async function getData1(){
 	const response = await fetch("https://www.giampaolocarducci.tk/pages/temperature_ext.csv");
 	const data = await response.text();
 	
@@ -56,16 +125,19 @@ async function getData(){
 		const temp = columns[1];
 		const hum = columns[2];
 		xhumlabels.push(year);
+		xlabels.push(year);
 		yhum.push(hum);
+		ytemps.push(temp);
 
-		console.log(year,temp,hum);
 
+	//	console.log(year,temp,hum);
+	// console.log(columns);
 				
 });
 
 }
-console.log(xhumlabels);
-console.log(yhum);
+//console.log(xhumlabels);
+
 
 
 

@@ -5,7 +5,7 @@ const yhum = [];
 chartIt();
 getData();
 async function chartIt(){
-	await getData();
+	await getData1();
 
 const ctx = document.getElementById('humidity').getContext('2d');
 
@@ -19,12 +19,12 @@ const humidity = new Chart(ctx, {
             label: 'Humidity [%]',
             data: yhum,
             backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
+                'rgba(50, 50, 150, 0.2)',
 
       
             ],
             borderColor: [
-                'rgba(255, 99, 132, 1)',
+                'rgba(50, 50, 150, 1)',
       
             ],
             borderWidth: 1
@@ -39,17 +39,18 @@ const humidity = new Chart(ctx, {
                 beginAtZero: true
             }
         }
+		
     }
 })
 }
 
 
 
-async function getData(){
+async function getData1(){
 	const response = await fetch("https://www.giampaolocarducci.tk/pages/temperature_ext.csv");
 	const data = await response.text();
 	
-	const table = data.split('\n').slice(1);
+	const table = data.split('\n').slice(0);
 	table.forEach(row =>{
 		const columns = row.split(',');
 		const year = columns [0];
@@ -58,14 +59,15 @@ async function getData(){
 		xhumlabels.push(year);
 		yhum.push(hum);
 
-		console.log(year,temp,hum);
-
+console.log(row);
+	//	console.log(year,temp,hum);
+	// console.log(columns);
 				
 });
 
 }
-console.log(xhumlabels);
-console.log(yhum);
+//console.log(xhumlabels);
+
 
 
 

@@ -73,12 +73,12 @@ function checkCookie() {
   }
 }
 
-	const xlabels = [];
+const xlabels = [];
 const ytemps = [];
 
-chartIt();
+chartIt1();
 getData();
-async function chartIt(){
+async function chartIt1(){
 	await getData();
 
 const ctx = document.getElementById('myChart').getContext('2d');
@@ -138,21 +138,23 @@ async function getData(){
 	const data = await response.text();
 	
 	const table = data.split('\n').slice(0);
-	table.forEach(row =>{
-		const columns = row.split(',');
-		const year = columns [0];
-		const temp = columns[1];
+	const arrayLength = table.length;
+	for (var i = 0; i < arrayLength; i++){
+		const table = table.split(',');
+		const year = values [0];
+		const temp = values[1];
 		xlabels.push(year);
 		ytemps.push(temp);
 
-		console.log(year,temp);
+	//	console.log(year,temp);
+	console.log(xlabels);
+console.log(ytemps);
 
 				
-});
+};
 
 }
-console.log(xlabels);
-console.log(ytemps);
+
 
 
 

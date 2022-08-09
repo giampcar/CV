@@ -76,9 +76,9 @@ function checkCookie() {
 const xlabels = [];
 const ytemps = [];
 
-chartIt();
+chartIt1();
 getData();
-async function chartIt(){
+async function chartIt1(){
 	await getData();
 
 const ctx = document.getElementById('myChart').getContext('2d');
@@ -137,7 +137,7 @@ async function getData(){
 	const response = await fetch("https://www.giampaolocarducci.tk/pages/temperature_ext.csv");
 	const data = await response.text();
 	
-	const table = data.split('\n').slice(0);
+	const table = data.split('\n').slice(2);
 	table.forEach(row =>{
 		const columns = row.split(',');
 		const year = columns [0];
@@ -145,7 +145,7 @@ async function getData(){
 		xlabels.push(year);
 		ytemps.push(temp);
 
-		console.log(year,temp);
+	//	console.log(year,temp);
 
 				
 });
