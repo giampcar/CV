@@ -124,4 +124,5 @@ async function getData(){
 		const temp = columns[1];
 		console.log(year,temp);	
 });
+}
 

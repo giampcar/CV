@@ -73,7 +73,8 @@ function checkCookie() {
   }
 }
 
-
+const xlabels = [];
+const ytemps = [];
 
 chartIt();
 getData();
@@ -87,7 +88,7 @@ const myChart = new Chart(ctx, {
         labels: xlabels,
         datasets: [{
             label: 'External temperature',
-            data: [12, 19, 3, 5, 2, 3],
+            data: ytemps,
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
@@ -122,6 +123,7 @@ async function getData(){
 		const year = columns [0];
 		xlabels.push(year);
 		const temp = columns[1];
+		ytemps.push(temp);
 		console.log(year,temp);	
 });
 }
