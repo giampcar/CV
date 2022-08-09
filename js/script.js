@@ -1,4 +1,6 @@
 
+
+
 var myIndex = 0;
 carousel();
 carousel_1();
@@ -149,4 +151,6 @@ function checkCookie() {
 }
   }
 }
+
+
 

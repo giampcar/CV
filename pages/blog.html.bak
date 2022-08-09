@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Giampaolo Carducci - Blog</title>
 
-    <link  href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles_blog.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bilbo&display=swap" rel="stylesheet">
+
 
 <!-- PRELOAD IMAGES
 
@@ -39,6 +40,8 @@
   
   
 <body>
+
+
 
  <div class="normalizzatore container-fluid"> 
   <header>
@@ -137,6 +140,8 @@
 
 
 	</div>
+
+<canvas id="myChart" width="400" height="400"></canvas>
 
 
 
@@ -271,11 +276,13 @@
 
 
 
-  <!-- jQuery (Bootstrap JS plugins depend on it)
+  <!-- jQuery (Bootstrap JS plugins depend on it)-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.js"></script>
+   <script src="../js/jquery-2.1.4.min.js"></script>
   <script src="../js/jquery-2.1.4.min.js"></script>
   <script src="../js/bootstrap.min.js"></script>
   <script src="../js/ajax-utils.js"></script>
-  <script src="../js/script.js"></script>-->
+  <script src="../js/script_blog.js"></script>
 
 
 </body>
