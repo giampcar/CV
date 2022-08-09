@@ -5,28 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Giampaolo Carducci - Blog</title>
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <link  href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles_blog.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap" rel="stylesheet" type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bilbo&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
 <!-- PRELOAD IMAGES
 
-<link rel="preload" as="image" href="./images/main_large.jpg">
-<link rel="preload" as="image" href="./images/health-food.jpg">
-<link rel="preload" as="image" href="./images/Classes.jpg">
-<link rel="preload" as="image" href="./images/mindset.jpg.jpg">
+<link rel="preload" as="image" href="./images/main_large.webp">
+<link rel="preload" as="image" href="./images/health-food.webp">
+<link rel="preload" as="image" href="./images/Classes.webp">
+<link rel="preload" as="image" href="./images/mindset.webp.webp">
 
 <!-- PRELOAD IMAGES-->	
 
@@ -117,7 +109,7 @@
 			<p > <a href="giornata_qualunque.html"><h3 id="descr2" >Riflessioni e <br> passioni</h3></a></p>
 					<div class="dropdown-content">		
 							<p>
-								<a href="giornata_qualunque.html"> Pensieri e parole, a volte non combaciano.. <br> Attente riflesioni sull'essere e sul divenire a volte risultano vitali per capire le strade da scegliere <br> Seguite le vostre passioni e lasciatevi trasportare da tutto ciò che vi svincoli dalla costante temporale. <br> Il resto verrà da se.. </a>
+								<a href="giornata_qualunque.html"> Riflettere dopo aver profuso sentimenti, pensieri e stati d'animo nella vostra opera. <br> Ascoltate le parole evocate da ciò che ho prodotto con le mie stesse mani e commentate le vostre impressioni ascoltando cosa i vostri occhi sussurano.. </a>
 							</p>
 						</div>
 						</div>
@@ -131,6 +123,7 @@
 							</p>
 						</div>
 						</div>
+				
 			
 										<div class="dropdown">
 			<p > <a href="giornata_qualunque.html"><h3 id="descr4" >Ingegneria</h3></a></p>
@@ -141,7 +134,7 @@
 							</p>
 						</div>
 						</div>
-			
+
 
 	</div>
 
@@ -200,34 +193,7 @@
             </p>
 </nav>
 
-<nav id="header-nav" class=" navbar-default ">
-	<div id="contenitore_button" class="container-fluid">
-	<button id="menu-button" type="button" class="navbar-toggle collapsed  visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-	
-	
-	    <div id="collapsable-nav" class="collapse navbar-collapse, visible-xs, .d-{sm,md,lg,xl}-block ">
-		<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs ">
-		    <li><hr></li>
-		   <li><a href="../pages/blog.html" class="selector-classes"><h3>Blog</h3></a></li>
-            <li><hr></li>
-			<li><a id="blog"  href="../pages/blog.html"><h3>Raccontastorie</h3></a></li>
-            <li><hr></li>
-			<li><a  id="mindset" href="../pages/blog.html"><h3>Riflessioni e passioni</h3></a></li>
-            <li><hr></li>
-			<li><a  id="contacts" href="../pages/blog.html"><h3>Viaggi</h3></a></li>
-            <li><hr></li>
-			<li><a  id="contacts" href="../pages/blog.html"><h3>Ingegneria</h3></a></li>
-            <li><hr></li>
-		</ul>
-		
-		
 
-	</div><!-- .collapse .navbar-collapse -->
-</nav><!-- #header-nav -->
  
   <div id="main-content-xs" class="container-fluid visible-xs ">
   	
@@ -245,7 +211,7 @@
 			<div id="descr2-xs"  class="dropdown-xs"><p><a href="./snippets/classes.html">Riflessioni e passioni</a><p>
 			<div class="dropdown-content-xs">
 							<p>
-								<a href="giornata_qualunque.html">Pensieri e parole, a volte non combaciano.. <br> Attente riflesioni sull'essere e sul divenire a volte risultano vitali per capire le strade da scegliere <br> Seguite le vostre passioni e lasciatevi trasportare da tutto ciò che vi svincoli dalla costante temporale. <br> Il resto verrà da se..</a>
+								<a href="giornata_qualunque.html"> Riflettere dopo aver profuso sentimenti, pensieri e stati d'animo nella vostra opera. <br> Ascoltate le parole evocate da ciò che ho prodotto con le mie stesse mani e commentate le vostre impressioni ascoltando cosa i vostri occhi sussurano.. </a>
 							</p>
 					</div>
 			</div>
@@ -305,11 +271,11 @@
 
 
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <!-- jQuery (Bootstrap JS plugins depend on it)
   <script src="../js/jquery-2.1.4.min.js"></script>
   <script src="../js/bootstrap.min.js"></script>
   <script src="../js/ajax-utils.js"></script>
-  <script src="../js/script.js"></script>
+  <script src="../js/script.js"></script>-->
 
 
 </body>

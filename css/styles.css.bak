@@ -1,5 +1,5 @@
 body {
-    background-color:  #3E0000;
+    background-color:  rgb(85,50,0);
 	font-family: 'Gentium Basic', serif;
   text-align: center;
   width:95%;
@@ -8,6 +8,7 @@ body {
 
 .normalizzatore{
 	max-width:1250px;
+	margin-top:20px;
 		}
 
 header {
@@ -266,7 +267,7 @@ sub{
 
 #riepilogo{
 position:relative;
-margin:0;
+margin-top:10px;
 padding-left:10px;
 height:200px;
 }
@@ -415,14 +416,12 @@ list-style-type: none;
 	}
 	
 		.table-multi-menu {
-	position:absolute;
     width:80%;
 	 display: flex;
 	justify-content: space-between;
     margin-bottom: 5px;
 	margin:0;
 	margin-left: 40px;
-	z-index:2;
 	padding:0;
 	border:0;
 }

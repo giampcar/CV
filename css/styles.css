@@ -1,5 +1,5 @@
 body {
-    background-color:  #3E0000;
+    background-color:  rgb(85,50,0);
 	font-family: 'Gentium Basic', serif;
   text-align: center;
   width:95%;
@@ -8,6 +8,7 @@ body {
 
 .normalizzatore{
 	max-width:1250px;
+	margin-top:20px;
 		}
 
 header {
@@ -266,7 +267,7 @@ sub{
 
 #riepilogo{
 position:relative;
-margin:0;
+margin-top:15px;
 padding-left:10px;
 height:200px;
 }

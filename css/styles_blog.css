@@ -6,6 +6,7 @@ font-family: 'Bilbo', cursive;
 
 .normalizzatore {
   max-width:1250px;
+  	margin-top:15px;
 
 }
 
@@ -95,7 +96,7 @@ font-family: 'Bilbo', cursive;
 /** ################################**/
 /** ################################**/
 #title {
-	font-family: 'Gentium Basic', serif;
+
   background-color: Ivory;
   width:90%;
 
@@ -105,7 +106,7 @@ font-family: 'Bilbo', cursive;
    border-radius: 10px;
   }
 #title-xs {
-	font-family: 'Gentium Basic', serif;
+
   background-color: Ivory;
   width:90%;
   height:auto;
@@ -127,7 +128,7 @@ font-family: 'Bilbo', cursive;
 
  
 h1 { /* Site name */
-font-family: 'Bilbo', cursive;
+
   color: darkred;
 
   margin-top: 30px;
@@ -240,7 +241,7 @@ hr{
 }
 
   h3 { /* menu */
-font-family: 'Bilbo', cursive;
+
   font-size: 1.5em;
   margin:5px;
   }
@@ -272,6 +273,7 @@ font-family: 'Bilbo', cursive;
 	padding: 1% 4% 0 6%;
 	width:90%;
 	margin-top: -10px;
+	border-radius:10px;
 
 }
 
@@ -582,7 +584,6 @@ width:90%;
 
   
   #menu-list {
-font-family: 'Bilbo', cursive;
   width:110%;
   background: lightblue;
   margin:0;
