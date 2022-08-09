@@ -80,10 +80,13 @@ chartIt();
 getData();
 async function chartIt(){
 	await getData();
+
 const ctx = document.getElementById('myChart').getContext('2d');
-const xlabels=[];
+
+
 const myChart = new Chart(ctx, {
-    type: 'bar',
+
+    type: 'line',
     data: {
         labels: xlabels,
         datasets: [{
@@ -91,17 +94,33 @@ const myChart = new Chart(ctx, {
             data: ytemps,
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
+
       
             ],
             borderColor: [
                 'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
       
             ],
             borderWidth: 1
-        }]
+        },
+		{
+            label: 'Internal temperature',
+            data: [150,200,80,20,-10],
+            backgroundColor: [
+                'rgba(30, 99, 20, 0.2)',
+
+      
+            ],
+            borderColor: [
+                'rgba(30, 99, 20, 1)',
+      
+            ],
+            borderWidth: 1
+        }
+		]
     },
+	
+
     options: {
         scales: {
             y: {
@@ -113,18 +132,32 @@ const myChart = new Chart(ctx, {
 }
 
 
+
 async function getData(){
-	const response = await fetch('temperature_ext.csv');
+	const response = await fetch("https://www.giampaolocarducci.tk/pages/temperature_ext.csv");
 	const data = await response.text();
 	
-	const table = data.split('\n').slice(1);
+	const table = data.split('\n').slice(0);
 	table.forEach(row =>{
 		const columns = row.split(',');
 		const year = columns [0];
-		xlabels.push(year);
 		const temp = columns[1];
+		xlabels.push(year);
 		ytemps.push(temp);
-		console.log(year,temp);	
+
+		console.log(year,temp);
+
+				
 });
+
 }
+console.log(xlabels);
+console.log(ytemps);
+
+
+
+
+
+
+
 
