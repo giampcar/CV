@@ -267,7 +267,7 @@ sub{
 
 #riepilogo{
 position:relative;
-margin-top:10px;
+margin-top:15px;
 padding-left:10px;
 height:200px;
 }
@@ -367,7 +367,7 @@ border:0px;
 
 #icon-links{
 text-align:center;
-margin-top:20px;
+margin-top:10px;
 }
 
 .table_sample{
@@ -923,11 +923,11 @@ overflow-y: scroll;
 		
 #github, #skype, #linkedin, #facebook, #instagram {
 
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 #gplay {
 
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 #maps{
