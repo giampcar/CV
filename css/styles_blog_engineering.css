@@ -1,5 +1,5 @@
 body {
-    background-color:  lightblue;
+    background-color:  rgb(55, 0 , 0);
 font-family: 'Bilbo', cursive;
   text-align: center;
 }
@@ -74,7 +74,7 @@ font-family: 'Bilbo', cursive;
    width: auto;
   height: auto;
   margin: 1px;
-  box-shadow: 0.5px 0.5px 1px 1px LightSlateGrey;
+  box-shadow: 0.5px 0.5px 1px 1ptx LightSlateGrey;
 }
 
 #menu-button{
@@ -153,11 +153,12 @@ h1 { /* Site name */
 
 #header-nav {
 	background-color:Ivory;
-	margin:0;
-	padding:0;
+
 	width:90%;
   display: inline-block;
   position: relative;
+  bottom:-100px;
+  z-index:1;
 
 }
 
@@ -234,7 +235,7 @@ hr{
 
 
 #divider{
-	color: darkred;
+	color: Ivory;
 	  font-size: 7px;
 	  margin:13px;
 }
@@ -590,21 +591,21 @@ width:90%;
   
   #menu-list {
   width:110%;
-  background: lightblue;
+  background: rgb(55, 0 , 0);
   margin-left:-3%;
   margin-bottom:-0.5%;
 
   }
   
     #menu-list a{
-color:#61122f;
+color:Ivory;
   }
 
-/* evidenzia posizione menu */ 
+/* evidenzia posizione menu */
 .selector-classes h3{
 color: !important:grey;
 		   }
- 
+
  .selector-home h3{
 	  color: !important:grey;;
 		   }
@@ -683,48 +684,6 @@ position: relative;
 
 
 
-.ul-classes h3{
-	  color:#61122f;
-  font-size: 27px;
-		
-}
-
-.ul-classes h4{
-	  color:#61122f;
-  font-size: 25px;
-		
-}
-
-.ul-classes h5{
-  font-size: 20px;
-	}
-	
-.ul-classes-events h3{
-	  color:#61122f;
-  font-size: 27px;
-		
-}
-
-.ul-classes-events h4{
-	  color:#61122f;
-  font-size: 25px;
-		
-}
-
-.ul-classes-events h5{
-  font-size: 22px;
-	}
-
-.ul-classes hr{
-	  width:50%;	
-	 border:1px;
-}
-
-.ul-classes-events hr{
-	  width:90%;	
-	 border:1px;
-	 border-radius:100px;
-}
 
 .divid{
 	width:2px;
