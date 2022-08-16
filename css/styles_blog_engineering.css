@@ -15,74 +15,10 @@ font-family: 'Bilbo', cursive;
 /** ################################**/
 /** ################################**/
 /** Button language select **/
-/** ################################**/
-.button {
-	position:absolute;
-	left:85%;
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #DABDAB;
-  border: none;
-  color: LightSlateGrey;
-  text-align: center;
-  font-size: .7em;
-   width: 25px;
-  height: 15px;
-  transition: all 0.5s;
-  margin: 5px;
-  box-shadow: 0px 2px 5px 1px LightSlateGrey;
-}
 
 
 
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
 
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 10px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-
-#button_switch{
-	position:absolute;
-	left:1%;
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #DABDAB;
-  border: none;
-  color: LightSlateGrey;
-  text-align: center;
-  font-weight:700;
-   width: auto;
-  height: auto;
-  margin: 1px;
-  box-shadow: 0.5px 0.5px 1px 1ptx LightSlateGrey;
-}
-
-#menu-button{
-	  color: Ivory;
-}
-#menu-button:hover, #menu-button:focus, #menu-button:active {
-	  color: #DABDAB;
-}
 
 
 /** Button language select END **/
@@ -156,7 +92,7 @@ h1 { /* Site name */
 
 	width:90%;
   display: inline-block;
-  position: relative;
+  position: absolute;
   bottom:-100px;
   z-index:1;
 
@@ -173,12 +109,11 @@ h1 { /* Site name */
   
   #collapsable-nav a:hover{ /* Collapsed nav menu text */
   	width:100%;
-	background-color:#DABDAB;
   }
   
   #nav-list a{
 font-family: 'Bilbo', cursive;
-  color: #61122f;
+  color: rgb(55, 0 , 0);
   }
   
     #collapsable-nav ul,  #collapsable-nav li {
@@ -197,6 +132,8 @@ font-family: 'Bilbo', cursive;
     border-radius: 10px;
  border:1px;
   margin:1px;
+  	box-shadow: 2px 2px 5px black;
+  		z-index:1;
 }
 
 
@@ -204,7 +141,9 @@ font-family: 'Bilbo', cursive;
 
   #contenitore_button{
 	position: relative;
-	width:90%;
+	width:100%;
+	bottom:10px;
+
 }
 
 
@@ -215,9 +154,13 @@ font-family: 'Bilbo', cursive;
 }
 
 .navbar-toggle:hover, .navbar-toggle:focus {
- background-color: red;
+ background-color: lightgray;
+
 }
 
+.icon-bar{
+background-color:darkred;
+}
 
 
 
@@ -240,11 +183,71 @@ hr{
 	  margin:13px;
 }
 
-  h3 { /* menu */
+
+h2 { /* Sottosezione */
 
   font-size: 1.5em;
   margin:5px;
+
+
+ font-style: normal;
+ line-height: 1.35em;
+ 		text-align:justify;
   }
+
+  h4 { /* testo */
+
+  font-size: 0.9em;
+  margin:5px;
+font-family: "Palatino Linotype";
+
+ font-style: normal;
+ line-height: 1.35em;
+ 		text-align:justify;
+  }
+    h5 { /* testo */
+
+  font-size: 1em;
+    margin:2px;
+  font-family: "Palatino Linotype";
+
+   font-style: normal;
+ line-height: 1.15em;
+   		text-align:justify;
+    }
+
+bold{
+font-weight: 700;
+}
+
+tags a{
+font-weight: 500;
+color: darkred;
+}
+
+
+tags a:hover{
+font-weight: 700;
+}
+
+ul.a {
+  list-style-type: circle;
+  margin-left:2em;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Centered text fro captions */
+.caption{
+  position: relative;
+  margin:10px;
+  left: 50%;
+}
   
 
 
@@ -601,14 +604,7 @@ width:90%;
 color:Ivory;
   }
 
-/* evidenzia posizione menu */
-.selector-classes h3{
-color: !important:grey;
-		   }
 
- .selector-home h3{
-	  color: !important:grey;;
-		   }
  
 
 
@@ -639,11 +635,11 @@ color: !important:grey;
 position: relative;
  /* background: url('../images/main_large.jpeg') no-repeat;*/
   font-size: 0.8em;
-  color: #61122f;
+  color: Ivory;
 	}
 	
 	    #github-xs,  #linkedin-xs {
-  color:#61122f;
+  color:Ivory;
   font-size: 0.8em;
 }
 
