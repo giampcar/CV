@@ -106,7 +106,7 @@ media-src 'self';"> -->
 						<a id= "It_num" href="tel:+393339217550" target="_blank" class="fa fa-phone-square"><sub>IT</sub></a>
 					</li>
 					<li class="table_sample">
-					<button class="button "><a href="images/CV_G_Carducci_2022.pdf" target="_blank" ><span class="glyphicon glyphicon-cloud-download"> Curriculum Vitae</span ></a></button>
+					<button class="button "><a href="images/CV_G_Carducci_2023.pdf" target="_blank" ><span class="glyphicon glyphicon-cloud-download"> Curriculum Vitae</span ></a></button>
 
 				</li>
 				</ul>
@@ -171,7 +171,7 @@ media-src 'self';"> -->
 		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
 		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0" class= "german" ></path>
 		</svg>
-		<div class="progressbar-text-lang" >15</div>
+		<div class="progressbar-text-lang" >30</div>
 		</div><h6>German</h6>
 	</div>
 
@@ -425,6 +425,14 @@ media-src 'self';"> -->
 				<div class="section-title">
 					<div id="esperienza-lavorativa" class="title-frame"><h2 class="title bold"> <span> Experiences </span></h2></div>
 						<div  class="experience">
+							<ul id="descr_exp" class="container-fluid, hidden-xs"><h3>Lonza-Sanofi/ BioAtrium -Visp <a id="maps" target="_blank" href="https://www.bioatrium.com/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">	Nov 2022 - Current h4><h5 class="bold">	Role: <span> TCR Manager - Engineering dept.</span> </h5><h5 class="bold">Key responsibilities: </h5>
+								<li id="descr_list">
+								<p> Technical Change Request coordinator; daily use of SAP, Excel, COMOS, DMS, TrackWise, GMP standards.  </p>
+								<p> Daily and weekly alignment with Department stakeholders to discuss Technical Changes related to all BioAtrium departments./p>
+								<hr>								
+								</li>
+								<div id="timebar_1" class="container-fluid"></div><div id="timebardot_1" class=" fa fa-angle-double-down"></div>
+							</ul>
 							<ul id="descr_exp" class="container-fluid, hidden-xs"><h3>CSL Behring – Lengnau (BE) <a id="maps" target="_blank" href="https://www.cslbehring.ch/uber-uns/standort-lengnau" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">	Mar 2020 – Dec 2021 </h4><h5 class="bold">	Role: <span> CSA Handover Engineer</span> </h5><h5 class="bold">Key responsibilities: </h5>
 								<li id="descr_list">
 								<p> Civil-Structural-Architectural Handover Engineer (administrative, Labs, production and classified clean room (E-D-C) areas)</p>
@@ -687,7 +695,7 @@ media-src 'self';"> -->
 						<a id= "It_num" href="tel:+393339217550" target="_blank" class="fa fa-phone-square"><sub>IT</sub></a>
 					</li>
 					<li  class="table_sample">
-					<button id="CV-download" class="button "><a href="images/CV_G_Carducci_2022.pdf" target="_blank" ><span class="glyphicon glyphicon-cloud-download"> Curriculum Vitae</span ></a></button>
+					<button id="CV-download" class="button "><a href="images/CV_G_Carducci_2023.pdf" target="_blank" ><span class="glyphicon glyphicon-cloud-download"> Curriculum Vitae</span ></a></button>
 					 
 				</li>
 				</ul>
@@ -746,13 +754,13 @@ media-src 'self';"> -->
 		<div class="progressbar-text-lang" >25</div>
 		</div><h6>French</h6>
 	</div>
-		<div class="art-lang-skills-item"><div id="circleprog1-3" data-type="circles" data-value="70" class="art-cirkle-progress art-skills-progress">
+		<div class="art-lang-skills-item"><div id="circleprog1-3" data-type="circles" data-value="100" class="art-cirkle-progress art-skills-progress">
 		
 		<svg viewBox="0 0 100 100" class= "svg-pathstyle">
 		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="lightgrey" stroke-width="7" fill-opacity="0"></path>
 		<path d="M 50,50 m 0,-46.5 a 46.5,46.5 0 1 1 0,93 a 46.5,46.5 0 1 1 0,-93" stroke="Sienna" stroke-width="7" fill-opacity="0"  class= "german" ></path>
 		</svg>
-		<div class="progressbar-text-lang">15</div>
+		<div class="progressbar-text-lang">30</div>
 		</div><h6>German</h6>
 	</div>
 	
@@ -958,6 +966,15 @@ media-src 'self';"> -->
 				<div class="section-title">
 					<div id="esperienza-lavorativa-xs" class="title-frame"><h2 class="title bold"> <span> Experiences </span></h2></div>
 						<div  class="experience">
+							<ul id="descr_exp" class="container-fluid, hidden-xs"><h3>Lonza-Sanofi/ BioAtrium -Visp <a id="maps" target="_blank" href="https://www.bioatrium.com/" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold">	Nov 2022 - Current h4><h5 class="bold">	Role: <span> TCR Manager - Engineering dept.</span> </h5><h5 class="bold">Key responsibilities: </h5>
+								<li id="descr_list">
+								<p> Technical Change Request coordinator; daily use of SAP, Excel, COMOS, DMS, TrackWise, GMP standards.  </p>
+								<p> Daily and weekly alignment with Department stakeholders to discuss Technical Changes related to all BioAtrium departments./p>
+								<hr>								
+								</li>
+								<div id="timebar_1" class="container-fluid"></div><div id="timebardot_1" class=" fa fa-angle-double-down"></div>
+							</ul>							
+							
 							<ul id="descr_exp" class="container-fluid"><h3>CSL Behring – Lengnau (BE) <a id="maps" target="_blank" href="https://www.cslbehring.ch/uber-uns/standort-lengnau" class="glyphicon glyphicon-map-marker"></a></h3><h4 class="bold_xs">	Mar 2020 – Dec 2021 </h4><h5 class="bold">	Role: <span> CSA Handover Engineer</span> </h5><h5 class="bold">Key responsibilities: </h5>
 								<li id="descr_list-xs">
 								<p> Civil-Structural-Architectural Handover Engineer (administrative, Labs, production and classified clean room (E-D-C) areas)</p>
@@ -1149,7 +1166,7 @@ media-src 'self';"> -->
   
 
   <footer class="panel-footer, container-fluid, text-center">
-	   <p><span id="footer"> &copy; Copyright G.Carducci - 2022	</span>
+	   <p><span id="footer"> &copy; Copyright G.Carducci - 2023	</span>
 <p><a href="./data-protection/privacy-policy.html" target="_blank">Cookies policy</a></p>
 					</p>
 
