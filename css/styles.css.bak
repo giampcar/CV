@@ -724,6 +724,26 @@ overflow-y: scroll;
 }
 
 
+#timebar_0{
+	position:absolute;
+	width:7px;
+	padding:0px;
+	height:35%;
+	background-color:grey;
+	border-radius:5px;
+	bottom:20%;
+	left:90%;
+	}
+	
+	#timebardot_0{
+	position:absolute;
+	padding:0px;
+	left:89.5%;
+	top:90%;
+	font-size:1.5vw;
+	color:grey;
+	}
+
 #timebar_1{
 	position:absolute;
 	width:7px;
@@ -1339,6 +1359,6 @@ stroke-dashoffset: 270;
  } 
  .german{
 stroke-dasharray: 360; 
-stroke-dashoffset: 240;
+stroke-dashoffset: 260;
  }
  
