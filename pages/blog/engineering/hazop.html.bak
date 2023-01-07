@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>GC - Blog - Engineering</title>
+    <title>GC - Blog - Engineering - HAZOP</title>
     <link rel="stylesheet" href="../../../css/bootstrap.min.css">
     <link rel="stylesheet" href="../../../css/styles_blog_engineering.css">
 
@@ -50,7 +50,7 @@
     <nav id="title" class="navbar navbar-default container-fluid hidden-xs">
             <a href="../pages/blog.html"><h1>Tutto sta al Dove mentre pensi al Quando</h1></a>
          
-              <div id="proprietario">- Giampaolo Carducci -</div>
+              <div id="proprietario">- Giampaolo Carducci - <br> <bold>HAZOP</bold></div>
 
 		
 
@@ -70,6 +70,7 @@
   
    	<ul>
 		<li class="table-multi-menu">
+
 			<p><h3><a href="./snippets/classes.html">Storyteller</a></h3></p>
 			<p> <a><span id="divider" class= "fa fa-circle"></span></a> </p>
 			<p><h3><a href="./snippets/in-progress.html"> Thoughts and passions</a></h3></p>
@@ -79,6 +80,7 @@
 			<p><h3><a href="./snippets/in-progress.html">Engineering</a></h3></p>
 			<p> <a><span id="divider" class= "fa fa-circle"></span></a> </p>
 			<p><a href="https://www.giampaolocarducci.tk" target="blank"><h3>About me</h3></a></p>
+
 		</li>
 	</ul>
  
@@ -87,30 +89,6 @@
 </nav>
 
 
-		  <div id="contenitore_button" class="container-fluid">
-			  <button id="menu-button" type="button" class="navbar-toggle collapsed  visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-				  <span class="icon-bar"></span>
-				  <span class="icon-bar"></span>
-				  <span class="icon-bar"></span>
-			  </button>
-		  </div>
-		  <div id="collapsable-nav" class="collapse navbar-collapse, visible-xs, .d-{sm,md,lg,xl}-block ">
-			  <ul id="nav-list" class="nav, navbar-nav, visible-xs ">
-				  <li><hr></li>
-				  <li><a href="#esperienza-lavorativa-xs"><span class="nav-text">Storyteller</span></a></li>
-				  <li><hr></li>
-				  <li><a href="#studi-xs"><span class="nav-text">Thoughts and passions</span></a></li>
-				  <li><hr></li>
-				  <!--   <li><a href="./pages/blog.html"><span class="nav-text">Blog</span></a></li>-->
-				  <li><a href="#blog-xs"><span class="nav-text">Trips</span></a></li>
-				  <li><hr></li>
-				  <li><a href="#contatti-xs"><span class="nav-text">Engineering</span></a></li>
-				  <li><hr></li>
-				  <li><a href="https://www.giampaolocarducci.tk"><span class="nav-text">About me</span></a></li>
-				  <li><hr></li>
-			  </ul>
-		  </div><!-- .collapse .navbar-collapse -->
-
 
 </header>
 
@@ -118,45 +96,43 @@
  
   <div id="main-content" class="container-fluid hidden-xs ">
 
+<p>
+	<h1> Introduction</h1>
+	  <h2> Stabilization of the equipment</h2>
+	  <h4>A HAZOP study is a structured analysis of a system, process, or
+		  operation for which detailed design information is available, carried
+		  out by a multidisciplinary team. The team proceeds on a line-by-line
+		  or stage-by-stage examination of a firm design for the process or
+		  operation. While being systematic and rigorous, the analysis also aims
+		  to be open and creative. This is done by using a set of guiders in
+		  combination with the system parameters to seek meaningful deviations
+		  from the design intention.
+			<br>
+		  The team concentrates on those deviations that could lead to potential hazards to safety,
+		  health, or the environment. It is important to distinguish between the terms hazard and risk.
+		  <bold> Hazard</bold> and <bold> Risk </bold> are defined as follows:
+
+		  <ul class="a">
+			  <li>Hazard: physical situation with the potential for human injury, damage to property, damage to the environment, or a combination of these.</li>
+			  <li>Risk: the likelihood of a specified undesirable event occurring within a specified period or in specified circumstances. </li>
+		  </ul>
+
+		  The risk of an event can be visualized as a combination of likelihood an severity as per the <tags><a href="#fig-1">Fig 1</a></tags>.
+		  <div id="fig-1" class="container">
+				  <img  class="center" src="../../../images/blog/engineering/hazop/fig-1.jpg" alt="Risk graphic" width="250" height="300">
+			  <div  class="caption"> Fig. 1 - Risk graphic</div>
+		  </div>
+
+		  
+		 </h4>
+</p>
 
 
-	<div id="sections" class="container-fluid "> <!-- contiene foto -->
-		<ul>
-		<li>
-				<div class="dropdown">
-						<p> <a href="./hazop.html"><h3 id="descr1">HAZOP</h3></a></p>
-						<div class="dropdown-content">
-							<p class="infos">
-							<!--	<a href="./hazop.html">Heplpful guide thought risk assessment and HAZOP procedure for chemical and pharmaceutical process <br></a> -->
-							<a href="https://www.linkedin.com/in/giampaolocarducci/" class="author"> Author: <br> G. Carducci <br></a>
-							<a class="update">  Last update: <br> Aug 2023</a>
-
-							</p>
-						</div>
-						</div>
-
-
-		<div class="dropdown">
-			<p> <a href="./clean-utilities.html"><h3 id="descr2">Clean Utilities</h3></a></p>
-			<div class="dropdown-content">
-				<p class="infos">
-					<!--	<a href="./hazop.html">Heplpful guide thought risk assessment and HAZOP procedure for chemical and pharmaceutical process <br></a> -->
-					<a href="https://www.linkedin.com/in/giampaolocarducci/" target="_blank" class="author"> Author: <br> G. Carducci <br></a>
-					<a class="update">  Last update: <br> Aug 2023 </a>
-
-				</p>
-			</div>
-		</div>
-
-	</li>
-
-	</ul>
-</div>
 
 
 
   <footer class="container-fluid hidden-xs">
-              <span id="footer"> &copy; Copyright G.Carducci - 2023
+              <span id="footer"> &copy; Copyright G.Carducci - 2022
 			  <a id= "linkedin" href="https://www.linkedin.com/in/giampaolocarducci/" target="_blank" class="fa fa-linkedin-square"></a>
        		  <a id= "github" href="https://github.com/giampcar" target="_blank" class="fa fa-github-square"></a>
 			
@@ -189,65 +165,54 @@
     <nav id="title-xs" class="navbar navbar-default container-fluid visible-xs">
             <a href="blog.html"><h1>Tutto sta al Dove mentre pensi al Quando</h1></a>
             <p>
-              <span>- Giampaolo Carducci -</span>
+		<div id="proprietario">- Giampaolo Carducci - <br> <bold>HAZOP</bold></div>
             </p>
-</nav>
 
+		 <div id="contenitore_button" class="container-fluid">
+			 <button type="button" class="navbar-toggle collapsed  visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+				 <span class="icon-bar"></span>
+				 <span class="icon-bar"></span>
+				 <span class="icon-bar"></span>
+			 </button>
+		 </div>
+		 <div id="collapsable-nav" class="collapse navbar-collapse, visible-xs, .d-{sm,md,lg,xl}-block ">
+			 <ul id="nav-list"  visible-xs ">
+			 <li><hr></li>
+			 <li><a href="#esperienza-lavorativa-xs"><span class="nav-text">Storyteller</span></a></li>
+			 <li><hr></li>
+			 <li><a href="#studi-xs"><span class="nav-text">Thoughts and passions</span></a></li>
+			 <li><hr></li>
+			 <!--   <li><a href="./pages/blog.html"><span class="nav-text">Blog</span></a></li>-->
+			 <li><a href="#blog-xs"><span class="nav-text">Trips</span></a></li>
+			 <li><hr></li>
+			 <li><a href="#contatti-xs"><span class="nav-text">Engineering</span></a></li>
+			 <li><hr></li>
+			 <li><a href="https://www.giampaolocarducci.tk"><span class="nav-text">About me</span></a></li>
+			 <li><hr></li>
+			 </ul>
+		 </div><!-- .collapse .navbar-collapse -->
+	 </nav>
 
  
   <div id="main-content-xs" class="container-fluid visible-xs ">
-  	
- 
-  
-  <div id="sections-xs" class="container-fluid"> <!-- contiene foto -->
-	  <ul>
-		  <li>
-			<div class="dropdown">
-				<p> <a href="./hazop.html"><h3 id="descr1">HAZOP</h3></a></p>
-				<div class="dropdown-content">
-				<p class="infos">
-					<!--	<a href="./hazop.html">Heplpful guide thought risk assessment and HAZOP procedure for chemical and pharmaceutical process <br></a> -->
-					<a href="https://www.linkedin.com/in/giampaolocarducci/" target="blank" class="author"> Author: <br> G. Carducci <br></a>
-					<a class="update">  Last update: <br> Aug 2023</a>
-
-				</p>
-					</div>
-			</div>
 
 
+	  <p>
+	  <h1> 1. - Introduction</h1>
+	  <h2> 1.1 - Stabilization of the equipment</h2>
+	  <h5> Tutte le banane sono buone, Tutte le banane sono buone,Tutte le banane sono buoneTutte le banane sono buone Tutte le banane sono buone Tutte le banane sono buoneTutte le banane sono buone,Tutte le banane sono buone</h5>
+	  </p>
 
-
-
-			  <div class="dropdown">
-				  <p> <a href="./clean-utilities.html"><h3 id="descr2">Clean Utilities</h3></a></p>
-				  <div class="dropdown-content">
-					  <p class="infos">
-						  <!--	<a href="./hazop.html">Heplpful guide thought risk assessment and HAZOP procedure for chemical and pharmaceutical process <br></a> -->
-						  <a href="https://www.linkedin.com/in/giampaolocarducci/" target="blank"  class="author"> Author: <br> G. Carducci <br></a>
-						  <a class="update">  Last update: <br> Aug 2023</a>
-
-					  </p>
-				  </div>
-			  </div>
-		  </li>
-
-	  </ul>
-
-  </div>
-
-			
 
 
  </div>
    
-  </div>
-  
 
-</div>
+
 
 
   <footer class=" visible-xs">
-              <span id="footer-xs"> &copy; Copyright G.Carducci - 2023
+              <span id="footer-xs"> &copy; Copyright G.Carducci - 2022
 			  <a id= "linkedin-xs" href="https://www.linkedin.com/in/giampaolocarducci/" target="_blank" class="fa fa-linkedin-square"></a>
        		  <a id= "github-xs" href="https://github.com/giampcar" target="_blank" class="fa fa-github-square"></a>
 			

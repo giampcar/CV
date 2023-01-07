@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>GC - Blog - Engineering</title>
+    <title>GC - Blog - Engineering - GDP</title>
     <link rel="stylesheet" href="../../../css/bootstrap.min.css">
     <link rel="stylesheet" href="../../../css/styles_blog_engineering.css">
 
@@ -50,7 +50,7 @@
     <nav id="title" class="navbar navbar-default container-fluid hidden-xs">
             <a href="../pages/blog.html"><h1>Tutto sta al Dove mentre pensi al Quando</h1></a>
          
-              <div id="proprietario">- Giampaolo Carducci -</div>
+              <div id="proprietario">- Giampaolo Carducci - <br> <bold>GDP</bold></div>
 
 		
 
@@ -70,6 +70,7 @@
   
    	<ul>
 		<li class="table-multi-menu">
+
 			<p><h3><a href="./snippets/classes.html">Storyteller</a></h3></p>
 			<p> <a><span id="divider" class= "fa fa-circle"></span></a> </p>
 			<p><h3><a href="./snippets/in-progress.html"> Thoughts and passions</a></h3></p>
@@ -79,6 +80,7 @@
 			<p><h3><a href="./snippets/in-progress.html">Engineering</a></h3></p>
 			<p> <a><span id="divider" class= "fa fa-circle"></span></a> </p>
 			<p><a href="https://www.giampaolocarducci.tk" target="blank"><h3>About me</h3></a></p>
+
 		</li>
 	</ul>
  
@@ -87,30 +89,6 @@
 </nav>
 
 
-		  <div id="contenitore_button" class="container-fluid">
-			  <button id="menu-button" type="button" class="navbar-toggle collapsed  visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-				  <span class="icon-bar"></span>
-				  <span class="icon-bar"></span>
-				  <span class="icon-bar"></span>
-			  </button>
-		  </div>
-		  <div id="collapsable-nav" class="collapse navbar-collapse, visible-xs, .d-{sm,md,lg,xl}-block ">
-			  <ul id="nav-list" class="nav, navbar-nav, visible-xs ">
-				  <li><hr></li>
-				  <li><a href="#esperienza-lavorativa-xs"><span class="nav-text">Storyteller</span></a></li>
-				  <li><hr></li>
-				  <li><a href="#studi-xs"><span class="nav-text">Thoughts and passions</span></a></li>
-				  <li><hr></li>
-				  <!--   <li><a href="./pages/blog.html"><span class="nav-text">Blog</span></a></li>-->
-				  <li><a href="#blog-xs"><span class="nav-text">Trips</span></a></li>
-				  <li><hr></li>
-				  <li><a href="#contatti-xs"><span class="nav-text">Engineering</span></a></li>
-				  <li><hr></li>
-				  <li><a href="https://www.giampaolocarducci.tk"><span class="nav-text">About me</span></a></li>
-				  <li><hr></li>
-			  </ul>
-		  </div><!-- .collapse .navbar-collapse -->
-
 
 </header>
 
@@ -118,45 +96,46 @@
  
   <div id="main-content" class="container-fluid hidden-xs ">
 
+<p>
+	<h1> Introduction</h1>
+	  <h2>Definition</h2>
+	  <h4>Good distribution practices (GDP) describes what a wholesale distributor must meet to ensure that quality and integrity of medicines are maintained throughout the supply chain.
+			<br>
+		  Compliance with GDP ensures that:
+
+		  <ul class="a">
+			  <li>	Medicines in the supply chain are authorised in accordance with European Union (EU) legislation.</li>
+			  <li>Medicines are stored in the right conditions at all times, including during transportation.</li>
+			  <li>Contamination by or of other products is avoided.</li>
+			  <li>An adequate turnover of stored medicines takes place.</li>
+			  <li>The right products reach the right addressee within a satisfactory time period.</li>
+			  <li>The distributor should put a tracing system in place to enable finding faulty products and an effective recall procedure.</li>
 
 
-	<div id="sections" class="container-fluid "> <!-- contiene foto -->
-		<ul>
-		<li>
-				<div class="dropdown">
-						<p> <a href="./hazop.html"><h3 id="descr1">HAZOP</h3></a></p>
-						<div class="dropdown-content">
-							<p class="infos">
-							<!--	<a href="./hazop.html">Heplpful guide thought risk assessment and HAZOP procedure for chemical and pharmaceutical process <br></a> -->
-							<a href="https://www.linkedin.com/in/giampaolocarducci/" class="author"> Author: <br> G. Carducci <br></a>
-							<a class="update">  Last update: <br> Aug 2023</a>
+		  </ul>
 
-							</p>
-						</div>
-						</div>
+		  GDP also applies to the sourcing, storage and transportation of Medicinal Products, active Pharmaceutical Excipients, APIs, Blood Products, and Veterinary Medicinal Products.
+		  A wholesale distributor can be: a Pharmaceutical / Biopharmaceutical Company, a Pharmaceutical Wholesaler, a Supply Chain Company, a Subcontracted Logistics Company or a Freight/Parcel Transport Company.
+	  </h4>
 
+	  <h2>Regulatory References</h2>
+	  <h4>
+	  <ul class="a">
+		  <li>Guidelines on Good Distribution Practice of Medicinal Products for Human Use (2013/C343/01)</li>
+	  </ul>
+	  </h4>
+	  <h2>Background, and bilateral agreements between Switzerland and the EU</h2>
+	  <h4>
+		  The European Commission's Directorate General for Health and Consumer Policy published the final version of the 'Guideline on Good Distribution Practices of Medicinal Products for Human Use' on 05 November 2013.
+		  The Federal Department of Home Affairs has adapted the Guidelines on Good Distribution Practice of Medicinal Products according to EU law. This move increases quality requirements for the distribution of medicinal products and strengthens patient protection.
 
-		<div class="dropdown">
-			<p> <a href="./clean-utilities.html"><h3 id="descr2">Clean Utilities</h3></a></p>
-			<div class="dropdown-content">
-				<p class="infos">
-					<!--	<a href="./hazop.html">Heplpful guide thought risk assessment and HAZOP procedure for chemical and pharmaceutical process <br></a> -->
-					<a href="https://www.linkedin.com/in/giampaolocarducci/" target="_blank" class="author"> Author: <br> G. Carducci <br></a>
-					<a class="update">  Last update: <br> Aug 2023 </a>
-
-				</p>
-			</div>
-		</div>
-
-	</li>
-
-	</ul>
-</div>
+	  </h4>
+	  </p>
 
 
 
   <footer class="container-fluid hidden-xs">
-              <span id="footer"> &copy; Copyright G.Carducci - 2023
+              <span id="footer"> &copy; Copyright G.Carducci - 2022
 			  <a id= "linkedin" href="https://www.linkedin.com/in/giampaolocarducci/" target="_blank" class="fa fa-linkedin-square"></a>
        		  <a id= "github" href="https://github.com/giampcar" target="_blank" class="fa fa-github-square"></a>
 			
@@ -189,65 +168,54 @@
     <nav id="title-xs" class="navbar navbar-default container-fluid visible-xs">
             <a href="blog.html"><h1>Tutto sta al Dove mentre pensi al Quando</h1></a>
             <p>
-              <span>- Giampaolo Carducci -</span>
+		<div id="proprietario">- Giampaolo Carducci - <br> <bold>HAZOP</bold></div>
             </p>
-</nav>
 
+		 <div id="contenitore_button" class="container-fluid">
+			 <button type="button" class="navbar-toggle collapsed  visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+				 <span class="icon-bar"></span>
+				 <span class="icon-bar"></span>
+				 <span class="icon-bar"></span>
+			 </button>
+		 </div>
+		 <div id="collapsable-nav" class="collapse navbar-collapse, visible-xs, .d-{sm,md,lg,xl}-block ">
+			 <ul id="nav-list"  visible-xs ">
+			 <li><hr></li>
+			 <li><a href="#esperienza-lavorativa-xs"><span class="nav-text">Storyteller</span></a></li>
+			 <li><hr></li>
+			 <li><a href="#studi-xs"><span class="nav-text">Thoughts and passions</span></a></li>
+			 <li><hr></li>
+			 <!--   <li><a href="./pages/blog.html"><span class="nav-text">Blog</span></a></li>-->
+			 <li><a href="#blog-xs"><span class="nav-text">Trips</span></a></li>
+			 <li><hr></li>
+			 <li><a href="#contatti-xs"><span class="nav-text">Engineering</span></a></li>
+			 <li><hr></li>
+			 <li><a href="https://www.giampaolocarducci.tk"><span class="nav-text">About me</span></a></li>
+			 <li><hr></li>
+			 </ul>
+		 </div><!-- .collapse .navbar-collapse -->
+	 </nav>
 
  
   <div id="main-content-xs" class="container-fluid visible-xs ">
-  	
- 
-  
-  <div id="sections-xs" class="container-fluid"> <!-- contiene foto -->
-	  <ul>
-		  <li>
-			<div class="dropdown">
-				<p> <a href="./hazop.html"><h3 id="descr1">HAZOP</h3></a></p>
-				<div class="dropdown-content">
-				<p class="infos">
-					<!--	<a href="./hazop.html">Heplpful guide thought risk assessment and HAZOP procedure for chemical and pharmaceutical process <br></a> -->
-					<a href="https://www.linkedin.com/in/giampaolocarducci/" target="blank" class="author"> Author: <br> G. Carducci <br></a>
-					<a class="update">  Last update: <br> Aug 2023</a>
-
-				</p>
-					</div>
-			</div>
 
 
+	  <p>
+	  <h1> 1. - Introduction</h1>
+	  <h2> 1.1 - Stabilization of the equipment</h2>
+	  <h5> Tutte le banane sono buone, Tutte le banane sono buone,Tutte le banane sono buoneTutte le banane sono buone Tutte le banane sono buone Tutte le banane sono buoneTutte le banane sono buone,Tutte le banane sono buone</h5>
+	  </p>
 
-
-
-			  <div class="dropdown">
-				  <p> <a href="./clean-utilities.html"><h3 id="descr2">Clean Utilities</h3></a></p>
-				  <div class="dropdown-content">
-					  <p class="infos">
-						  <!--	<a href="./hazop.html">Heplpful guide thought risk assessment and HAZOP procedure for chemical and pharmaceutical process <br></a> -->
-						  <a href="https://www.linkedin.com/in/giampaolocarducci/" target="blank"  class="author"> Author: <br> G. Carducci <br></a>
-						  <a class="update">  Last update: <br> Aug 2023</a>
-
-					  </p>
-				  </div>
-			  </div>
-		  </li>
-
-	  </ul>
-
-  </div>
-
-			
 
 
  </div>
    
-  </div>
-  
 
-</div>
+
 
 
   <footer class=" visible-xs">
-              <span id="footer-xs"> &copy; Copyright G.Carducci - 2023
+              <span id="footer-xs"> &copy; Copyright G.Carducci - 2022
 			  <a id= "linkedin-xs" href="https://www.linkedin.com/in/giampaolocarducci/" target="_blank" class="fa fa-linkedin-square"></a>
        		  <a id= "github-xs" href="https://github.com/giampcar" target="_blank" class="fa fa-github-square"></a>
 			
