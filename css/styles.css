@@ -223,7 +223,7 @@ margin-right:5%;
 position:relative;
 margin-top:15px;
 padding-left:10px;
-height:200px;
+height:400px;
 }
 
 #riepilogo_xs, #main-content_xs, #menu-lato_xs{
@@ -235,7 +235,7 @@ padding-left:2px;
 #scroll-left{
 margin-top:10px;
 padding:0px;
-height:30em;
+height:28em;
 overflow-y: scroll;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
@@ -269,7 +269,7 @@ overflow-y: scroll;
 
 
 #photo_container{
-height:320px;
+height:350px;
 width:100%;
 background-color:MintCream;
 padding:20px;
@@ -278,7 +278,7 @@ border-radius: 15px;
 }
 
 #photo_container_xs{
-height:320px;
+height:350px;
 width:90%;
 background-color:MintCream;
 padding:10px;
@@ -342,6 +342,16 @@ list-style-type: none;
     display: flex;
     justify-content: space-between;
 	
+	margin-left: 10%;
+
+}
+
+.table_sample_download{
+	width:80%;
+list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+		margin-top: 10%;
 	margin-left: 10%;
 
 }
@@ -1332,6 +1342,7 @@ top: 50%;
 padding: 0px; 
 margin: 0px; 
 transform: translate(-50%, -50%);
+    font-size: 10px;
 }
 
 
