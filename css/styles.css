@@ -1,5 +1,5 @@
 body {
-    background-color:  rgb(54,24,13);
+    background-color:  rgb(23,23,33);
 	font-family: 'Gentium Basic', serif;
   text-align: center;
   width:95%;
@@ -9,10 +9,13 @@ body {
 .normalizzatore{
 	max-width:1250px;
 	margin-top:20px;
+	box-shadow: 0px 1px 20px grey;
+	margin-bottom:20px;
+border-radius: 15px;
 		}
 
 header {
-    background-color:  MintCrezzam;
+    background-color:  MintCream;
 }
 /** ################################**/
 /** ################################**/
@@ -271,7 +274,7 @@ overflow-y: scroll;
 #photo_container{
 height:350px;
 width:100%;
-background-color:MintCream;
+background-color: MintCream;
 padding:20px;
 box-shadow: 0px 2px 10px black;
 border-radius: 15px;
