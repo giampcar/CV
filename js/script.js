@@ -1,86 +1,86 @@
 
 
 
-var myIndex = 0;
-carousel();
-carousel_1();
+//var myIndex = 0;
+//carousel();
+//carousel_1();
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel,10000); // Change image every 2 seconds
-}
-
-
-function carousel_1() {
-  var i;
-  var x = document.getElementsByClassName("mySlides_2");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel_1, 10000); // Change image every 2 seconds
-}
+//function carousel() {
+//  var i;
+//  var x = document.getElementsByClassName("mySlides");
+ // for (i = 0; i < x.length; i++) {
+  //  x[i].style.display = "none";  
+//  }
+ // myIndex++;
+  //if (myIndex > x.length) {myIndex = 1}    
+ // x[myIndex-1].style.display = "block";  
+  //setTimeout(carousel,10000); // Change image every 2 seconds
+//}
 
 
-
-let slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-
-  slides[slideIndex-1].style.display = "block";
-}
+//function carousel_1() {
+ // var i;
+ // var x = document.getElementsByClassName("mySlides_2");
+ // for (i = 0; i < x.length; i++) {
+ //   x[i].style.display = "none";  
+ // }
+ // myIndex++;
+ // if (myIndex > x.length) {myIndex = 1}    
+ // x[myIndex-1].style.display = "block";  
+ // setTimeout(carousel_1, 10000); // Change image every 2 seconds
+//}
 
 
-let slideIndex_2 = 1;
-showSlides_2(slideIndex_2);
+
+//let slideIndex = 1;
+//showSlides(slideIndex);
 
 // Next/previous controls
-function plusSlides_2(n) {
-  showSlides_2(slideIndex_2 += n);
-}
+//function plusSlides(n) {
+ // showSlides(slideIndex += n);
+//}
 
 // Thumbnail image controls
-function currentSlide_2(n) {
-  showSlides_2(slideIndex_2 = n);
-}
+//function currentSlide(n) {
+ // showSlides(slideIndex = n);
+//}
 
-function showSlides_2(n) {
-  let e;
-  let slides_2 = document.getElementsByClassName("mySlides_2");
-  if (n > slides_2.length) {slideIndex_2 = 1}
-  if (n < 1) {slideIndex_2 = slides_2.length}
-  for (e = 0; e < slides_2.length; e++) {
-    slides_2[e].style.display = "none";
-  }
-  slides_2[slideIndex_2-1].style.display = "block";
-}
+//function showSlides(n) {
+//  let i;
+//  let slides = document.getElementsByClassName("mySlides");
+//  if (n > slides.length) {slideIndex = 1}
+//  if (n < 1) {slideIndex = slides.length}
+//  for (i = 0; i < slides.length; i++) {
+//    slides[i].style.display = "none";
+//  }
+
+ // slides[slideIndex-1].style.display = "block";
+//}
+
+
+//let slideIndex_2 = 1;
+//showSlides_2(slideIndex_2);
+
+// Next/previous controls
+//function plusSlides_2(n) {
+//  showSlides_2(slideIndex_2 += n);
+//}
+
+// Thumbnail image controls
+//function currentSlide_2(n) {
+//  showSlides_2(slideIndex_2 = n);
+//}
+
+//function showSlides_2(n) {
+//  let e;
+//  let slides_2 = document.getElementsByClassName("mySlides_2");
+//  if (n > slides_2.length) {slideIndex_2 = 1}
+//  if (n < 1) {slideIndex_2 = slides_2.length}
+//  for (e = 0; e < slides_2.length; e++) {
+//    slides_2[e].style.display = "none";
+ // }
+ // slides_2[slideIndex_2-1].style.display = "block";
+//}
 
 
 //// // // 
